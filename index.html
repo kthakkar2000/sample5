@@ -1,1 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Kalindi — Product</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo-box"><img id="mainLogo" alt="Kalindi logo"><div id="logoFallback" style="display:none"><span class="logo-text">Kalindi</span></div></div>
+      <div class="brand">
+        <div class="name">Kalindi Tradelinks Pvt Ltd</div>
+        <div class="sub">TV • Electronics • Showroom</div>
+      </div>
+      <div class="lang-select">
+        <select id="langSelect" title="Select language">
+          <option value="en">English</option>
+          <option value="gu">ગુજરાતી</option>
+        </select>
+      </div>
+    </header>
 
+    <main class="card" aria-labelledby="prodTitle">
+      <div class="title-row">
+        <div>
+          <div id="prodTitle" class="product-name">Product Name</div>
+          <div id="prodSize" class="product-size">Size • <span class="price-badge" id="priceBadge">₹0</span></div>
+        </div>
+      </div>
+
+      <div class="carousel" id="carousel">
+        <button class="nav-btn prev" id="prevBtn" aria-label="Previous">◀</button>
+        <div class="slides" id="slides" aria-live="polite" role="group"></div>
+        <button class="nav-btn next" id="nextBtn" aria-label="Next">▶</button>
+      </div>
+      <div class="dots" id="dots" aria-hidden="true"></div>
+
+      <div class="center-actions">
+        <button id="askBtn"><span class="icon">💬</span> Ask Me</button>
+        <button id="assistBtn" class="voice"><span class="icon">🎙️</span> Product Assistant</button>
+      </div>
+    </main>
+
+    <footer>© Kalindi Tradelinks Pvt Ltd</footer>
+  </div>
+
+  <!-- chat panel (keeps hidden until opened) -->
+  <div class="panel" id="panel" role="dialog" aria-hidden="true">
+    <header>
+      <div style="display:flex;align-items:center;gap:12px">
+        <div class="h-left">
+          <div class="h-title" id="panelTitle">Product Assistant</div>
+          <div class="h-sub" id="panelSub">Tap mic or type your question</div>
+        </div>
+        <div id="listeningBanner" style="display:none"><div class="pulse"></div><div id="listeningText">Listening...</div></div>
+      </div>
+      <div><button id="closePanel" style="background:transparent;border:0;color:var(--muted);cursor:pointer">✕</button></div>
+    </header>
+
+    <div class="messages" id="messages" aria-live="polite"></div>
+
+    <div class="composer">
+      <input id="inputBox" placeholder="Type your question..." aria-label="Type your question">
+      <button id="sendBtn">Send</button>
+      <button id="micBtn" id="micBtn" style="background:linear-gradient(180deg,var(--accentWarm),#ffb085);color:#081217">🎤</button>
+    </div>
+  </div>
+
+  <!-- lightbox -->
+  <div id="lightbox" aria-hidden="true">
+    <div class="box">
+      <button id="lb-close" title="Close">✕</button>
+      <button id="lb-prev" title="Previous">◀</button>
+      <img id="lb-img" alt="full image">
+      <button id="lb-next" title="Next">▶</button>
+      <div id="lb-zoomHint">Double-tap to zoom · Pinch to zoom</div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
