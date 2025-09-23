@@ -49,6 +49,48 @@
     "en": "The TCL 75\" P6K 4K HDR TV delivers a breathtaking cinematic experience with its large 4K Ultra HD display, HDR support, and vivid color reproduction. Powered by Google TV, it offers access to endless apps, streaming services, and built-in voice control for convenience.",
     "gu": "TCL 75\" P6K 4K HDR TV વિશાળ 4K અલ્ટ્રા HD ડિસ્પ્લે, HDR સપોર્ટ અને ઉજ્જવળ રંગો સાથે અદ્દભુત સિનેમેટિક અનુભવ આપે છે. Google TV દ્વારા સંચાલિત, તે અનંત એપ્સ, સ્ટ્રીમિંગ સેવાઓ અને બિલ્ટ-ઇન વોઇસ કંટ્રોલ પ્રદાન કરે છે."
   }
-}
+},
+"43P7K": {
+  "brand": "TCL",
+  "title": "TCL 43\" P7K QLED TV — 43P7K",
+  "price": 45000,
+  "sizeText": "43 inch (109 cm)",
+  "installation": "Installation within 24–48 hours of delivery",
+  "warranty": "1 year manufacturer warranty",
+  "images": [
+    "437k.webp",
+    "437kb1.webp",
+    "437kb2.webp",
+    "437kF2.webp",
+    "437kf3.webp",
+    "437ks1.webp",
+    "437ks2.webp",
+    "437kt1.webp"
+  ],
+  "description": {
+    "en": "The TCL 43\" P7K QLED TV delivers vivid 4K picture quality with QLED technology, vibrant colors, and deep contrast. With Smart Google TV features, streaming apps, and voice control, it provides an immersive home entertainment experience.",
+    "gu": "TCL 43\" P7K QLED TV તમને 4K ગુણવત્તાવાળી તસ્વીર, તેજસ્વી રંગો અને ઊંડા કોન્ટ્રાસ્ટ સાથે QLED ટેક્નોલોજી આપે છે. Smart Google TV સુવિધાઓ, સ્ટ્રીમિંગ એપ્સ અને વોઇસ કંટ્રોલ સાથે, તે શ્રેષ્ઠ ઘરેલુ મનોરંજનનો અનુભવ આપે છે."
+  }
+} ,
+  "32S4K": {
+  "brand": "TCL",
+  "title": "TCL 32\" S4K QLED TV — 32S4K",
+  "price": 22000,
+  "sizeText": "32 inch (81 cm)",
+  "installation": "Installation within 24–48 hours of delivery",
+  "warranty": "1 year manufacturer warranty",
+  "images": [
+    "32skf1.webp",
+    "32skf2.webp",
+    "32skf3.webp",
+    "32sks1.webp",
+    "32sks2.webp",
+    "32skt1.webp",
+    "32skb1.webp",
+    "32skb2.webp"
+  ],
+  "description": {
+    "en": "The TCL 32\" S4K QLED TV brings brilliant picture quality in a compact size. With 4K HDR support, vibrant colors, and smart Google TV features, it’s perfect for smaller spaces without compromising entertainment.",
+    "gu": "TCL 32
 
 }
