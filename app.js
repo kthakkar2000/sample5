@@ -1,4 +1,4 @@
-000// app.js - complete ready-to-paste
+// app.js - complete ready-to-paste
 document.addEventListener('DOMContentLoaded', async () => {
 
   /* ---------- utilities ---------- */
@@ -119,8 +119,10 @@ document.addEventListener('DOMContentLoaded', async () => {
     slidesEl.style.transform = `translateX(${-idx*100}%)`;
     Array.from(dotsEl.children).forEach((d,i)=> d.classList.toggle('active', i===idx));
   }
-  document.getElementById('prevBtn').addEventListener('click', ()=> { if(!slidesEl.children.length) return; idx = (idx-1 + slidesEl.children.length) % slidesEl.children.length; updateSlide(); });
-  document.getElementById('nextBtn').addEventListener('click', ()=> { if(!slidesEl.children.length) return; idx = (idx+1) % slidesEl.children.length; updateSlide(); });
+  const prevBtn = document.getElementById('prevBtn');
+  const nextBtn = document.getElementById('nextBtn');
+  if (prevBtn) prevBtn.addEventListener('click', ()=> { if(!slidesEl.children.length) return; idx = (idx-1 + slidesEl.children.length) % slidesEl.children.length; updateSlide(); });
+  if (nextBtn) nextBtn.addEventListener('click', ()=> { if(!slidesEl.children.length) return; idx = (idx+1) % slidesEl.children.length; updateSlide(); });
 
   // swipe support
   (function(){
@@ -167,55 +169,57 @@ document.addEventListener('DOMContentLoaded', async () => {
   function showPrev(){ if (slidesEl.children.length <= 1) return; lbIndex = (lbIndex-1 + slidesEl.children.length) % slidesEl.children.length; lbImg.src = slidesEl.children[lbIndex].src; zoomed=false; lbImg.style.transform='translate(0,0) scale(1)'; }
   function showNext(){ if (slidesEl.children.length <= 1) return; lbIndex = (lbIndex+1) % slidesEl.children.length; lbImg.src = slidesEl.children[lbIndex].src; zoomed=false; lbImg.style.transform='translate(0,0) scale(1)'; }
 
-  lbClose.addEventListener('click', closeLightbox);
-  lbPrev.addEventListener('click', showPrev);
-  lbNext.addEventListener('click', showNext);
-  lb.addEventListener('click', (e)=> { if (e.target === lb || e.target === lbImg) closeLightbox(); });
-  window.addEventListener('keydown', (e)=> { if (lb.style.display === 'flex') { if (e.key === 'Escape') closeLightbox(); if (e.key === 'ArrowLeft') showPrev(); if (e.key === 'ArrowRight') showNext(); } });
+  if (lbClose) lbClose.addEventListener('click', closeLightbox);
+  if (lbPrev) lbPrev.addEventListener('click', showPrev);
+  if (lbNext) lbNext.addEventListener('click', showNext);
+  if (lb) lb.addEventListener('click', (e)=> { if (e.target === lb || e.target === lbImg) closeLightbox(); });
+  window.addEventListener('keydown', (e)=> { if (lb && lb.style.display === 'flex') { if (e.key === 'Escape') closeLightbox(); if (e.key === 'ArrowLeft') showPrev(); if (e.key === 'ArrowRight') showNext(); } });
 
   // double-tap and pinch-to-zoom
   let lastTap = 0;
-  lbImg.addEventListener('touchstart', function(e){
-    if (e.touches && e.touches.length === 2){
-      const dx = e.touches[0].clientX - e.touches[1].clientX;
-      const dy = e.touches[0].clientY - e.touches[1].clientY;
-      startDist = Math.hypot(dx, dy);
-    } else if (e.touches && e.touches.length === 1){
-      const now = Date.now();
-      if (now - lastTap < 300){ toggleZoom(e.touches[0].clientX, e.touches[0].clientY); lastTap = 0; } else lastTap = now;
-      lastX = e.touches[0].clientX; lastY = e.touches[0].clientY;
-    }
-  }, {passive:true});
-
-  lbImg.addEventListener('touchmove', function(e){
-    if (e.touches && e.touches.length === 2){
-      const dx = e.touches[0].clientX - e.touches[1].clientX;
-      const dy = e.touches[0].clientY - e.touches[1].clientY;
-      const dist = Math.hypot(dx, dy);
-      if (startDist > 0) {
-        const scale = Math.max(1, Math.min(3, (dist / startDist)));
-        lbImg.style.transform = `translate(0,0) scale(${scale})`;
-        zoomed = scale > 1.05;
+  if (lbImg) {
+    lbImg.addEventListener('touchstart', function(e){
+      if (e.touches && e.touches.length === 2){
+        const dx = e.touches[0].clientX - e.touches[1].clientX;
+        const dy = e.touches[0].clientY - e.touches[1].clientY;
+        startDist = Math.hypot(dx, dy);
+      } else if (e.touches && e.touches.length === 1){
+        const now = Date.now();
+        if (now - lastTap < 300){ toggleZoom(e.touches[0].clientX, e.touches[0].clientY); lastTap = 0; } else lastTap = now;
+        lastX = e.touches[0].clientX; lastY = e.touches[0].clientY;
       }
-    } else if (e.touches && e.touches.length === 1 && zoomed){
-      e.preventDefault();
-      const nx = e.touches[0].clientX;
-      const ny = e.touches[0].clientY;
-      const dx = nx - lastX;
-      const dy = ny - lastY;
-      // parse current translate
-      const cur = lbImg.style.transform || 'translate(0,0) scale(1)';
-      const m = cur.match(/translate\((-?\d+)px,(-?\d+)px\)/);
-      let tx = 0, ty = 0;
-      if (m){ tx = parseFloat(m[1]); ty = parseFloat(m[2]); }
-      tx += dx; ty += dy;
-      lbImg.style.transform = `translate(${tx}px,${ty}px) scale(${zoomed?2:1})`;
-      lastX = nx; lastY = ny;
-    }
-  }, {passive:false});
+    }, {passive:true});
 
-  lbImg.addEventListener('touchend', function(){ startDist = 0; });
-  lbImg.addEventListener('dblclick', ()=> toggleZoom());
+    lbImg.addEventListener('touchmove', function(e){
+      if (e.touches && e.touches.length === 2){
+        const dx = e.touches[0].clientX - e.touches[1].clientX;
+        const dy = e.touches[0].clientY - e.touches[1].clientY;
+        const dist = Math.hypot(dx, dy);
+        if (startDist > 0) {
+          const scale = Math.max(1, Math.min(3, (dist / startDist)));
+          lbImg.style.transform = `translate(0,0) scale(${scale})`;
+          zoomed = scale > 1.05;
+        }
+      } else if (e.touches && e.touches.length === 1 && zoomed){
+        e.preventDefault();
+        const nx = e.touches[0].clientX;
+        const ny = e.touches[0].clientY;
+        const dx = nx - lastX;
+        const dy = ny - lastY;
+        // parse current translate
+        const cur = lbImg.style.transform || 'translate(0,0) scale(1)';
+        const m = cur.match(/translate\((-?\d+(?:\.\d+)?)px,(-?\d+(?:\.\d+)?)px\)/);
+        let tx = 0, ty = 0;
+        if (m){ tx = parseFloat(m[1]); ty = parseFloat(m[2]); }
+        tx += dx; ty += dy;
+        lbImg.style.transform = `translate(${tx}px,${ty}px) scale(${zoomed?2:1})`;
+        lastX = nx; lastY = ny;
+      }
+    }, {passive:false});
+
+    lbImg.addEventListener('touchend', function(){ startDist = 0; });
+    lbImg.addEventListener('dblclick', ()=> toggleZoom());
+  }
   function toggleZoom(){
     if (!zoomed){ lbImg.style.transform='translate(0,0) scale(2)'; zoomed = true; }
     else { lbImg.style.transform='translate(0,0) scale(1)'; zoomed = false; }
@@ -245,7 +249,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     { q:/(\bfeature|features|spec|specs|વિશેષતા|લક્ષણ|ફીચર)/i,
       en: product.features ? `Features: ${product.features}` : 'Key features: 4K UHD/HDR, Google TV (smart), AiPQ upscaling, Dolby Audio, HDMI ports.',
-      gu: product.features ? `લક્ષણો: ${product.features}` : 'મુખ્ય લક્ષણો: 4K UHD/HDR, Google TV, AiPQ અપસ્કેલિંગ, Dolby Audio, HDMI પોર્ટ્સ.' },
+      gu: product.features ? `લક્ષણો: ${product.features}` : 'મુಖ್ಯ લક્ષણો: 4K UHD/HDR, Google TV, AiPQ અપસ્કેલિંગ, Dolby Audio, HDMI પોર્ટ્સ.' },
 
     { q:/(\bport|ports|hdmi|usb|ethernet|audio|પોર્ટ)/i,
       en: product.ports ? `Ports: ${product.ports}` : 'Includes multiple HDMI ports, USB, audio out and Ethernet (exact count varies by model).',
@@ -261,7 +265,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     { q:/(\bpower|watt|consumption|energy|વોટ|વીજ)/i,
       en: 'Typical power usage ~70–110W while operating; standby <0.5W. Exact numbers depend on settings.',
-      gu: 'સામાન્ય વીજ-upbhog ~70–110W; સ્ટેન્ડબાય <0.5W. ચોક્કસ સંખ્યાઓ સેટિંગ્સ પર નિર્ભર છે.' },
+      gu: 'સામાન્ય વીજ-ઉપયોગ ~70–110W; સ્ટેન્ડબાય <0.5W. ચોક્કસ સંખ્યાઓ સેટિંગ્સ પર નિર્ભર છે.' },
 
     { q:/(\breview|reviews|rating|customer feedback|પ્રતિસાદ|સમીક્ષા)/i,
       en: 'Common feedback: strong picture quality for the price, reliable Google TV experience. Peak brightness moderate in very bright rooms.',
@@ -286,7 +290,8 @@ document.addEventListener('DOMContentLoaded', async () => {
     langSelect.addEventListener('change', ()=> {
       lang = langSelect.value || 'en';
       localStorage.setItem('ktpl_lang', lang);
-      document.getElementById('panelSub').textContent = (lang === 'en' ? 'Tap mic or type your question' : 'માઇક દબાવો અથવા લખો');
+      const panelSub = document.getElementById('panelSub');
+      if (panelSub) panelSub.textContent = (lang === 'en' ? 'Tap mic or type your question' : 'માઇક દબાવો અથવા લખો');
     });
   }
 
@@ -297,14 +302,17 @@ document.addEventListener('DOMContentLoaded', async () => {
   const sendBtn = document.getElementById('sendBtn');
   const micBtn = document.getElementById('micBtn');
 
-  function openPanel(){ panel.style.display = 'flex'; panel.setAttribute('aria-hidden','false'); setTimeout(()=> { inputBox.focus(); messagesEl.scrollTop = messagesEl.scrollHeight; }, 120); }
-  function closePanel(){ panel.style.display = 'none'; panel.setAttribute('aria-hidden','true'); deactivateListeningUI(); }
-  document.getElementById('closePanel').addEventListener('click', closePanel);
-  document.getElementById('askBtn').addEventListener('click', ()=> { openPanel(); inputBox.focus(); });
-  document.getElementById('assistBtn').addEventListener('click', ()=> { openPanel(); setTimeout(()=> micBtn.click(), 220); });
+  function openPanel(){ if (panel) { panel.style.display = 'flex'; panel.setAttribute('aria-hidden','false'); setTimeout(()=> { if (inputBox) { inputBox.focus(); messagesEl.scrollTop = messagesEl.scrollHeight; } }, 120); } }
+  function closePanel(){ if (panel) { panel.style.display = 'none'; panel.setAttribute('aria-hidden','true'); deactivateListeningUI(); } }
+  const closePanelBtn = document.getElementById('closePanel');
+  const askBtn = document.getElementById('askBtn');
+  const assistBtn = document.getElementById('assistBtn');
+  if (closePanelBtn) closePanelBtn.addEventListener('click', closePanel);
+  if (askBtn) askBtn.addEventListener('click', ()=> { openPanel(); if (inputBox) inputBox.focus(); });
+  if (assistBtn) assistBtn.addEventListener('click', ()=> { openPanel(); setTimeout(()=> { if (micBtn) micBtn.click(); }, 220); });
 
   function pushMessage(text, who='bot'){
-    if (!text) return;
+    if (!text || !messagesEl) return;
     const el = document.createElement('div');
     el.className = 'bubble ' + (who === 'user' ? 'user' : 'bot');
     el.textContent = text;
@@ -312,27 +320,27 @@ document.addEventListener('DOMContentLoaded', async () => {
     messagesEl.scrollTop = messagesEl.scrollHeight;
   }
 
-  sendBtn.addEventListener('click', function(){
-    const v = inputBox.value && inputBox.value.trim();
+  if (sendBtn) sendBtn.addEventListener('click', function(){
+    const v = inputBox && inputBox.value && inputBox.value.trim();
     if (!v) return;
-    inputBox.value = '';
+    if (inputBox) inputBox.value = '';
     pushMessage(v, 'user');
     const ans = findAnswer(v, lang);
     setTimeout(()=> { pushMessage(ans, 'bot'); speak(ans); }, 160);
   });
-  inputBox.addEventListener('keydown', function(e){ if (e.key === 'Enter'){ e.preventDefault(); sendBtn.click(); } });
+  if (inputBox) inputBox.addEventListener('keydown', function(e){ if (e.key === 'Enter'){ e.preventDefault(); if (sendBtn) sendBtn.click(); } });
 
   /* ---------- speech recognition & TTS ---------- */
   let recognition = null, listening = false;
 
-  function activateListeningUI(){ document.getElementById('listeningBanner').style.display = 'flex'; document.getElementById('listeningBanner').classList.add('active'); document.getElementById('listeningText').textContent = (lang === 'en' ? 'Listening...' : 'સુનાઈ રહ્યું છે...'); document.getElementById('panelSub').textContent = document.getElementById('listeningText').textContent; }
-  function deactivateListeningUI(){ document.getElementById('listeningBanner').classList.remove('active'); document.getElementById('listeningBanner').style.display = 'none'; document.getElementById('panelSub').textContent = (lang === 'en' ? 'Tap mic or type your question' : 'માઇક દબાવો અથવા લખો'); }
+  function activateListeningUI(){ const lb = document.getElementById('listeningBanner'); if (lb) { lb.style.display = 'flex'; lb.classList.add('active'); const lt = document.getElementById('listeningText'); if (lt) lt.textContent = (lang === 'en' ? 'Listening...' : 'સુનાઈ રહ્યું છે...'); const ps = document.getElementById('panelSub'); if (ps) ps.textContent = (lt ? lt.textContent : (lang === 'en' ? 'Listening...' : 'સુનાઈ રહ્યું છે...')); } }
+  function deactivateListeningUI(){ const lb = document.getElementById('listeningBanner'); if (lb) { lb.classList.remove('active'); lb.style.display = 'none'; const ps = document.getElementById('panelSub'); if (ps) ps.textContent = (lang === 'en' ? 'Tap mic or type your question' : 'માઇક દબાવો અથવા લખો'); } }
 
   if (window.SpeechRecognition || window.webkitSpeechRecognition){
     recognition = new (window.SpeechRecognition || window.webkitSpeechRecognition)();
     recognition.interimResults = false;
     recognition.maxAlternatives = 1;
-    recognition.onstart = function(){ listening = true; activateListeningUI(); micBtn.textContent='●'; micBtn.style.transform='scale(1.03)'; micBtn.style.boxShadow='0 8px 28px rgba(255,122,90,0.12)'; };
+    recognition.onstart = function(){ listening = true; activateListeningUI(); if (micBtn) { micBtn.textContent='●'; micBtn.style.transform='scale(1.03)'; micBtn.style.boxShadow='0 8px 28px rgba(255,122,90,0.12)'; } };
     recognition.onresult = function(e){
       const txt = (e.results && e.results[0] && e.results[0][0] && e.results[0][0].transcript) || '';
       if (txt) {
@@ -341,12 +349,12 @@ document.addEventListener('DOMContentLoaded', async () => {
         setTimeout(()=> { pushMessage(ans, 'bot'); speak(ans); }, 160);
       }
     };
-    recognition.onend = function(){ listening = false; deactivateListeningUI(); micBtn.textContent='🎤'; micBtn.style.transform=''; micBtn.style.boxShadow=''; };
-    recognition.onerror = function(){ listening = false; deactivateListeningUI(); micBtn.textContent='🎤'; micBtn.style.transform=''; micBtn.style.boxShadow=''; };
+    recognition.onend = function(){ listening = false; deactivateListeningUI(); if (micBtn) { micBtn.textContent='🎤'; micBtn.style.transform=''; micBtn.style.boxShadow=''; } };
+    recognition.onerror = function(){ listening = false; deactivateListeningUI(); if (micBtn) { micBtn.textContent='🎤'; micBtn.style.transform=''; micBtn.style.boxShadow=''; } };
   }
 
   // mic click: speak welcome then start recognition
-  micBtn.addEventListener('click', async function(){
+  if (micBtn) micBtn.addEventListener('click', async function(){
     if (!('speechSynthesis' in window) && !(window.SpeechRecognition || window.webkitSpeechRecognition)){
       alert(lang === 'en' ? 'Speech recognition and TTS not supported in this browser.' : 'આ બ્રાઉઝર માં સ્પીચ અને ટેક્સ્ટ-ટુ-સ્પીચ સપોર્ટ નથી.');
       return;
@@ -394,15 +402,17 @@ document.addEventListener('DOMContentLoaded', async () => {
           const pref = voices.find(v => v.lang && v.lang.toLowerCase().startsWith(lang === 'en' ? 'en' : 'gu'));
           if (pref) u.voice = pref;
         }
-      } catch(e){}
+      } catch(e){ /* ignore */ }
       window.speechSynthesis.cancel();
       window.speechSynthesis.speak(u);
-    } catch(e){}
+    } catch (e) {
+      console.error('TTS failed', e);
+    }
   }
 
-  /* ---------- keyboard / mobile composer handling ---------- */
+  // keyboard handling for mobile (keep composer visible)
   const panelEl = document.getElementById('panel');
-  if (window.visualViewport){
+  if (window.visualViewport && panelEl){
     let lastH = window.visualViewport.height;
     window.visualViewport.addEventListener('resize', ()=> {
       const vh = window.visualViewport.height;
@@ -410,20 +420,12 @@ document.addEventListener('DOMContentLoaded', async () => {
       if (vh < lastH - 50) panelEl.style.transform = `translateY(-${dh}px)`;
       else panelEl.style.transform = '';
       lastH = vh;
-      setTimeout(()=> { messagesEl.scrollTop = messagesEl.scrollHeight; }, 200);
+      setTimeout(()=>{ if (messagesEl) messagesEl.scrollTop = messagesEl.scrollHeight; },200);
     });
-    inputBox.addEventListener('focus', ()=> setTimeout(()=> { panelEl.style.transform=''; messagesEl.scrollTop = messagesEl.scrollHeight; }, 200));
-  } else {
-    let lastInner = window.innerHeight;
-    window.addEventListener('resize', ()=> {
-      const now = window.innerHeight;
-      if (now < lastInner - 80) panelEl.style.transform = 'translateY(-160px)';
-      else panelEl.style.transform = '';
-      lastInner = now;
-    });
+    if (inputBox) inputBox.addEventListener('focus', ()=> setTimeout(()=> { panelEl.style.transform=''; if (messagesEl) messagesEl.scrollTop = messagesEl.scrollHeight; },200));
   }
 
-  /* ---------- initial tip message ---------- */
-  setTimeout(()=> pushMessage(lang === 'en' ? `Hello — tap Product Assistant for voice or Ask Me to type a question about ${product.title}.` : `હેલો — અવાજ માટે Product Assistant દબાવો અથવા ${product.title} વિશે પૂછવા માટે લખો.`), 400);
+  // show initial tip message
+  setTimeout(()=> pushMessage(lang==='en' ? `Hello — tap Product Assistant for voice or Ask Me to type a question about ${product.title}.` : `હેલો — અવાજ માટે Product Assistant દબાવો અથવા ${product.title} વિશે પૂછવા માટે લખો.`), 400);
 
-}); // DOMContentLoaded end
+});
