@@ -18,181 +18,147 @@
     "price": 42000,
     "sizeText": "55 inch (127 cm)",
     "installation": "Installation within 24–48 hours of delivery",
-     "images": ["f1.webp","f2.webp","f3.webp","b1.webp","s1.webp","s2.webp","t2.webp"],
+    "images": ["f1.webp","f2.webp","f3.webp","b1.webp","s1.webp","s2.webp","t2.webp"],
     "description": {
       "en": "The TCL P755 4K QLED Google TV offers stunning picture quality with vibrant colors, 4K resolution, and HDR support. With Google TV, you get access to endless entertainment, apps, and built-in voice control — a premium big-screen experience at great value.",
       "gu": "TCL P755 4K QLED Google TV તમને ઉજ્જવળ રંગો, 4K રિઝોલ્યુશન અને HDR સપોર્ટ સાથે ઉત્તમ પિક્ચર ગુણવત્તા આપે છે. Google TV સાથે, તમને અનંત મનોરંજન, એપ્સ અને બિલ્ટ-ઇન વોઇસ કંટ્રોલ મળે છે — મોટી સ્ક્રીન અનુભવ માટે શ્રેષ્ઠ પસંદગી."
     }
-},
-"65P7K": {
+  },
+  "65P7K": {
     "brand": "TCL",
     "title": "TCL P7K QLED TV",
     "price": 50000,
     "sizeText": "65 inch (160.8 CM)",
-  "installation": "Installation within 24–48 hours of delivery",
+    "installation": "Installation within 24–48 hours of delivery",
     "images": ["f1.1.webp","f1.2.webp","f1.3.webp","b1.2.webp","b1.1.webp","s1.1.webp","s1.2webp","t1.1.webp"],
-  "description": {
+    "description": {
       "en": "The TCL P7K QLED Smart TV delivers crystal-clear 4K visuals, rich color accuracy, and deep contrast with QLED technology. Featuring smart Google TV functionality, built-in streaming apps, and voice control, it turns any room into your home theater.",
-      "gu": "TCL P7K QLED Smart TV સ્પષ્ટ 4K દૃશ્યો, ઊંડા રુંગેનુ સુમેળ અને ગહન કોન્ટ્રાસ્ટ માટે QLED ટેક્નોલોજી આપે છે. Smart Google TV, બિલ્ટ-ઇન સ્ટ્રીમિંગ એપ્સ અને વોઇસ કંટ્રોલ સાથે, તે દરેક રૂમને તમારા ઘરનો થિયેટર બનાવી દે છે."
-    } 
+      "gu": "TCL P7K QLED Smart TV સ્પષ્ટ 4K દૃશ્યો, ઊંડા રુંગેનુ સુમેળ અને ગહન કોન્ટ્રાસ્ટ માટે QLED ટેક્નોલોજી આપે છે. Smart Google TV, બિલ્ટ-ઇન સ્ટ્રીમિંગ એપ્સ અને વોઇસ કંટ્રોલ સાથે, તે દરેક રૂમને તમારા گھرનો થિયેટર બની શકે છે."
+    }
   },
   "75P6K": {
-  "brand": "TCL",
-  "title": "TCL 75\" P6K 4K HDR TV — 75P6K",
-  "price": 95000,
-  "sizeText": "75 inch (190 cm)",
-  "installation": "Installation within 24–48 hours of delivery",
-  "warranty": "1 year manufacturer warranty",
-  "delivery": "Estimated delivery within 5–7 business days",
-  "images": ["75F.1.webp","75F.2.webp","75F.3.webp","75S.1.webp","75S.2.webp","75B.1.webp","75T.1.webp"],
-  "description": {
-    "en": "The TCL 75\" P6K 4K HDR TV delivers a breathtaking cinematic experience with its large 4K Ultra HD display, HDR support, and vivid color reproduction. Powered by Google TV, it offers access to endless apps, streaming services, and built-in voice control for convenience.",
-    "gu": "TCL 75\" P6K 4K HDR TV વિશાળ 4K અલ્ટ્રા HD ડિસ્પ્લે, HDR સપોર્ટ અને ઉજ્જવળ રંગો સાથે અદ્દભુત સિનેમેટિક અનુભવ આપે છે. Google TV દ્વારા સંચાલિત, તે અનંત એપ્સ, સ્ટ્રીમિંગ સેવાઓ અને બિલ્ટ-ઇન વોઇસ કંટ્રોલ પ્રદાન કરે છે."
-  }
-},
-"43P7K": {
-  "brand": "TCL",
-  "title": "TCL 43\" P7K QLED TV — 43P7K",
-  "price": 45000,
-  "sizeText": "43 inch (109 cm)",
-  "installation": "Installation within 24–48 hours of delivery",
-  "warranty": "1 year manufacturer warranty",
-  "images": [
-    "437k.webp",
-    "437kb1.webp",
-    "437kb2.webp",
-    "437kF2.webp",
-    "437kf3.webp",
-    "437ks1.webp",
-    "437ks2.webp",
-    "437kt1.webp"
-  ],
-  "description": {
-    "en": "The TCL 43\" P7K QLED TV delivers vivid 4K picture quality with QLED technology, vibrant colors, and deep contrast. With Smart Google TV features, streaming apps, and voice control, it provides an immersive home entertainment experience.",
-    "gu": "TCL 43\" P7K QLED TV તમને 4K ગુણવત્તાવાળી તસ્વીર, તેજસ્વી રંગો અને ઊંડા કોન્ટ્રાસ્ટ સાથે QLED ટેક્નોલોજી આપે છે. Smart Google TV સુવિધાઓ, સ્ટ્રીમિંગ એપ્સ અને વોઇસ કંટ્રોલ સાથે, તે શ્રેષ્ઠ ઘરેલુ મનોરંજનનો અનુભવ આપે છે."
-  }
-},
+    "brand": "TCL",
+    "title": "TCL 75\" P6K 4K HDR TV — 75P6K",
+    "price": 95000,
+    "sizeText": "75 inch (190 cm)",
+    "installation": "Installation within 24–48 hours of delivery",
+    "warranty": "1 year manufacturer warranty",
+    "delivery": "Estimated delivery within 5–7 business days",
+    "images": ["75F.1.webp","75F.2.webp","75F.3.webp","75S.1.webp","75S.2.webp","75B.1.webp","75T.1.webp"],
+    "description": {
+      "en": "The TCL 75\" P6K 4K HDR TV delivers a breathtaking cinematic experience with its large 4K Ultra HD display, HDR support, and vivid color reproduction. Powered by Google TV, it offers access to apps, streaming services, and built-in voice control for convenience.",
+      "gu": "TCL 75\" P6K 4K HDR TV વિશાળ 4K અલ્ટ્રા HD ડિસ્પ્લે અને HDR સપોર્ટ સાથે અદ્ભુત સિનેમેટિક અનુભવ આપે છે. Google TV દ્વારા સંચાલિત, તે એપ્સ અને બિલ્ટ-ઇન વોઇસ કંટ્રોલ પ્રદાન કરે છે."
+    }
+  },
+  "43P7K": {
+    "brand": "TCL",
+    "title": "TCL 43\" P7K QLED TV — 43P7K",
+    "price": 45000,
+    "sizeText": "43 inch (109 cm)",
+    "installation": "Installation within 24–48 hours of delivery",
+    "warranty": "1 year manufacturer warranty",
+    "images": ["437k.webp","437kb1.webp","437kb2.webp","437kF2.webp","437kf3.webp","437ks1.webp","437ks2.webp","437kt1.webp"],
+    "description": {
+      "en": "The TCL 43\" P7K QLED TV delivers vivid 4K picture quality with QLED technology, vibrant colors, and deep contrast. With Smart Google TV features, streaming apps, and voice control, it provides an immersive home entertainment experience.",
+      "gu": "TCL 43\" P7K QLED TV તમને 4K ગુણવત્તાવાળી તસ્વીર, તેજસ્વી રંગો અને ઊંડા કોન્ટ્રાસ્ટ સાથે QLED ટેક્નોલોજી આપે છે. Smart Google TV સુવિધાઓ અને વોઇસ કંટ્રોલ સાથે, તે શ્રેષ્ઠ ઘરેલુ મનોરંજનનો અનુભવ આપે છે."
+    }
+  },
   "32S4K": {
-  "brand": "TCL",
-  "title": "TCL 32\" S4K QLED TV — 32S4K",
-  "price": 22000,
-  "sizeText": "32 inch (81 cm)",
-  "installation": "Installation within 24–48 hours of delivery",
-  "warranty": "1 year manufacturer warranty",
-  "images": [
-    "32skf1.webp",
-    "32skf2.webp",
-    "32skf3.webp",
-    "32sks1.webp",
-    "32sks2.webp",
-    "32skt1.webp",
-    "32skb1.webp",
-    "32skb2.webp"
-  ],
-  "description": {
-    "en": "The TCL 32\" S4K QLED TV brings brilliant picture quality in a compact size. With 4K HDR support, vibrant colors, and smart Google TV features, it’s perfect for smaller spaces without compromising entertainment.",
-    "gu": "TCL 32\" S4K QLED TV નાના કદમાં ઉત્તમ ચિત્ર ગુણવત્તા આપે છે. 4K HDR સપોર્ટ, તેજસ્વી રંગો અને Smart Google TV ફીચર્સ સાથે, તે નાના રૂમ માટે મનોરંજનનો શ્રેષ્ઠ અનુભવ આપે છે."
-  }
-},
- "WYBOR_AC_1": {
-  "brand": "WYBOR",
-  "title": "WYBOR 1.5TR 3 STAR INV WSAC18310XES2VM (IDU)",
-  "category": "AC - Indoor Unit",
-  "size": "1.5 TR",
-  "energy_rating": "3 Star",
-  "price": "39000",
-  "delivery": "Estimated delivery within 5–7 business days",
-  "installation": "Installation within 24–48 hours of delivery",
-  "warranty": "1 year comprehensive warranty + 5 years on compressor",
-  "images": ["WYB1.JPG","WYB2.JPG","WYB3.JPG","WYB4.JPG","WYB5.JPG"],
-  "description": {
-    "en": "The WYBOR 1.5 Ton 3 Star Inverter Split AC (WSAC18310XES2VM) is designed to deliver powerful cooling with energy efficiency. Its inverter technology ensures faster cooling, reduced noise, and lower electricity consumption. With a 3-star energy rating, it balances performance and savings, making it ideal for medium-sized rooms. The AC comes with advanced filters for cleaner air and a sleek design to complement modern interiors.",
-    "gu": "WYBOR 1.5 ટન 3 સ્ટાર ઇન્વર્ટર સ્પ્લિટ એસી (WSAC18310XES2VM) તમને શક્તિશાળી કૂલિંગ સાથે ઊર્જા બચત આપે છે. તેની ઇન્વર્ટર ટેક્નોલોજી ઝડપી ઠંડક, ઓછો અવાજ અને ઓછી વીજળી વપરાશ સુનિશ્ચિત કરે છે. 3-સ્ટાર એનર્જી રેટિંગ સાથે, તે પ્રદર્શન અને બચત વચ્ચે સંતુલન આપે છે, જે મધ્યમ કદના રૂમ માટે આદર્શ છે. એસીમાં સ્વચ્છ હવાના માટે એડવાન્સ ફિલ્ટર્સ અને આધુનિક ઇન્ટિરિયર્સને સુસંગત એવો સ્ટાઇલિશ ડિઝાઇન છે."
-  }
-},
+    "brand": "TCL",
+    "title": "TCL 32\" S4K QLED TV — 32S4K",
+    "price": 22000,
+    "sizeText": "32 inch (81 cm)",
+    "installation": "Installation within 24–48 hours of delivery",
+    "warranty": "1 year manufacturer warranty",
+    "images": ["32skf1.webp","32skf2.webp","32skf3.webp","32sks1.webp","32sks2.webp","32skt1.webp","32skb1.webp","32skb2.webp"],
+    "description": {
+      "en": "The TCL 32\" S4K QLED TV brings brilliant picture quality in a compact size. With 4K HDR support, vibrant colors, and smart Google TV features, it’s perfect for smaller spaces without compromising entertainment.",
+      "gu": "TCL 32\" S4K QLED TV નાના કદમાં ઉત્તમ ચિત્ર ગુણવત્તા આપે છે. 4K HDR સપોર્ટ અને Smart Google TV ફીચર્સ સાથે, તે નાના રૂમ માટે શ્રેષ્ઠ પસંદગી છે."
+    }
+  },
+  "WYBOR_AC_1": {
+    "brand": "WYBOR",
+    "title": "WYBOR 1.5TR 3 STAR INV WSAC18310XES2VM (IDU)",
+    "category": "AC - Indoor Unit",
+    "size": "1.5 TR",
+    "energy_rating": "3 Star",
+    "price": 39000,
+    "delivery": "Estimated delivery within 5–7 business days",
+    "installation": "Installation within 24–48 hours of delivery",
+    "warranty": "1 year comprehensive warranty + 5 years on compressor",
+    "images": ["WYB1.JPG","WYB2.JPG","WYB3.JPG","WYB4.JPG","WYB5.JPG"],
+    "description": {
+      "en": "The WYBOR 1.5 Ton 3 Star Inverter Split AC (WSAC18310XES2VM) delivers effective cooling with inverter efficiency, quieter operation and energy savings. Designed for medium rooms, it includes multi-stage filtration for cleaner indoor air and a modern, compact design.",
+      "gu": "WYBOR 1.5 ટન 3 સ્ટાર ઇન્વર્ટર સ્પ્લિટ એસી (WSAC18310XES2VM) ઇન્વર્ટર કાર્યક્ષમતાથી અસરકારક ઠંડક, ઓછો અવાજ અને ઊર્જા બચત આપે છે. મધ્યમ કદના રૂમ માટે ડિઝાઇન, જેમાં સ્વચ્છ હવા માટે મલ્ટી-સ્ટેજ ફિલ્ટ્રેશન છે અને આધુનિક ડિઝાઇન છે."
+    }
+  },
   "WYBOR_AC_2": {
-  "brand": "WYBOR",
-  "title": "WYBOR 1.5TR 3 STAR SPLIT WSAC20319RVFM (IDU)",
-  "category": "AC - Indoor Unit",
-  "size": "1.5 TR",
-  "energy_rating": "3 Star",
-  "price": "49400",
-  "currency": "INR",
-  "delivery": "Estimated delivery within 5–7 business days",
-  "installation": "Installation within 24–48 hours of delivery",
-  "warranty": "1 year comprehensive warranty + 5 years on compressor",
-  "images": ["WYBOR_AC_2.JPG","WYBOR_AC_OU_2.JPG","WYBOR_AC_OU_3.JPG"],
-  "description": {
-    "en": "The WYBOR 1.5 Ton 3 Star Split AC (WSAC20319RVFM) is built to provide efficient cooling for larger rooms while saving energy. With its advanced inverter technology, it ensures stable performance, quieter operation, and reduced electricity bills. The 3 Star energy rating makes it an economical choice, and the AC is equipped with multiple filters to deliver clean and fresh air. Its stylish design enhances the aesthetics of any home or office.",
-    "gu": "WYBOR 1.5 ટન 3 સ્ટાર સ્પ્લિટ એસી (WSAC20319RVFM) મોટા રૂમ માટે કાર્યક્ષમ ઠંડક સાથે ઊર્જા બચત આપે છે. તેની એડવાન્સ ઇન્વર્ટર ટેક્નોલોજી સ્થિર કામગીરી, શાંત ઓપરેશન અને ઓછી વીજળી વપરાશ સુનિશ્ચિત કરે છે. 3-સ્ટાર એનર્જી રેટિંગ તેને આર્થિક પસંદગી બનાવે છે, અને એસીમાં શુદ્ધ અને તાજી હવા માટે મલ્ટિપલ ફિલ્ટર્સ છે. તેનો સ્ટાઇલિશ ડિઝાઇન કોઈપણ ઘર કે ઓફિસના દેખાવને આકર્ષક બનાવે છે."
-  }
-},
-
- "CARRIER_CAL19IN3R35F1_IDU": {
-  "brand": "CARRIER",
-  "title": "CARRIER 1.5TR 3 STAR INDU SFXI CAL19IN3R35F1 - IDU",
-  "category": "AC - Indoor Unit",
-  "size": "1.5 TR",
-  "energy_rating": "3 Star",
-  "price": "46500",
-  "currency": "INR",
-  "delivery": "Estimated delivery within 5–7 business days",
-  "installation": "Installation within 24–48 hours of delivery",
-  "warranty": "1 year comprehensive warranty + 10 years on compressor",
-  "images": [
-    "CARRIER_AC_1.JPG",
-    "CARRIER_AC_1.1.WEBP",
-    "CARRIER_AC_1.2.WEBP",
-    "CARRIER_AC_1.3.WEBP",
-    "CARRIER_AC_1.4.WEBP",
-    "CARRIER_AC_1.5.WEBP",
-    "CARRIER_AC_OU_1.WEBP"
-  ],
-  "description": {
-    "en": "The Carrier 1.5 Ton 3 Star Inverter Split AC (CAL19IN3R35F1) is designed to deliver powerful cooling with energy efficiency. Featuring inverter technology, it adjusts compressor speed based on room temperature, ensuring consistent comfort and reduced power consumption. The 3 Star rating makes it a balanced choice for performance and savings. It also comes with advanced filters to remove dust and allergens, providing healthier indoor air.",
-    "gu": "કેરિયર 1.5 ટન 3 સ્ટાર ઇન્વર્ટર સ્પ્લિટ એસી (CAL19IN3R35F1) શક્તિશાળી ઠંડક સાથે ઊર્જા કાર્યક્ષમતા આપે છે. તેની ઇન્વર્ટર ટેક્નોલોજી રૂમના તાપમાન પ્રમાણે કોમ્પ્રેસરની ગતિને સમાયોજિત કરે છે, જે સતત આરામ અને ઓછી વીજળી વપરાશ સુનિશ્ચિત કરે છે. 3 સ્ટાર રેટિંગ તેને કામગીરી અને બચત માટે યોગ્ય પસંદગી બનાવે છે. તેમાં એડવાન્સ ફિલ્ટર્સ પણ છે જે ધૂળ અને એલર્જન દૂર કરીને વધુ સ્વચ્છ હવા આપે છે."
-  }
-},
- "CARRIER_XPERT_EDGE_FXI_IDU": {
-  "brand": "CARRIER",
-  "title": "CARRIER 1.5TR 3 STAR INV XPERT EDGE FXI (IDU)",
-  "category": "AC - Indoor Unit",
-  "size": "1.5 TR",
-  "energy_rating": "3 Star",
-  "price": "47800",
-  "currency": "INR",
-  "delivery": "Estimated delivery within 5–7 business days",
-  "installation": "Installation within 24–48 hours of delivery",
-  "warranty": "1 year comprehensive warranty + 10 years on compressor",
-  "images": [
-    "CARRIER_AC_1.JPG",
-    "CARRIER_AC_2.1.WEBP",
-    "CARRIER_AC_2.2.WEBP",
-    "CARRIER_AC_2.3.WEBP",
-    "CARRIER_AC_2.4.WEBP",
-    "CARRIER_AC_2.5.WEBP",
-  ],
-  "description": {
-    "en": "The Carrier 1.5 Ton 3 Star Inverter Split AC (XPERT EDGE FXI) is engineered to provide reliable cooling with optimized energy efficiency. Equipped with inverter technology, it automatically adjusts cooling capacity to maintain consistent comfort while reducing electricity usage. Its advanced filtration system ensures cleaner, healthier air indoors, making it ideal for modern households. With a durable build and Carrier’s trusted performance, it is a perfect balance of comfort and savings.",
-    "gu": "કેરિયર 1.5 ટન 3 સ્ટાર ઇન્વર્ટર સ્પ્લિટ એસી (XPERT EDGE FXI) વિશ્વસનીય ઠંડક અને ઊર્જા બચત માટે ડિઝાઇન કરાયેલ છે. ઇન્વર્ટર ટેક્નોલોજી સાથે, તે આપમેળે કૂલિંગ ક્ષમતા સમાયોજિત કરે છે જેથી સતત આરામ મળે અને વીજળીનો વપરાશ ઘટે. તેની અદ્યતન ફિલ્ટરેશન સિસ્ટમ અંદરના હવામાંથી ધૂળ અને એલર્જન દૂર કરે છે, જે સ્વસ્થ પર્યાવરણ આપે છે. મજબૂત બાંધકામ અને કેરિયરની વિશ્વસનીય કામગીરી સાથે, તે આરામ અને બચતનું શ્રેષ્ઠ સંયોજન છે."
-  }
-},
+    "brand": "WYBOR",
+    "title": "WYBOR 1.5TR 3 STAR SPLIT WSAC20319RVFM (IDU)",
+    "category": "AC - Indoor Unit",
+    "size": "1.5 TR",
+    "energy_rating": "3 Star",
+    "price": 49400,
+    "currency": "INR",
+    "delivery": "Estimated delivery within 5–7 business days",
+    "installation": "Installation within 24–48 hours of delivery",
+    "warranty": "1 year comprehensive warranty + 5 years on compressor",
+    "images": ["WYBOR_AC_2.JPG","WYBOR_AC_OU_2.JPG","WYBOR_AC_OU_3.JPG"],
+    "description": {
+      "en": "The WYBOR 1.5 Ton 3 Star Split AC (WSAC20319RVFM) offers energy-efficient cooling with stable inverter performance and multi-stage filters to ensure cleaner air. Its 3-star rating balances performance and savings, making it suitable for larger rooms.",
+      "gu": "WYBOR 1.5 ટન 3 સ્ટાર સ્પ્લિટ એસી (WSAC20319RVFM) સથવાળું ઇન્વર્ટર પ્રદર્શન અને મલ્ટી-સ્ટેજ ફિલ્ટર્સ સાથે ઊર્જા-કાર્યક્ષમ ઠંડક આપે છે. 3-સ્ટાર રેટિંગ તેને મોટા રૂમ માટે યોગ્ય બનાવે છે."
+    }
+  },
+  "CARRIER_CAL19IN3R35F1_IDU": {
+    "brand": "CARRIER",
+    "title": "CARRIER 1.5TR 3 STAR INDU SFXI CAL19IN3R35F1 - IDU",
+    "category": "AC - Indoor Unit",
+    "size": "1.5 TR",
+    "energy_rating": "3 Star",
+    "price": 46500,
+    "currency": "INR",
+    "delivery": "Estimated delivery within 5–7 business days",
+    "installation": "Installation within 24–48 hours of delivery",
+    "warranty": "1 year comprehensive warranty + 10 years on compressor",
+    "images": ["CARRIER_AC_1.JPG","CARRIER_AC_1.1.WEBP","CARRIER_AC_1.2.WEBP","CARRIER_AC_1.3.WEBP","CARRIER_AC_1.4.WEBP","CARRIER_AC_1.5.WEBP","CARRIER_AC_OU_1.WEBP"],
+    "description": {
+      "en": "The Carrier 1.5 Ton 3 Star Inverter Split AC (CAL19IN3R35F1) offers robust cooling with inverter efficiency, advanced filtration and quiet operation. The 3-star rating balances energy use and performance for everyday comfort.",
+      "gu": "Carrier 1.5 ટન 3 સ્ટાર ઇન્વર્ટર સ્પ્લિટ એસી (CAL19IN3R35F1) ઇન્વર્ટર કાર્યક્ષમતા, અદ્યતન ફિલ્ટ્રેશન અને શાંત કામગીરી સાથે મજબૂત ઠંડક આપે છે. 3-સ્ટાર રેટિંગ રોજિંદા આરામ માટે ઊર્જા અને પ્રદર્શન વચ્ચે સંતુલન આપે છે."
+    }
+  },
+  "CARRIER_XPERT_EDGE_FXI_IDU": {
+    "brand": "CARRIER",
+    "title": "CARRIER 1.5TR 3 STAR INV XPERT EDGE FXI (IDU)",
+    "category": "AC - Indoor Unit",
+    "size": "1.5 TR",
+    "energy_rating": "3 Star",
+    "price": 47800,
+    "currency": "INR",
+    "delivery": "Estimated delivery within 5–7 business days",
+    "installation": "Installation within 24–48 hours of delivery",
+    "warranty": "1 year comprehensive warranty + 10 years on compressor",
+    "images": ["CARRIER_AC_1.JPG","CARRIER_AC_2.1.WEBP","CARRIER_AC_2.2.WEBP","CARRIER_AC_2.3.WEBP","CARRIER_AC_2.4.WEBP","CARRIER_AC_2.5.WEBP"],
+    "description": {
+      "en": "The Carrier Xpert Edge FXI 1.5 Ton 3 Star Inverter AC is designed for efficient, quiet cooling with smart inverter control and superior filtration. Ideal for modern homes where energy efficiency and comfort are required.",
+      "gu": "Carrier Xpert Edge FXI 1.5 ટન 3 સ્ટાર ઇન્વર્ટર એસી કાર્યક્ષમ અને શાંત ઠંડક માટે ડિઝાઇન કર્યું છે. સમ્કક્ષ ઇન્વર્ટર કંટ્રોલ અને ઉત્તમ ફિલ્ટ્રેશન સાથે આ આધુનિક ઘરો માટે યોગ્ય છે."
+    }
+  },
   "TCL_AC_12CSD_EV3F_IDU": {
     "brand": "TCL",
     "title": "TCL 1TR INV 3 STAR AC-12CSD/EV3F - IDU",
     "category": "AC - Indoor Unit",
     "size": "1.0 TR",
     "energy_rating": "3 Star",
-    "price": "45000",
+    "price": 45000,
     "currency": "INR",
     "delivery": "Estimated delivery within 5–7 business days",
     "installation": "Installation within 24–48 hours of delivery",
     "warranty": null,
     "images": [],
-"description": {
-  "en":
-  "gu":
-}
+    "description": {
+      "en": "The TCL 1 Ton inverter AC AC-12CSD/EV3F provides efficient cooling with a compact design and inverter compressor for better energy savings.",
+      "gu": "TCL 1 ટન ઇન્વર્ટર AC AC-12CSD/EV3F કાર્યક્ષમ ઠંડક અને કોમ્પેક્ટ ડિઝાઇન સાથે ઊર્જા બચત માટે અનુકૂળ ઇન્વર્ટર કમ્પ્રેસર ધરાવે છે."
+    }
   },
   "TCL_18CSD_EV3F_IDU": {
     "brand": "TCL",
@@ -200,16 +166,16 @@
     "category": "AC - Indoor Unit",
     "size": "1.5 TR",
     "energy_rating": "3 Star",
-    "price": "39000",
+    "price": 39000,
     "currency": "INR",
     "delivery": "Estimated delivery within 5–7 business days",
-      "installation": "Installation within 24–48 hours of delivery",
+    "installation": "Installation within 24–48 hours of delivery",
     "warranty": null,
     "images": [],
-"description": {
-  "en":
-  "gu":
-}
+    "description": {
+      "en": "The TCL 1.5 Ton inverter model 18CSD/EV3F is optimized for steady cooling and energy efficiency in residential spaces.",
+      "gu": "TCL 1.5 ટન ઇન્વર્ટર મોડેલ 18CSD/EV3F ગૃહપૂર્ણ જગ્યાઓમાં સ્થિર ઠંડક અને ઊર્જા કાર્યક્ષમતા માટે અનુકૂળ છે."
+    }
   },
   "TCL_22CSD_EV3GL_IDU": {
     "brand": "TCL",
@@ -217,111 +183,83 @@
     "category": "AC - Indoor Unit",
     "size": "2.0 TR",
     "energy_rating": "3 Star",
-    "price": "35000",
+    "price": 35000,
     "currency": "INR",
     "delivery": "Estimated delivery within 5–7 business days",
-     "installation": "Installation within 24–48 hours of delivery",
+    "installation": "Installation within 24–48 hours of delivery",
     "warranty": null,
     "images": [],
-"description": {
-  "en":
-  "gu":
-}
+    "description": {
+      "en": "The TCL 2 Ton inverter 22CSD/EV3GL is built for powerful cooling in larger rooms and offers energy-saving inverter control.",
+      "gu": "TCL 2 ટન ઇન્વર્ટર 22CSD/EV3GL મોટા રૂમમાં શક્તિશાળી ઠંડક અને ઊર્જા બચત માટે ઇન્વર્ટર કંટ્રોલ આપે છે."
+    }
   },
- "MIDEA_SANTIS_NEO_DLX_IDU": {
-  "brand": "MIDEA",
-  "title": "MIDEA 1 TR 3 STAR INVERTER SANTIS NEO+ DLX (IDU)",
-  "category": "AC - Indoor Unit",
-  "size": "1.0 TR",
-  "energy_rating": "3 Star",
-  "price": "32500",
-  "currency": "INR",
-  "delivery": "Estimated delivery within 5–7 business days",
-  "installation": "Installation within 24–48 hours of delivery",
-  "warranty": "1 year comprehensive warranty + 10 years on compressor",
-  "images": [
-    "neo+.JPG",
-    "neo+1.JPG",
-    "neo+2.JPG",
-    "neo+3.JPG" 
-    "neo+4.JPG"
-    "neo+5.JPG"  
-    "neo+6.JPG"
-  ],
-  "description": {
-    "en": "The Midea 1 Ton 3 Star Inverter Split AC (Santis Neo+ DLX) is designed to deliver efficient cooling while saving energy. With inverter technology, it adjusts power consumption based on cooling needs, ensuring consistent comfort. The AC features a turbo mode for quick cooling, a silent operation for uninterrupted sleep, and an advanced filtration system for cleaner air. Compact and durable, it is an excellent choice for small to medium-sized rooms.",
-    "gu": "મીડિયા 1 ટન 3 સ્ટાર ઇન્વર્ટર સ્પ્લિટ એસી (Santis Neo+ DLX) ઊર્જા બચત સાથે કાર્યક્ષમ ઠંડક આપે છે. ઇન્વર્ટર ટેક્નોલોજી સાથે, તે ઠંડકની જરૂરિયાત મુજબ વીજ વપરાશને સમાયોજિત કરે છે, જે સતત આરામ આપે છે. એસીમાં ઝડપી ઠંડક માટે ટર્બો મોડ, શાંતિપૂર્ણ કામગીરી અને શુદ્ધ હવા માટે અદ્યતન ફિલ્ટરેશન સિસ્ટમ છે. નાના થી મધ્યમ કદના રૂમ માટે આ એક ઉત્તમ પસંદગી છે."
+  "MIDEA_SANTIS_NEO_DLX_IDU": {
+    "brand": "MIDEA",
+    "title": "MIDEA 1 TR 3 STAR INVERTER SANTIS NEO+ DLX (IDU)",
+    "category": "AC - Indoor Unit",
+    "size": "1.0 TR",
+    "energy_rating": "3 Star",
+    "price": 32500,
+    "currency": "INR",
+    "delivery": "Estimated delivery within 5–7 business days",
+    "installation": "Installation within 24–48 hours of delivery",
+    "warranty": "1 year comprehensive warranty + 10 years on compressor",
+    "images": ["neo+.JPG","neo+1.JPG","neo+2.JPG","neo+3.JPG","neo+4.JPG","neo+5.JPG","neo+6.JPG"],
+    "description": {
+      "en": "The Midea 1 Ton 3 Star Inverter Split AC (Santis Neo+ DLX) is designed for reliable cooling with inverter efficiency, turbo mode for rapid cooling, silent operation and advanced air filters for cleaner indoor air.",
+      "gu": "Midea 1 ટન 3 સ્ટાર ઇન્વર્ટર સ્પ્લિટ એસી (Santis Neo+ DLX) વિશ્વસનીય ઠંડક, ટર્બો મોડ, શાંત કાર્ય અને શુદ્ધ હવા માટે અદ્યતન ફિલ્ટર સાથે ડિઝાઇન કરાયું છે."
+    }
+  },
+  "MIDEA_SANTIS_NEO_DLX_1_5TR_IDU": {
+    "brand": "MIDEA",
+    "title": "MIDEA 1.5TR 3 STAR INVERTER SANTIS NEO+ DLX (IDU)",
+    "category": "AC - Indoor Unit",
+    "size": "1.5 TR",
+    "energy_rating": "3 Star",
+    "price": 41500,
+    "currency": "INR",
+    "delivery": "Estimated delivery within 5–7 business days",
+    "installation": "Installation within 24–48 hours of delivery",
+    "warranty": "1 year comprehensive warranty + 10 years on compressor",
+    "images": ["MIDEA1.JPG","MIDEA2.JPG","MIDEA3.JPG","MIDEA4.JPG","MIDEA5.JPG","MIDEA6.JPG","MIDEA7.JPG"],
+    "description": {
+      "en": "The Midea 1.5 Ton 3 Star Inverter Split AC (Santis Neo+ DLX) delivers powerful cooling with energy-efficient inverter control, turbo mode and advanced filtration for healthier indoor air.",
+      "gu": "Midea 1.5 ટન 3 સ્ટાર ઇન્વર્ટર સ્પ્લિટ એસી (Santis Neo+ DLX) શક્તિશાળી ઠંડક, ટર્બો મોડ અને સ્વસ્થ હવા માટે અદ્યતન ફિલ્ટર સાથે ઊર્જા કાર્યક્ષમતા આપે છે."
+    }
+  },
+  "LLOYD_GLS18I3KOESR_IDU": {
+    "brand": "LLOYD",
+    "title": "LLOYD 1.5TR 3 STAR INV GLS18I3KOESR - IDU",
+    "category": "AC - Indoor Unit",
+    "size": "1.5 TR",
+    "energy_rating": "3 Star",
+    "price": 35940,
+    "currency": "INR",
+    "delivery": "Estimated delivery within 5–7 business days",
+    "installation": "Installation within 24–48 hours of delivery",
+    "warranty": "1 year comprehensive warranty + 10 years on compressor",
+    "images": ["LLOYD1.WEBP","LLOYD2.WEBP","LLOYD3.WEBP","LLOYD4.WEBP"],
+    "description": {
+      "en": "The Lloyd 1.5 Ton 3 Star Inverter Split AC (GLS18I3KOESR) offers efficient cooling with inverter technology, low noise operation and eco-friendly refrigerant for medium-sized rooms.",
+      "gu": "Lloyd 1.5 ટન 3 સ્ટાર ઇન્વર્ટર સ્પ્લિટ એસી (GLS18I3KOESR) ઇન્વર્ટર ટેક્નોલોજી, ઓછો અવાજ અને પર્યાવરણમિત્ર રેફ્રિજરન્ટ સાથે મધ્યમ રૂમ માટે કાર્યક્ષમ ઠંડક આપે છે."
+    }
+  },
+  "LLOYD_GLS1913KOASF_SET": {
+    "brand": "LLOYD",
+    "title": "LLOYD 1.5TR 3 STAR INV GLS1913KOASF - SET",
+    "category": "AC - Split AC Set",
+    "size": "1.6 TR",
+    "energy_rating": "3 Star",
+    "price": 45990,
+    "currency": "INR",
+    "delivery": "Estimated delivery within 5–7 business days",
+    "installation": "Installation within 24–48 hours of delivery",
+    "warranty": "1 year comprehensive warranty + 10 years on compressor",
+    "images": ["LLOYD1.WEBP","LLOYD2.WEBP","LLOYD3.WEBP"],
+    "description": {
+      "en": "The Lloyd 1.5 Ton (1.6 TR) 3 Star Inverter Split AC (GLS1913KOASF) delivers efficient cooling with reduced power consumption. Its inverter compressor adjusts cooling performance as per room temperature, ensuring comfort and energy savings.",
+      "gu": "Lloyd 1.5 ટન (1.6 TR) 3 સ્ટાર ઇન્વર્ટર સ્પ્લિટ એસી (GLS1913KOASF) ઓછી વીજળી વપરાશ સાથે કાર્યક્ષમ ઠંડક આપે છે. ઇન્વર્ટર કમ્પ્રેસર રૂમના તાપમાન મુજબ ઠંડકનું સમાયોજન કરે છે."
+    }
   }
-},
-
-  
-"MIDEA_SANTIS_NEO_DLX_1_5TR_IDU": {
-  "brand": "MIDEA",
-  "title": "MIDEA 1.5TR 3 STAR INVERTER SANTIS NEO+ DLX (IDU)",
-  "category": "AC - Indoor Unit",
-  "size": "1.5 TR",
-  "energy_rating": "3 Star",
-  "price": 41500,
-  "currency": "INR",
-  "delivery": "Estimated delivery within 5–7 business days",
-  "installation": "Installation within 24–48 hours of delivery",
-  "warranty": "1 year comprehensive warranty + 10 years on compressor",
-  "images": [
-    "MIDEA1.JPG",
-    "MIDEA2.JPG",
-    "MIDEA3.JPG",
-    "MIDEA4.JPG" 
-    "MIDEA5.JPG"
-    "MIDEA6.JPG"  
-    "MIDEA7.JPG"
-  ],
-  "description": {
-    "en": "The Midea 1.5 Ton 3 Star Inverter Split AC (Santis Neo+ DLX) provides powerful cooling while being energy-efficient. It comes with advanced inverter technology that optimizes power usage based on the room’s cooling needs. Key features include turbo cooling for quick temperature control, silent operation for better sleep, and an anti-dust filter for healthier air. Perfect for medium-sized rooms, this AC balances performance, durability, and savings.",
-    "gu": "મીડિયા 1.5 ટન 3 સ્ટાર ઇન્વર્ટર સ્પ્લિટ એસી (Santis Neo+ DLX) શક્તિશાળી ઠંડક સાથે ઊર્જા કાર્યક્ષમતા આપે છે. અદ્યતન ઇન્વર્ટર ટેક્નોલોજી સાથે, તે રૂમની ઠંડક જરૂરિયાત અનુસાર વીજળીનો ઉપયોગ ઓપ્ટિમાઇઝ કરે છે. મુખ્ય લક્ષણોમાં ઝડપી ઠંડક માટે ટર્બો કૂલિંગ, સારી ઊંઘ માટે શાંતિપૂર્ણ કામગીરી અને સ્વસ્થ હવા માટે એન્ટી-ડસ્ટ ફિલ્ટરનો સમાવેશ થાય છે. મધ્યમ કદના રૂમ માટે આ એસી ઉત્તમ પસંદગી છે."
-  }
-},
-
- "LLOYD_GLS18I3KOESR_IDU": {
-  "brand": "LLOYD",
-  "title": "LLOYD 1.5TR 3 STAR INV GLS18I3KOESR - IDU",
-  "category": "AC - Indoor Unit",
-  "size": "1.5 TR",
-  "energy_rating": "3 Star",
-  "price": "35940",
-  "currency": "INR",
-  "delivery": "Estimated delivery within 5–7 business days",
-  "installation": "Installation within 24–48 hours of delivery",
-  "warranty": "1 year comprehensive warranty + 10 years on compressor",
-  "images": [
-    "LLOYD1.WEBP",
-    "LLOYD2.WEBP",
-    "LLOYD3.WEBP",
-     "LLOYD4.WEBP"
-  ],
-  "description": {
-    "en": "The Lloyd 1.5 Ton 3 Star Inverter Split AC (GLS18I3KOESR) ensures powerful cooling with energy savings. It features inverter technology for efficient performance, a 3-star energy rating, and rapid cooling for hot summers. The AC also comes with features like eco-friendly refrigerant, low-noise operation, and stabilizer-free performance, making it a reliable choice for medium-sized rooms.",
-    "gu": "લોયડ 1.5 ટન 3 સ્ટાર ઇન્વર્ટર સ્પ્લિટ એસી (GLS18I3KOESR) ઊર્જા બચત સાથે શક્તિશાળી ઠંડક આપે છે. તેમાં કાર્યક્ષમ પ્રદર્શન માટે ઇન્વર્ટર ટેક્નોલોજી, 3-સ્ટાર ઊર્જા રેટિંગ અને ગરમ ઉનાળામાં ઝડપી ઠંડક સુવિધા છે. આ એસી પર્યાવરણમિત્ર રેફ્રિજરન્ટ, ઓછો અવાજ અને સ્ટેબિલાઇઝર-ફ્રી કામગીરી સાથે આવે છે, જે મધ્યમ કદના રૂમ માટે વિશ્વસનીય પસંદગી છે."
-  }
-},
-"LLOYD_GLS1913KOASF_SET": {
-  "brand": "LLOYD",
-  "title": "LLOYD 1.5TR 3 STAR INV GLS1913KOASF - SET",
-  "category": "AC - Split AC Set",
-  "size": "1.6 TR",
-  "energy_rating": "3 Star",
-  "price": "45990",
-  "currency": "INR",
-  "delivery": "Estimated delivery within 5–7 business days",
-  "installation": "Installation within 24–48 hours of delivery",
-  "warranty": "1 year comprehensive warranty + 10 years on compressor",
-  "images": [
-    "LLOYD1.WEBP",
-    "LLOYD2.WEBP",
-    "LLOYD3.WEBP"
-  ],
-  "description": {
-    "en": "The Lloyd 1.5 Ton (1.6 TR) 3 Star Inverter Split AC (GLS1913KOASF) delivers efficient cooling with reduced power consumption. Its inverter compressor adjusts cooling performance as per room temperature, ensuring comfort and energy savings. With features like eco-friendly refrigerant, silent operation, stabilizer-free performance, and fast cooling, it is an ideal AC set for medium to large rooms.",
-    "gu": "લોયડ 1.5 ટન (1.6 TR) 3 સ્ટાર ઇન્વર્ટર સ્પ્લિટ એસી (GLS1913KOASF) ઓછી વીજળી વપરાશ સાથે કાર્યક્ષમ ઠંડક આપે છે. તેનો ઇન્વર્ટર કમ્પ્રેસર રૂમના તાપમાન મુજબ ઠંડકને સમાયોજિત કરે છે, જે આરામ અને ઊર્જા બચત સુનિશ્ચિત કરે છે. પર્યાવરણમિત્ર રેફ્રિજરન્ટ, શાંત કામગીરી, સ્ટેબિલાઇઝર-ફ્રી પ્રદર્શન અને ઝડપી ઠંડક જેવી સુવિધાઓ સાથે, તે મધ્યમ થી મોટા રૂમ માટે એક આદર્શ એસી સેટ છે."
-  }
-}
 }
