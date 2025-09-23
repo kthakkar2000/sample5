@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   }
 
   // load logo
-  const logoCandidates = ['assets/ktpl-new-logo.png','assets/ktpl-new-logo.jpg','assets/ktpl-new-logo.webp','assets/ktpl-new-logo.jpeg','assets/ktpl new logo.png','assets/ktpl-new-logo.jpg'];
+  const logoCandidates = ['assets/ktpl new logo.png','assets/ktpl new logo.jpg','assets/ktpl new logo.webp','assets/ktpl new logo.jpeg','assets/ktpl new logo.png','assets/ktpl new logo.jpg'];
   const mainLogo = document.getElementById('mainLogo');
   tryLoadVariants(logoCandidates, mainLogo, true);
   setTimeout(()=>{ if(!mainLogo.src){ mainLogo.style.display='none'; const fb = document.getElementById('logoFallback'); if(fb) fb.style.display='flex' } }, 1400);
