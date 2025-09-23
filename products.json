@@ -5,11 +5,12 @@
     "price": 35000,
     "sizeText": "43 inch (109 cm)",
     "installation": "Installation within 24–48 hours of delivery",
+     "images": ["front3.webp","front2.webp","fron.webp","back4.webp","side1.webp"],
     "description": {
       "en": "The TCL 43\" P6K 4K HDR TV delivers sharp Ultra HD visuals with HDR support for brighter highlights and richer contrast. Powered by Google TV, it offers access to popular apps, streaming, and built-in voice assistant — all in a stylish, slim design.",
       "gu": "TCL 43\" P6K 4K HDR TV તીવ્ર અલ્ટ્રા HD દૃશ્યો આપે છે HDR સપોર્ટ સાથે, જે તેજસ્વી હાઇલાઇટ્સ અને ઊંડો કોન્ટ્રાસ્ટ આપે છે. Google TV દ્વારા સંચાલિત, તે લોકપ્રિય એપ્સ, સ્ટ્રીમિંગ અને બિલ્ટ-ઇન વોઇસ એસિસ્ટન્ટ આપે છે — આકર્ષક અને પાતળા ડિઝાઇન સાથે."
     }
-    "images": ["front3.webp","front2.webp","fron.webp","back4.webp","side1.webp"]
+   
   },
   "50P755": {
     "brand": "TCL",
@@ -17,21 +18,22 @@
     "price": 42000,
     "sizeText": "55 inch (127 cm)",
     "installation": "Installation within 24–48 hours of delivery",
+     "images": ["f1.webp","f2.webp","f3.webp","b1.webp","s1.webp","s2.webp","t2.webp"],
     "description": {
       "en": "The TCL P755 4K QLED Google TV offers stunning picture quality with vibrant colors, 4K resolution, and HDR support. With Google TV, you get access to endless entertainment, apps, and built-in voice control — a premium big-screen experience at great value.",
-      "gu": "TCL P755 4K QLED Google TV તમને ઉજ્જવળ રંગો, 4K રિઝોલ્યુશન અને HDR સપોર્ટ સાથે ઉત્તમ પિક્ચર ગુણવત્તા આપે છે. Google TV સાથે, તમને અનંત મનોરંજન, એપ્સ અને બિલ્ટ-ઇન વોઇસ કંટ્રોલ મળે છે — મોટી સ્ક્રીન અનુભવ માટે શ્રેષ્ઠ પસંદગી."},
-    "images": ["f1.webp","f2.webp","f3.webp","b1.webp","s1.webp","s2.webp","t2.webp"]
-  }
+      "gu": "TCL P755 4K QLED Google TV તમને ઉજ્જવળ રંગો, 4K રિઝોલ્યુશન અને HDR સપોર્ટ સાથે ઉત્તમ પિક્ચર ગુણવત્તા આપે છે. Google TV સાથે, તમને અનંત મનોરંજન, એપ્સ અને બિલ્ટ-ઇન વોઇસ કંટ્રોલ મળે છે — મોટી સ્ક્રીન અનુભવ માટે શ્રેષ્ઠ પસંદગી."
+    }
+},
 "65P7K": {
     "brand": "TCL",
     "title": "TCL P7K QLED TV",
     "price": 50000,
     "sizeText": "65 inch (160.8 CM)",
+  "installation": "Installation within 24–48 hours of delivery",
     "images": ["f1.1.webp","f1.2.webp","f1.3.webp","b1.2.webp","b1.1.webp","s1.1.webp","s1.2webp","t1.1.webp"],
   "description": {
       "en": "The TCL P7K QLED Smart TV delivers crystal-clear 4K visuals, rich color accuracy, and deep contrast with QLED technology. Featuring smart Google TV functionality, built-in streaming apps, and voice control, it turns any room into your home theater.",
       "gu": "TCL P7K QLED Smart TV સ્પષ્ટ 4K દૃશ્યો, ઊંડા રુંગેનુ સુમેળ અને ગહન કોન્ટ્રાસ્ટ માટે QLED ટેક્નોલોજી આપે છે. Smart Google TV, બિલ્ટ-ઇન સ્ટ્રીમિંગ એપ્સ અને વોઇસ કંટ્રોલ સાથે, તે દરેક રૂમને તમારા ઘરનો થિયેટર બનાવી દે છે."
-    }
-    "installation": "Installation within 24–48 hours of delivery"
+    } 
   }
 }
