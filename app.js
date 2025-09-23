@@ -1,4 +1,4 @@
-// app.js - complete ready-to-paste
+000// app.js - complete ready-to-paste
 document.addEventListener('DOMContentLoaded', async () => {
 
   /* ---------- utilities ---------- */
@@ -239,6 +239,10 @@ document.addEventListener('DOMContentLoaded', async () => {
       en: product.installation ? `Installation time: ${product.installation}` : 'Installation information is not available.',
       gu: product.installation ? `ઇન્સ્ટોલેશન સમય: ${product.installation}` : 'ઇન્સ્ટોલેશનની માહિતી ઉપલબ્ધ નથી.' },
 
+    { q:/(\bdelivery|deliver|ship|shipping|dispatch|ડિલિવરી|ડિલિવર|મોકલવું|શિપમેન્ટ)/i,
+      en: product.delivery ? `Delivery time: ${product.delivery}` : 'Delivery information is not available.',
+      gu: product.delivery ? `ડિલિવરી સમય: ${product.delivery}` : 'ડિલિવરીની માહિતી ઉપલબ્ધ નથી.' },
+
     { q:/(\bfeature|features|spec|specs|વિશેષતા|લક્ષણ|ફીચર)/i,
       en: product.features ? `Features: ${product.features}` : 'Key features: 4K UHD/HDR, Google TV (smart), AiPQ upscaling, Dolby Audio, HDMI ports.',
       gu: product.features ? `લક્ષણો: ${product.features}` : 'મુખ્ય લક્ષણો: 4K UHD/HDR, Google TV, AiPQ અપસ્કેલિંગ, Dolby Audio, HDMI પોર્ટ્સ.' },
@@ -247,11 +251,11 @@ document.addEventListener('DOMContentLoaded', async () => {
       en: product.ports ? `Ports: ${product.ports}` : 'Includes multiple HDMI ports, USB, audio out and Ethernet (exact count varies by model).',
       gu: product.ports ? `પોર્ટ્સ: ${product.ports}` : 'ઘણા HDMI પોર્ટ, USB, ઓડિયો અને Ethernet — ચોક્કસ સંખ્યા મોડેલ માટે બદલાય છે.' },
 
-    { q:/(\bdescription|detail|describe|વિગત|વર્ણન)/i,
+    { q:/(\bdescription|detail|describe|વિગત|વર્ણન|description)/i,
       en: (product.description && product.description.en) ? product.description.en : 'Description not available.',
       gu: (product.description && product.description.gu) ? product.description.gu : 'વર્ણન ઉપલબ્ધ નથી.' },
 
-    { q:/(\badvantage|why buy|compare|benefit|ફાયદો)/i,
+    { q:/(\badvantage|why buy|compare|benefit|ફાયદો|પ્રોડક્ટના ફાયદા)/i,
       en: 'Advantages: great value, vivid 4K HDR colors, AiPQ upscaling and Google TV for apps & casting.',
       gu: 'લાભ: કિંમતના ભાગે ઉત્તમ, ઝવાળતા 4K HDR રંગો, AiPQ અપસ્કેલ અને Google TV માટે એપ્સ અને કાસ્ટિંગ.' },
 
