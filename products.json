@@ -1,16 +1,23 @@
-{
-  "43p6k": {
-    "id": "43p6k",
+[
+  {
+    "id": "43P6K",
+    "brand": "TCL",
     "title": "TCL 43\" P6K 4K HDR TV — 43P6K",
-    "price": 35000,
-    "sizeText": "43 inch (109 cm)",
+    "price": "₹65,000",
+    "size": "43 inch (109 cm)",
     "images": ["front3.webp","front2.webp","fron.webp","back4.webp","back5.webp","side1.webp","side2.webp","top.webp","more screen.webp"]
-  },
-  "55xmax": {
-    "id": "55xmax",
-    "title": "TCL 55\" XMax 4K",
-    "price": 65000,
-    "sizeText": "55 inch",
-    "images": ["xmax1.webp","xmax2.webp"]
+    ],
+    "lang": {
+      "en": {
+        "welcomeMic": "Welcome to Kalindi Tradelinks Pvt Ltd",
+        "assistantIntro": "Tap mic or type your question — answers in English and Gujarati."
+      },
+      "gu": {
+        "welcomeMic": "કાલિંદી પ્રા. લિ. માં આપનું સ્વાગત છે.",
+        "assistantIntro": "માઇક દબાવો અથવા લખો — જવાબ અંગ્રેજી અને ગુજરાતી માં મળશે."
+      }
+    }
   }
-}
+
+  /* add more product entries here, comma-separated */
+]
