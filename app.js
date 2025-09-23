@@ -21,12 +21,12 @@ document.addEventListener('DOMContentLoaded', async () => {
   }
 
   // load logo
-  const logoCandidates = ['assets/ktpl-new-logo.png','assets/ktpl-new-logo.jpg','assets/ktpl-new-logo.webp','assets/ktpl-new-logo.jpeg','assets/ktpl new logo.png'];
+  const logoCandidates = ['assets/ktpl-new-logo.png','assets/ktpl-new-logo.jpg','assets/ktpl-new-logo.webp','assets/ktpl-new-logo.jpeg','assets/ktpl new logo.png','assets/ktpl-new-logo.jpg'];
   const mainLogo = document.getElementById('mainLogo');
   tryLoadVariants(logoCandidates, mainLogo, true);
-  setTimeout(()=>{ if(!mainLogo.src){ mainLogo.style.display='none'; document.getElementById('logoFallback').style.display='flex' } }, 1400);
+  setTimeout(()=>{ if(!mainLogo.src){ mainLogo.style.display='none'; const fb = document.getElementById('logoFallback'); if(fb) fb.style.display='flex' } }, 1400);
 
-  // --- fetch and normalize products.json ---
+  // --- fetch and normalize products.json (works for array or object) ---
   let rawProducts = [];
   try {
     const res = await fetch('products.json', {cache: "no-store"});
@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     rawProducts = [];
   }
 
-  // normalize to object keyed by id (case-insensitive)
+  // normalize to object keyed by id (lowercase)
   const PRODUCTS = {};
   if (Array.isArray(rawProducts)) {
     rawProducts.forEach(p => {
@@ -52,14 +52,36 @@ document.addEventListener('DOMContentLoaded', async () => {
         brand: p.brand || '',
         title: p.title || p.id,
         price: price || 0,
-        sizeText: p.size || '',
+        sizeText: p.size || (p.sizeText || ''),
         images: p.images || [],
-        langs: p.langs || {}
+        lang: p.lang || p.langs || {}
       };
     });
+  } else if (rawProducts && typeof rawProducts === 'object') {
+    // object already - copy keys lowercased
+    Object.keys(rawProducts).forEach(k => {
+      const p = rawProducts[k];
+      const key = String(k).toLowerCase();
+      let price = p.price;
+      if (typeof price === 'string') {
+        const digits = price.replace(/[^\d]/g,'');
+        if (digits) price = Number(digits);
+      }
+      PRODUCTS[key] = {
+        id: p.id || k,
+        brand: p.brand || '',
+        title: p.title || p.id || k,
+        price: price || 0,
+        sizeText: p.size || (p.sizeText || ''),
+        images: p.images || [],
+        lang: p.lang || p.langs || {}
+      };
+    });
+  } else {
+    console.warn('products.json is empty or invalid');
   }
 
-  // --- get productId from URL ---
+  // --- get productId from URL (support ?product= or ?id=) ---
   const params = new URLSearchParams(location.search);
   const productParam = (params.get('product') || params.get('id') || '').toLowerCase();
 
@@ -70,14 +92,16 @@ document.addEventListener('DOMContentLoaded', async () => {
   }
 
   if(!product){
-    document.getElementById('prodTitle').textContent = 'Product not found';
-    document.getElementById('prodSize').textContent = '';
+    const t = document.getElementById('prodTitle');
+    if(t) t.textContent = 'Product not found';
+    const s = document.getElementById('prodSize');
+    if(s) s.textContent = '';
     return;
   }
 
   // --- populate DOM ---
   document.getElementById('prodTitle').textContent = product.title;
-  document.getElementById('prodSize').innerHTML = `${product.sizeText} • <span class="price-badge" id="priceBadge">₹${product.price.toLocaleString('en-IN')}</span>`;
+  document.getElementById('prodSize').innerHTML = `${product.sizeText || ''} • <span class="price-badge" id="priceBadge">₹${Number(product.price || 0).toLocaleString('en-IN')}</span>`;
 
   // --- build gallery ---
   const slidesEl = document.getElementById('slides');
@@ -94,7 +118,7 @@ document.addEventListener('DOMContentLoaded', async () => {
       'assets/' + base
     ];
   }
-  product.images.forEach(n=>{
+  (product.images || []).forEach(n=>{
     const img = document.createElement('img'); img.alt = product.title; img.loading='lazy';
     slidesEl.appendChild(img);
     tryLoadVariants(makeVariants(n), img);
@@ -114,8 +138,10 @@ document.addEventListener('DOMContentLoaded', async () => {
   }
   let idx = 0;
   function updateSlide(){ if(!slidesEl.children.length) return; slidesEl.style.transform = `translateX(${-idx*100}%)`; Array.from(dotsEl.children).forEach((d,i)=> d.classList.toggle('active', i===idx)); }
-  document.getElementById('prevBtn').addEventListener('click', ()=>{ if(!slidesEl.children.length) return; idx = (idx-1+slidesEl.children.length)%slidesEl.children.length; updateSlide(); });
-  document.getElementById('nextBtn').addEventListener('click', ()=>{ if(!slidesEl.children.length) return; idx = (idx+1)%slidesEl.children.length; updateSlide(); });
+  const prevBtn = document.getElementById('prevBtn');
+  const nextBtn = document.getElementById('nextBtn');
+  if(prevBtn) prevBtn.addEventListener('click', ()=>{ if(!slidesEl.children.length) return; idx = (idx-1+slidesEl.children.length)%slidesEl.children.length; updateSlide(); });
+  if(nextBtn) nextBtn.addEventListener('click', ()=>{ if(!slidesEl.children.length) return; idx = (idx+1)%slidesEl.children.length; updateSlide(); });
 
   setTimeout(()=>{ buildDots(); updateSlide(); }, 350);
 
@@ -137,14 +163,14 @@ document.addEventListener('DOMContentLoaded', async () => {
   function showPrev(){ if(slidesEl.children.length<=1) return; lbIndex = (lbIndex-1 + slidesEl.children.length) % slidesEl.children.length; lbImg.src = slidesEl.children[lbIndex].src; }
   function showNext(){ if(slidesEl.children.length<=1) return; lbIndex = (lbIndex+1) % slidesEl.children.length; lbImg.src = slidesEl.children[lbIndex].src; }
 
-  lbClose.addEventListener('click', closeLightbox);
-  lbPrev.addEventListener('click', showPrev);
-  lbNext.addEventListener('click', showNext);
-  lb.addEventListener('click', (e)=> { if(e.target === lb || e.target === lbImg) closeLightbox(); });
+  if(lbClose) lbClose.addEventListener('click', closeLightbox);
+  if(lbPrev) lbPrev.addEventListener('click', showPrev);
+  if(lbNext) lbNext.addEventListener('click', showNext);
+  if(lb) lb.addEventListener('click', (e)=> { if(e.target === lb || e.target === lbImg) closeLightbox(); });
 
   // --- CHAT assistant minimal prompts ---
   const PROMPTS = [
-    { q:/(\bprice\b|\bcost\b|₹|rupee|દામ|કિંમત|કિંમતો)/i, en:`The ${product.title} is priced at ₹${product.price.toLocaleString('en-IN')} in our showroom (approx). EMI & exchange options available in store.`, gu:`આ ${product.title} નો અંદાજિત ભાવ ₹${product.price.toLocaleString('en-IN')} છે. EMI અને એક્સચેન્જ સ્ટોર પર ઉપલબ્ધ છે.` },
+    { q:/(\bprice\b|\bcost\b|₹|rupee|દામ|કિંમત|કિંમતો)/i, en:`The ${product.title} is priced at ₹${Number(product.price || 0).toLocaleString('en-IN')} in our showroom (approx). EMI & exchange options available in store.`, gu:`આ ${product.title} નો અંદાજિત ભાવ ₹${Number(product.price || 0).toLocaleString('en-IN')} છે. EMI અને એક્સચેન્જ સ્ટોર પર ઉપલબ્ધ છે.` },
     { q:/(\bdimension|dimensions|size|height|width|depth|માપ|ઊંચાઈ|પહોળાઈ|ઊંડાઈ)/i, en:'Typical dimensions (with stand): W 83.8 cm × H 60.4 cm × D 18.45 cm.', gu:'સ્ટૅન્ડ સાથે માપ આશરે: પહોળાઈ 83.8 સેમી × ઊંચાઈ 60.4 સેમી × ઊંડાઈ 18.45 સેમી.' },
     { q:/.*/, en:'Sorry — please ask about price, dimensions, features, display, ports, power or warranty.', gu:'માફ કરો — કૃપા કરીને કિંમત, માપ, લક્ષણો, ડિસ્પ્લે અથવા વોરંટી વિશે પૂછો.' }
   ];
@@ -156,8 +182,139 @@ document.addEventListener('DOMContentLoaded', async () => {
   // --- language selection ---
   const langSelect = document.getElementById('langSelect');
   let lang = localStorage.getItem('ktpl_lang') || 'en';
-  langSelect.value = lang;
-  langSelect.addEventListener('change', ()=> { lang = langSelect.value || 'en'; localStorage.setItem('ktpl_lang', lang); document.getElementById('panelSub').textContent = (lang==='en'?'Tap mic or type your question':'માઇક દબાવો અથવા લખો'); });
+  if(langSelect) langSelect.value = lang;
+  if(langSelect) langSelect.addEventListener('change', ()=> { lang = langSelect.value || 'en'; localStorage.setItem('ktpl_lang', lang); const ps = document.getElementById('panelSub'); if(ps) ps.textContent = (lang==='en'?'Tap mic or type your question':'માઇક દબાવો અથવા લખો'); });
 
-  // (rest of your chat + mic + speak code stays unchanged)
+  // panel open/close + messaging
+  const panel = document.getElementById('panel');
+  const messagesEl = document.getElementById('messages');
+  const inputBox = document.getElementById('inputBox');
+  const sendBtn = document.getElementById('sendBtn');
+  const micBtn = document.getElementById('micBtn');
+
+  function openPanel(){ if(panel){ panel.style.display='flex'; panel.setAttribute('aria-hidden','false'); setTimeout(()=> { if(inputBox) inputBox.focus(); if(messagesEl) messagesEl.scrollTop = messagesEl.scrollHeight; }, 120); } }
+  function closePanel(){ if(panel){ panel.style.display='none'; panel.setAttribute('aria-hidden','true'); deactivateListeningUI(); } }
+  const closePanelBtn = document.getElementById('closePanel');
+  if(closePanelBtn) closePanelBtn.addEventListener('click', closePanel);
+  const askBtn = document.getElementById('askBtn');
+  const assistBtn = document.getElementById('assistBtn');
+  if(askBtn) askBtn.addEventListener('click', ()=>{ openPanel(); if(inputBox) inputBox.focus(); });
+  if(assistBtn) assistBtn.addEventListener('click', ()=>{ openPanel(); setTimeout(()=> { if(micBtn) micBtn.click(); },220); });
+
+  function pushMessage(text, who='bot'){
+    if(!text) return;
+    if(!messagesEl) return;
+    const el = document.createElement('div'); el.className = 'bubble ' + (who==='user' ? 'user' : 'bot'); el.textContent = text;
+    messagesEl.appendChild(el); messagesEl.scrollTop = messagesEl.scrollHeight;
+  }
+
+  if(sendBtn){
+    sendBtn.addEventListener('click', function(){
+      const v = inputBox && inputBox.value && inputBox.value.trim();
+      if(!v) return;
+      if(inputBox) inputBox.value = '';
+      pushMessage(v,'user');
+      const ans = findAnswer(v, lang);
+      setTimeout(()=> { pushMessage(ans,'bot'); speak(ans); }, 160);
+    });
+  }
+  if(inputBox){
+    inputBox.addEventListener('keydown', function(e){ if(e.key === 'Enter'){ e.preventDefault(); if(sendBtn) sendBtn.click(); } });
+  }
+
+  // SpeechRecognition + TTS
+  let recognition = null, listening=false;
+  function activateListeningUI(){ const lbanner = document.getElementById('listeningBanner'); if(lbanner){ lbanner.style.display='flex'; lbanner.classList.add('active'); } const ltxt = document.getElementById('listeningText'); if(ltxt) ltxt.textContent = (lang==='en'?'Listening...':'સુનાઈ રહ્યું છે...'); const ps = document.getElementById('panelSub'); if(ps) ps.textContent = (ltxt && ltxt.textContent) || (lang==='en'?'Listening...':'સુનાઈ રહ્યું છે...'); }
+  function deactivateListeningUI(){ const lbanner = document.getElementById('listeningBanner'); if(lbanner){ lbanner.classList.remove('active'); lbanner.style.display='none'; } const ps = document.getElementById('panelSub'); if(ps) ps.textContent = (lang==='en'?'Tap mic or type your question':'માઇક દબાવો અથવા لکھો'); }
+
+  if(window.SpeechRecognition || window.webkitSpeechRecognition){
+    recognition = new (window.SpeechRecognition || window.webkitSpeechRecognition)();
+    recognition.interimResults = false; recognition.maxAlternatives = 1;
+    recognition.onstart = function(){ listening=true; activateListeningUI(); if(micBtn) { micBtn.textContent='●'; micBtn.style.transform='scale(1.03)'; micBtn.style.boxShadow='0 8px 28px rgba(255,122,90,0.12)'; } };
+    recognition.onresult = function(e){
+      const txt = (e.results && e.results[0] && e.results[0][0] && e.results[0][0].transcript) || '';
+      if(txt){
+        pushMessage(txt,'user');
+        const ans = findAnswer(txt, lang);
+        setTimeout(()=> { pushMessage(ans,'bot'); speak(ans); }, 160);
+      }
+    };
+    recognition.onend = function(){ listening=false; deactivateListeningUI(); if(micBtn){ micBtn.textContent='🎤'; micBtn.style.transform=''; micBtn.style.boxShadow=''; } };
+    recognition.onerror = function(){ listening=false; deactivateListeningUI(); if(micBtn){ micBtn.textContent='🎤'; micBtn.style.transform=''; micBtn.style.boxShadow=''; } };
+  }
+
+  // mic click: speak welcome then start recognition (localized)
+  if(micBtn){
+    micBtn.addEventListener('click', async function(){
+      if(!('speechSynthesis' in window) && !(window.SpeechRecognition || window.webkitSpeechRecognition)){
+        alert(lang === 'en' ? 'Speech recognition and TTS not supported in this browser.' : 'આ બ્રાઉઝર માં સ્પીચ અને ટેક્સ્ટ-ટુ-સ્પીચ સપોર્ટ નથી.');
+        return;
+      }
+      const welcomeText = (lang === 'en')
+        ? `Welcome to Kalindi Tradelinks Private Limited. How can I help you about the ${product.title}?`
+        : `કાલિંદી ટ્રેડલિન્ક્સ પ્રા. લિ. માં આપનું સ્વાગત છે. હું ${product.title} વિશે કેવી રીતે મદદ કરી શકું?`;
+
+      if('speechSynthesis' in window){
+        try { window.speechSynthesis.cancel(); } catch(e){}
+        const utter = new SpeechSynthesisUtterance(welcomeText);
+        utter.lang = (lang === 'en' ? 'en-IN' : 'gu-IN');
+        try {
+          const voices = window.speechSynthesis.getVoices();
+          if(voices && voices.length){
+            const pref = voices.find(v => v.lang && v.lang.toLowerCase().startsWith(lang === 'en' ? 'en' : 'gu'));
+            if(pref) utter.voice = pref;
+          }
+        } catch(e){}
+        utter.onstart = function(){ openPanel(); activateListeningUI(); };
+        utter.onend = function(){
+          if(window.SpeechRecognition || window.webkitSpeechRecognition){
+            try { recognition.lang = (lang === 'en' ? 'en-IN' : 'gu-IN'); recognition.start(); } catch(e) {}
+          } else {
+            pushMessage(lang==='en' ? 'Speech recognition not supported in this browser.' : 'આ બ્રાઉઝર માં સ્પીચ રેકોગ્નિશન સપોર્ટ નથી.', 'bot');
+          }
+        };
+        try { window.speechSynthesis.speak(utter); } catch(e){ if(window.SpeechRecognition || window.webkitSpeechRecognition){ try{ recognition.start(); }catch(e){} } }
+      } else {
+        if(!recognition){ alert(lang==='en' ? 'Speech recognition not supported in this browser.' : 'આ બ્રાઉઝર માં સ્પીચ રેકોગ્નિશન સપોર્ટ નથી.'); return; }
+        try { recognition.lang = (lang === 'en' ? 'en-IN' : 'gu-IN'); recognition.start(); } catch(e){}
+      }
+    });
+  }
+
+  // speak function
+  function speak(text){
+    if(!('speechSynthesis' in window)) return;
+    try{
+      const u = new SpeechSynthesisUtterance(text);
+      u.lang = (lang === 'en' ? 'en-IN' : 'gu-IN');
+      try {
+        const voices = speechSynthesis.getVoices();
+        if(voices && voices.length){
+          const pref = voices.find(v => v.lang && v.lang.toLowerCase().startsWith(lang === 'en' ? 'en' : 'gu'));
+          if(pref) u.voice = pref;
+        }
+      } catch(e){}
+      window.speechSynthesis.cancel();
+      window.speechSynthesis.speak(u);
+    }catch(e){}
+  }
+
+  // keyboard handling for mobile (keep composer visible)
+  const panelEl = document.getElementById('panel');
+  if(window.visualViewport){
+    let lastH = window.visualViewport.height;
+    window.visualViewport.addEventListener('resize', ()=> {
+      const vh = window.visualViewport.height;
+      const dh = window.innerHeight - vh;
+      if(vh < lastH - 50) panelEl.style.transform = `translateY(-${dh}px)`;
+      else panelEl.style.transform = '';
+      lastH = vh;
+      setTimeout(()=>{ if(messagesEl) messagesEl.scrollTop = messagesEl.scrollHeight; },200);
+    });
+    if(inputBox) inputBox.addEventListener('focus', ()=> setTimeout(()=> { panelEl.style.transform=''; if(messagesEl) messagesEl.scrollTop = messagesEl.scrollHeight; },200));
+  }
+
+  // show initial tip message
+  setTimeout(()=> pushMessage(lang==='en' ? `Hello — tap Product Assistant for voice or Ask Me to type a question about ${product.title}.` : `હેલો — અવાજ માટે Product Assistant દબાવો અથવા ${product.title} વિશે પ્રશ્ન પૂછવા માટે લખો.`), 400);
+
 });
