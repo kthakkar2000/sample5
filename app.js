@@ -169,30 +169,49 @@ document.addEventListener('DOMContentLoaded', async () => {
   if(lb) lb.addEventListener('click', (e)=> { if(e.target === lb || e.target === lbImg) closeLightbox(); });
 
   // --- CHAT assistant minimal prompts ---
-  const PROMPTS = [
-  { q:/(\bprice\b|\bcost\b|₹|rupee|દામ|કિંમત|કિંમતો)/i, 
-    en:`The ${product.title} is priced at ₹${Number(product.price || 0).toLocaleString('en-IN')} in our showroom (approx). EMI & exchange options available in store.`, 
-    gu:`આ ${product.title} નો અંદાજિત ભાવ ₹${Number(product.price || 0).toLocaleString('en-IN')} છે. EMI અને એક્સચેન્જ સ્ટોર પર ઉપલબ્ધ છે.` },
+  // --- CHAT assistant prompts (replace your old PROMPTS array with this) ---
+const PROMPTS = [
+  {
+    // price
+    q: /(\bprice\b|\bcost\b|₹|rupee|દામ|કિંમત|કિંમતો)/i,
+    en: `The ${product.title} is priced at ₹${Number(product.price || 0).toLocaleString('en-IN')} in our showroom (approx). EMI & exchange options available in store.`,
+    gu: `આ ${product.title} નો અંદાજિત ભાવ ₹${Number(product.price || 0).toLocaleString('en-IN')} છે. EMI અને એક્સચેન્જ સ્ટોર પર ઉપલબ્ધ છે.`
+  },
 
-  { q:/(\bdimension|dimensions|size|height|width|depth|માપ|ઊંચાઈ|પહોળાઈ|ઊંડાઈ)/i, 
-    en: product.dimensions ? `Dimensions: ${product.dimensions}` : 'Dimensions information is not available.', 
-    gu: product.dimensions ? `માપ: ${product.dimensions}` : 'માપની માહિતી ઉપલબ્ધ નથી.' },
+  {
+    // dimensions / size
+    q: /(\bdimension|dimensions|size|height|width|depth|માપ|ઊંચાઈ|પહોળાઈ|ઊંડાઈ)/i,
+    en: product.sizeText ? `Size: ${product.sizeText}.` : 'Dimensions information is not available.',
+    gu: product.sizeText ? `સાઇઝ: ${product.sizeText}.` : 'માપની માહિતી ઉપલબ્ધ નથી.'
+  },
 
-  { q:/(\bwarranty|guarantee|વોરંટી|ગારંટી)/i, 
-    en: product.warranty ? `Warranty: ${product.warranty}` : 'Warranty details are not available.', 
-    gu: product.warranty ? `વોરંટી: ${product.warranty}` : 'વોરંટીની માહિતી ઉપલબ્ધ નથી.' },
+  {
+    // warranty
+    q: /(\bwarranty|guarantee|service|વોરંટી|સરવિસ|ગેરન્ટી)/i,
+    en: product.warranty ? `Warranty: ${product.warranty}` : 'Warranty details are not available.',
+    gu: product.warranty ? `વોરંટી: ${product.warranty}` : 'વોરંટી માહિતી ઉપલબ્ધ નથી.'
+  },
 
-  { q:/(\bdescription|detail|વિગત|ડિટેઈલ)/i, 
-    en: product.description ? product.description : 'Description not available.', 
-    gu: product.description ? product.description : 'વર્ણન ઉપલબ્ધ નથી.' },
+  {
+    // description (supports en / gu)
+    q: /(\bdescription\b|detail|about|વિવરણ|વર્ણન|ડિટેઇલ)/i,
+    en: (product.description && product.description.en) ? product.description.en : 'Description not available.',
+    gu: (product.description && product.description.gu) ? product.description.gu : 'વર્ણન ઉપલબ્ધ નથી.'
+  },
 
-  { q:/(\binstall|installation|setup|fit|ફિટિંગ|ઇન્સ્ટોલેશન)/i, 
-    en: product.installation ? `Installation time: ${product.installation}` : 'Installation info not available.', 
-    gu: product.installation ? `ઇન્સ્ટોલેશન સમય: ${product.installation}` : 'ઇન્સ્ટોલેશનની માહિતી ઉપલબ્ધ નથી.' },
+  {
+    // installation / setup / fit
+    q: /(\binstall|installation|setup|fit|ઇન્સ્ટોલ|સ્થાપન|સેટઅપ)/i,
+    en: product.installation ? `Installation: ${product.installation}` : 'Installation info not available.',
+    gu: product.installation ? `ઇન્સ્ટોલેશન: ${product.installation}` : 'ઇન્સ્ટોલેશનની માહિતી ઉપલબ્ધ નથી.'
+  },
 
-  { q:/.*/, 
-    en:'Sorry — please ask about price, dimensions, warranty, description, or installation.', 
-    gu:'માફ કરો — કૃપા કરીને કિંમત, માપ, વોરંટી, વર્ણન અથવા ઇન્સ્ટોલેશન વિશે પૂછો.' }
+  {
+    // fallback catch-all
+    q: /.*/,
+    en: 'Sorry — please ask about price, dimensions, warranty, description, installation, or ports.',
+    gu: 'માફ કરો — કૃપા કરીને કિંમત, માપ, વોરંટી, વર્ણન, ઇન્સ્ટોલેશન અથવા પોર્ટ્સ વિશે પૂછો.'
+  }
 ];
 
   function findAnswer(text, lang='en'){
