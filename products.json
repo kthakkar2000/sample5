@@ -93,5 +93,182 @@
     "en": "The TCL 32\" S4K QLED TV brings brilliant picture quality in a compact size. With 4K HDR support, vibrant colors, and smart Google TV features, it’s perfect for smaller spaces without compromising entertainment.",
     "gu": "TCL 32\" S4K QLED TV નાના કદમાં ઉત્તમ ચિત્ર ગુણવત્તા આપે છે. 4K HDR સપોર્ટ, તેજસ્વી રંગો અને Smart Google TV ફીચર્સ સાથે, તે નાના રૂમ માટે મનોરંજનનો શ્રેષ્ઠ અનુભવ આપે છે."
   }
+},
+  "WYBOR_WSAC18310XES2VM_IDU": {
+    "brand": "WYBOR",
+    "title": "WYBOR 1.5TR 3 STAR INV WSAC18310XES2VM (IDU)",
+    "category": "AC - Indoor Unit",
+    "size": "1.5 TR",
+    "energy_rating": "3 Star",
+    "price": null,
+    "currency": "INR",
+    "installation": null,
+    "warranty": null,
+    "images": ["WYB1.JPG","WYB2.JPG","WYB3.JPG","WYB4.JPG","WYB5.JPG"],
+"description": {
+  "en":
+  "gu":
 }
+  },
+  "WYBOR_WSAC20319RVFM_IDU": {
+    "brand": "WYBOR",
+    "title": "WYBOR 1.6TR 3 STAR SPLIT WSAC20319RVFM (IDU)",
+    "category": "AC - Indoor Unit",
+    "size": "1.6 TR",
+    "energy_rating": "3 Star",
+    "price": null,
+    "currency": "INR",
+    "installation": "Installation within 24–48 hours of delivery",
+    "warranty": null,
+    "images": [],
+"description": {
+  "en":
+  "gu":
+}
+  },
+  "CARRIER_CAL19IN3R35F1_IDU": {
+    "brand": "CARRIER",
+    "title": "CARRIER 1.6TR 3 STAR INDU SFXI CAL19IN3R35F1 - IDU",
+    "category": "AC - Indoor Unit",
+    "size": "1.6 TR",
+    "energy_rating": "3 Star",
+    "price": null,
+    "currency": "INR",
+    "installation": "Installation within 24–48 hours of delivery",
+    "warranty": null,
+    "images": [],
+"description": {
+  "en":
+  "gu":
+}
+  },
+  "CARRIER_XPERT_EDGE_FXI_IDU": {
+    "brand": "CARRIER",
+    "title": "CARRIER 1.5TR 3 STAR INV XPERT EDGE FXI (IDU)",
+    "category": "AC - Indoor Unit",
+    "size": "1.5 TR",
+    "energy_rating": "3 Star",
+    "price": null,
+    "currency": "INR",
+    "installation": "Installation within 24–48 hours of delivery",
+    "warranty": null,
+    "images": [],
+"description": {
+  "en":
+  "gu":
+}
+  },
+  "TCL_AC_12CSD_EV3F_IDU": {
+    "brand": "TCL",
+    "title": "TCL 1TR INV 3 STAR AC-12CSD/EV3F - IDU",
+    "category": "AC - Indoor Unit",
+    "size": "1.0 TR",
+    "energy_rating": "3 Star",
+    "price": null,
+    "currency": "INR",
+    "installation": "Installation within 24–48 hours of delivery",
+    "warranty": null,
+    "images": [],
+"description": {
+  "en":
+  "gu":
+}
+  },
+  "TCL_18CSD_EV3F_IDU": {
+    "brand": "TCL",
+    "title": "TCL 1.5 TR 3 STAR INV 18CSD/EV3F - IDU",
+    "category": "AC - Indoor Unit",
+    "size": "1.5 TR",
+    "energy_rating": "3 Star",
+    "price": null,
+    "currency": "INR",
+      "installation": "Installation within 24–48 hours of delivery",
+    "warranty": null,
+    "images": [],
+"description": {
+  "en":
+  "gu":
+}
+  },
+  "TCL_22CSD_EV3GL_IDU": {
+    "brand": "TCL",
+    "title": "TCL 2 TR 3 STAR INV 22CSD/EV3GL - IDU",
+    "category": "AC - Indoor Unit",
+    "size": "2.0 TR",
+    "energy_rating": "3 Star",
+    "price": null,
+    "currency": "INR",
+     "installation": "Installation within 24–48 hours of delivery",
+    "warranty": null,
+    "images": [],
+"description": {
+  "en":
+  "gu":
+}
+  },
+  "MIDEA_SANTIS_NEO_DLX_IDU": {
+    "brand": "MIDEA",
+    "title": "MIDEA 1 TR 3 STAR INVERTER SANTIS NEO+ DLX (IDU)",
+    "category": "AC - Indoor Unit",
+    "size": "1.0 TR",
+    "energy_rating": "3 Star",
+    "price": null,
+    "currency": "INR",
+     "installation": "Installation within 24–48 hours of delivery",
+    "warranty": null,
+    "images": [],
+"description": {
+  "en":
+  "gu":
+}
+  },
+  "MIDEA_SANTIS_NEO_DLX_1_5TR_IDU": {
+    "brand": "MIDEA",
+    "title": "MIDEA 1.5TR 3 STAR INVERTER SANTIS NEO+ DLX (IDU)",
+    "category": "AC - Indoor Unit",
+    "size": "1.5 TR",
+    "energy_rating": "3 Star",
+    "price": null,
+    "currency": "INR",
+    "installation": "Installation within 24–48 hours of delivery",
+    "warranty": null,
+    "images": [],
+"description": {
+  "en":
+  "gu":
+}
+  },
+  "LLOYD_GLS18I3KOESR_IDU": {
+    "brand": "LLOYD",
+    "title": "LLOYD 1.5TR 3 STAR INV GLS18I3KOESR - IDU",
+    "category": "AC - Indoor Unit",
+    "size": "1.5 TR",
+    "energy_rating": "3 Star",
+    "price": null,
+    "currency": "INR",
+    "installation": null,
+    "warranty": null,
+    "images": [],
+"description": {
+  "en":
+  "gu":
+}
+  },
+  "LLOYD_GLS1913KOASF_SET": {
+    "brand": "LLOYD",
+    "title": "LLOYD 1.6TR 3 STAR INV GLS1913KOASF - SET",
+    "category": "AC - Split AC Set",
+    "size": "1.6 TR",
+    "energy_rating": "3 Star",
+    "price": null,
+    "currency": "INR",
+    "installation": "Installation within 24–48 hours of delivery",
+    "warranty": null,
+    "images": [],
+"description": {
+  "en":
+  "gu":
+  }
+}
+
 }
