@@ -18,5 +18,23 @@
     }
   }
 
-  /* add more product entries here, comma-separated */
-]
+   {
+    "id": "50P755",
+    "brand": "TCL",
+    "title": "TCL P755 4K QLED Google TV",
+    "price": "₹65,000",
+    "size": "50 inch (127 cm)",
+    "images": ["front3.webp","front2.webp","fron.webp","back4.webp","back5.webp","side1.webp","side2.webp","top.webp","more screen.webp"]
+    "lang": {
+      "en": {
+        "welcomeMic": "Welcome to Kalindi Tradelinks Pvt Ltd",
+        "assistantIntro": "Tap mic or type your question — answers in English and Gujarati."
+      },
+      "gu": {
+        "welcomeMic": "કાલિંદી પ્રા. લિ. માં આપનું સ્વાગત છે.",
+        "assistantIntro": "માઇક દબાવો અથવા લખો — જવાબ અંગ્રેજી અને ગુજરાતી માં મળશે."
+      }
+    }
+  }
+
+  ]
