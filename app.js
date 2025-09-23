@@ -170,6 +170,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
   // --- CHAT assistant minimal prompts ---
   // --- CHAT assistant prompts (replace your old PROMPTS array with this) ---
+// --- CHAT assistant prompts (replace your old PROMPTS array with this) ---
 const PROMPTS = [
   {
     // price
@@ -213,6 +214,7 @@ const PROMPTS = [
     gu: 'માફ કરો — કૃપા કરીને કિંમત, માપ, વોરંટી, વર્ણન, ઇન્સ્ટોલેશન અથવા પોર્ટ્સ વિશે પૂછો.'
   }
 ];
+
 
   function findAnswer(text, lang='en'){
     for(const p of PROMPTS) if(p.q.test(text)) return (lang === 'en' ? p.en : p.gu);
