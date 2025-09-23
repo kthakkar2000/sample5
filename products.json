@@ -1,40 +1,16 @@
-[
-  {
-    "id": "43P6K",
+{
+  "43P6K": {
     "brand": "TCL",
     "title": "TCL 43\" P6K 4K HDR TV — 43P6K",
-    "price": "₹45,000",
-    "size": "43 inch (109 cm)",
-    "images": ["front3.webp","front2.webp","fron.webp","back4.webp","back5.webp","side1.webp","side2.webp","top.webp","more screen.webp"]
-    "lang": {
-      "en": {
-        "welcomeMic": "Welcome to Kalindi Tradelinks Pvt Ltd",
-        "assistantIntro": "Tap mic or type your question — answers in English and Gujarati."
-      },
-      "gu": {
-        "welcomeMic": "કાલિંદી પ્રા. લિ. માં આપનું સ્વાગત છે.",
-        "assistantIntro": "માઇક દબાવો અથવા લખો — જવાબ અંગ્રેજી અને ગુજરાતી માં મળશે."
-      }
-    }
-  }
-
-   {
-    "id": "50P755",
+    "price": 35000,
+    "sizeText": "43 inch (109 cm)",
+    "images": ["front3.webp","front2.webp","fron.webp","back4.webp","side1.webp"]
+  },
+  "50P755": {
     "brand": "TCL",
     "title": "TCL P755 4K QLED Google TV",
-    "price": "₹55,000",
-    "size": "50 inch (127 cm)",
-    "images": ["f1.webp","f2.webp","f3.webp","b1.webp","s1.webp","s2.webp","t2.web"]
-    "lang": {
-      "en": {
-        "welcomeMic": "Welcome to Kalindi Tradelinks Pvt Ltd",
-        "assistantIntro": "Tap mic or type your question — answers in English and Gujarati."
-      },
-      "gu": {
-        "welcomeMic": "કાલિંદી પ્રા. લિ. માં આપનું સ્વાગત છે.",
-        "assistantIntro": "માઇક દબાવો અથવા લખો — જવાબ અંગ્રેજી અને ગુજરાતી માં મળશે."
-      }
-    }
+    "price": 55000,
+    "sizeText": "50 inch (127 cm)",
+    "images": ["f1.webp","f2.webp","f3.webp","b1.webp","s1.webp","s2.webp","t2.webp"]
   }
-
-  ]
+}
