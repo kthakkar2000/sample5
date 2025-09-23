@@ -170,10 +170,31 @@ document.addEventListener('DOMContentLoaded', async () => {
 
   // --- CHAT assistant minimal prompts ---
   const PROMPTS = [
-    { q:/(\bprice\b|\bcost\b|₹|rupee|દામ|કિંમત|કિંમતો)/i, en:`The ${product.title} is priced at ₹${Number(product.price || 0).toLocaleString('en-IN')} in our showroom (approx). EMI & exchange options available in store.`, gu:`આ ${product.title} નો અંદાજિત ભાવ ₹${Number(product.price || 0).toLocaleString('en-IN')} છે. EMI અને એક્સચેન્જ સ્ટોર પર ઉપલબ્ધ છે.` },
-    { q:/(\bdimension|dimensions|size|height|width|depth|માપ|ઊંચાઈ|પહોળાઈ|ઊંડાઈ)/i, en:'Typical dimensions (with stand): W 83.8 cm × H 60.4 cm × D 18.45 cm.', gu:'સ્ટૅન્ડ સાથે માપ આશરે: પહોળાઈ 83.8 સેમી × ઊંચાઈ 60.4 સેમી × ઊંડાઈ 18.45 સેમી.' },
-    { q:/.*/, en:'Sorry — please ask about price, dimensions, features, display, ports, power or warranty.', gu:'માફ કરો — કૃપા કરીને કિંમત, માપ, લક્ષણો, ડિસ્પ્લે અથવા વોરંટી વિશે પૂછો.' }
-  ];
+  { q:/(\bprice\b|\bcost\b|₹|rupee|દામ|કિંમત|કિંમતો)/i, 
+    en:`The ${product.title} is priced at ₹${Number(product.price || 0).toLocaleString('en-IN')} in our showroom (approx). EMI & exchange options available in store.`, 
+    gu:`આ ${product.title} નો અંદાજિત ભાવ ₹${Number(product.price || 0).toLocaleString('en-IN')} છે. EMI અને એક્સચેન્જ સ્ટોર પર ઉપલબ્ધ છે.` },
+
+  { q:/(\bdimension|dimensions|size|height|width|depth|માપ|ઊંચાઈ|પહોળાઈ|ઊંડાઈ)/i, 
+    en: product.dimensions ? `Dimensions: ${product.dimensions}` : 'Dimensions information is not available.', 
+    gu: product.dimensions ? `માપ: ${product.dimensions}` : 'માપની માહિતી ઉપલબ્ધ નથી.' },
+
+  { q:/(\bwarranty|guarantee|વોરંટી|ગારંટી)/i, 
+    en: product.warranty ? `Warranty: ${product.warranty}` : 'Warranty details are not available.', 
+    gu: product.warranty ? `વોરંટી: ${product.warranty}` : 'વોરંટીની માહિતી ઉપલબ્ધ નથી.' },
+
+  { q:/(\bdescription|detail|વિગત|ડિટેઈલ)/i, 
+    en: product.description ? product.description : 'Description not available.', 
+    gu: product.description ? product.description : 'વર્ણન ઉપલબ્ધ નથી.' },
+
+  { q:/(\binstall|installation|setup|fit|ફિટિંગ|ઇન્સ્ટોલેશન)/i, 
+    en: product.installation ? `Installation time: ${product.installation}` : 'Installation info not available.', 
+    gu: product.installation ? `ઇન્સ્ટોલેશન સમય: ${product.installation}` : 'ઇન્સ્ટોલેશનની માહિતી ઉપલબ્ધ નથી.' },
+
+  { q:/.*/, 
+    en:'Sorry — please ask about price, dimensions, warranty, description, or installation.', 
+    gu:'માફ કરો — કૃપા કરીને કિંમત, માપ, વોરંટી, વર્ણન અથવા ઇન્સ્ટોલેશન વિશે પૂછો.' }
+];
+
   function findAnswer(text, lang='en'){
     for(const p of PROMPTS) if(p.q.test(text)) return (lang === 'en' ? p.en : p.gu);
     return (lang === 'en' ? PROMPTS[PROMPTS.length-1].en : PROMPTS[PROMPTS.length-1].gu);
@@ -252,7 +273,7 @@ document.addEventListener('DOMContentLoaded', async () => {
       }
       const welcomeText = (lang === 'en')
         ? `Welcome to Kalindi Tradelinks Private Limited. How can I help you about the ${product.title}?`
-        : `કાલિંદી ટ્રેડલિન્ક્સ પ્રા. લિ. માં આપનું સ્વાગત છે. હું ${product.title} વિશે કેવી રીતે મદદ કરી શકું?`;
+        : `કાલિંદી ટ્રેડલિન્ક્સ પ્રાઇવેટ લિમિટેડ માં આપનું સ્વાગત છે. હું ${product.title} વિશે કેવી રીતે મદદ કરી શકું?`;
 
       if('speechSynthesis' in window){
         try { window.speechSynthesis.cancel(); } catch(e){}
