@@ -9,14 +9,14 @@
   "50P755": {
     "brand": "TCL",
     "title": "TCL P755 4K QLED Google TV",
-    "price": 55000,
+    "price": 42000,
     "sizeText": "50 inch (127 cm)",
     "images": ["f1.webp","f2.webp","f3.webp","b1.webp","s1.webp","s2.webp","t2.webp"]
   }
 "65P7K": {
     "brand": "TCL",
     "title": "TCL P7K QLED TV",
-    "price": 55000,
+    "price": 50000,
     "sizeText": "65 inch (160.8 CM)",
     "images": ["f1.1.webp","f1.2.webp","f1.3.webp","b1.2.webp","b1.1.webp","s1.1.webp","s1.2webp","t1.1.webp"]
   }
