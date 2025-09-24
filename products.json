@@ -294,6 +294,43 @@
       "gu": "WYBOR 1.5 ટન 3 સ્ટાર ઇન્વર્ટર સ્પ્લિટ એસી (WSAC18310XES2VM) ઇન્વર્ટર કાર્યક્ષમતાથી અસરકારક ઠંડક, ઓછો અવાજ અને ઊર્જા બચત આપે છે. મધ્યમ કદના રૂમ માટે ડિઝાઇન, જેમાં સ્વચ્છ હવા માટે મલ્ટી-સ્ટેજ ફિલ્ટ્રેશન છે અને આધુનિક ડિઝાઇન છે."
     }
   },
+  
+  "HAIER_HRF_2902_240L": {
+    "brand": "Haier",
+    "title": "Haier HRF-2902 240 Litres 2 Star Frost Free Double Door Refrigerator with Stabilizer Free Operation (HRF-2902IEBS-P, Brushline Silver)",
+    "category": "Refrigerator - Double Door",
+    "capacity": "240 Litres",
+    "energy_rating": "2 Star",
+    "type": "Frost Free",
+    "doors": 2,
+    "ideal_for": "Family size of 3",
+    "features": [
+      "Flat Door with Chrome Strip",
+      "Cool Pad",
+      "Turbo Icing",
+      "Stabilizer Free Operation"
+    ]
+    "warranty": {
+      "product": "2 Years"
+    }
+    "price": null,
+    "currency": "INR",
+    "delivery": "Estimated delivery within 5–7 business days",
+    "installation": "Installation provided as per brand policy",
+    "images": [
+      "hrf1.webp",
+      "hrf2.webp",
+      "hrf3.webp",
+      "hrf4.webp",
+      "hrf5.webp",
+      "hrf6.webp"
+    ]
+    "description": {
+      "en": "The Haier HRF-2902 is a 240L, 2 Star frost-free double door refrigerator designed for small families. With Turbo Icing, a stabilizer-free operation, and a stylish Brushline Silver finish, it ensures efficient cooling and durability.",
+      "gu": "Haier HRF-2902 એ 240 લિટર, 2 સ્ટાર ફ્રોસ્ટ ફ્રી ડબલ ડોર રેફ્રિજરેટર છે, જે નાના પરિવાર માટે યોગ્ય છે. તેમાં ટર્બો આઇસિંગ, સ્ટેબિલાઇઝર-ફ્રી ઓપરેશન અને આકર્ષક બ્રશલાઇન સિલ્વર ડિઝાઇન છે, જે અસરકારક ઠંડક અને ટકાઉપણું સુનિશ્ચિત કરે છે."
+    }
+  },
+
   "WYBOR_AC_2": {
     "brand": "WYBOR",
     "title": "WYBOR 1.5TR 3 STAR SPLIT WSAC20319RVFM (IDU)",
@@ -576,6 +613,45 @@
       "gu": "Lloyd 1.5 ટન 3 સ્ટાર ઇન્વર્ટર સ્પ્લિટ એસી (GLS18I3KOESR) ઇન્વર્ટર ટેક્નોલોજી, ઓછો અવાજ અને પર્યાવરણમિત્ર રેફ્રિજરન્ટ સાથે મધ્યમ રૂમ માટે કાર્યક્ષમ ઠંડક આપે છે."
     }
   },
+  {
+  "IFB_TL701MG1": {
+    "brand": "IFB",
+    "title": "IFB DeepClean® 7 kg Top Load Washing Machine with ActivMix",
+    "model": "TL701MG1",
+    "category": "Washing Machine - Top Load",
+    "capacity": "7 kg",
+    "rating": {
+      "value": 4.75,
+      "count": 49
+    },
+    "features": [
+      "Powered by Ai",
+      "Soft Close Door",
+      "360° Bi-Axial Rotation",
+      "ActivMix Technology"
+    ],
+    "price": {
+      "offer_price": "₹21,490",
+      "currency": "INR"
+    },
+    "warranty": {
+      "product_warranty": "2 Years on Product",
+      "motor_warranty": "10 Years Motor Warranty",
+      "spares_support": "10 Years Spare Part Support"
+    },
+    "images": [
+      "tl7011.avif",
+      "tl7012.avif",
+      "tl7013.avif",
+      "tl7014.avif",
+      "tl7015.avif"
+    ],
+    "description": {
+      "en": "The IFB DeepClean® 7 kg Top Load Washing Machine with ActivMix delivers efficient cleaning with advanced 360° Bi-Axial Rotation, a soft close door for safety, and AI-powered wash programs for smart fabric care. Perfect for small to medium families.",
+      "gu": "IFB DeepClean® 7 kg ટોપ લોડ વોશિંગ મશીન ActivMix સાથે કાર્યક્ષમ ધોવાણ આપે છે. તેમાં 360° બાય-એક્સિયલ રોટેશન, સલામતી માટે સોફ્ટ ક્લોઝ ડોર અને સ્માર્ટ ફેબ્રિક કેર માટે AI-સંચાલિત વોશ પ્રોગ્રામ્સ છે. નાની અને મધ્યમ કુટુંબો માટે ઉત્તમ પસંદગી."
+    }
+  },
+
   "LLOYD_GLS1913KOASF_SET": {
     "brand": "LLOYD",
     "title": "LLOYD 1.5TR 3 STAR INV GLS1913KOASF - SET",
