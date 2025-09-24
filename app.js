@@ -1,4 +1,4 @@
-// app.js - complete ready-to-paste
+// app.js - complete ready-to-paste (use with index.html from your project)
 document.addEventListener('DOMContentLoaded', async () => {
 
   /* ---------- utilities ---------- */
@@ -36,13 +36,15 @@ document.addEventListener('DOMContentLoaded', async () => {
 
   /* ---------- load logo (try variants) ---------- */
   const mainLogo = document.getElementById('mainLogo');
-  tryLoadVariants(['assets/ktpl-new-logo.png','assets/ktpl-new-logo.jpg','assets/ktpl-new-logo.webp','assets/ktpl new logo.png','ktpl-new-logo.png'], mainLogo, true);
-  setTimeout(()=> {
-    if (!mainLogo.src) {
-      const fb = document.getElementById('logoFallback');
-      if (fb) fb.style.display='flex';
-    }
-  }, 1200);
+  if (mainLogo) {
+    tryLoadVariants(['assets/ktpl-new-logo.png','assets/ktpl-new-logo.jpg','assets/ktpl-new-logo.webp','assets/ktpl new logo.png','ktpl-new-logo.png'], mainLogo, true);
+    setTimeout(()=> {
+      if (!mainLogo.src) {
+        const fb = document.getElementById('logoFallback');
+        if (fb) fb.style.display='flex';
+      }
+    }, 1200);
+  }
 
   /* ---------- load products.json ---------- */
   let PRODUCTS = {};
@@ -54,7 +56,6 @@ document.addEventListener('DOMContentLoaded', async () => {
     console.error('Failed to load products.json:', err);
     PRODUCTS = {};
   }
-  // console.log('Loaded PRODUCTS:', PRODUCTS);
 
   /* ---------- choose product (case-insensitive) ---------- */
   const params = new URLSearchParams(location.search);
@@ -78,18 +79,22 @@ document.addEventListener('DOMContentLoaded', async () => {
   console.log('Product object =>', product);
 
   if (!product) {
-    document.getElementById('prodTitle').textContent = 'Product not found';
-    document.getElementById('prodSize').textContent = '';
+    const t = document.getElementById('prodTitle');
+    if (t) t.textContent = 'Product not found';
+    const s = document.getElementById('prodSize');
+    if (s) s.textContent = '';
     return;
   }
 
   /* ---------- populate basic DOM ---------- */
-  document.getElementById('prodTitle').textContent = product.title || 'Unnamed product';
-  document.getElementById('prodSize').innerHTML = `${product.sizeText || ''} • <span class="price-badge" id="priceBadge">₹${Number(product.price || 0).toLocaleString('en-IN')}</span>`;
+  const prodTitleEl = document.getElementById('prodTitle');
+  const prodSizeEl = document.getElementById('prodSize');
+  if (prodTitleEl) prodTitleEl.textContent = product.title || 'Unnamed product';
+  if (prodSizeEl) prodSizeEl.innerHTML = `${product.sizeText || ''} • <span class="price-badge" id="priceBadge">₹${Number(product.price || 0).toLocaleString('en-IN')}</span>`;
 
   /* ---------- build gallery ---------- */
   const slidesEl = document.getElementById('slides');
-  slidesEl.innerHTML = '';
+  if (slidesEl) slidesEl.innerHTML = '';
   const gallery = [];
 
   (product.images || []).forEach(fname => {
@@ -106,6 +111,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   const dotsEl = document.getElementById('dots');
   let idx = 0;
   function buildDots(){
+    if (!dotsEl) return;
     dotsEl.innerHTML = '';
     for (let i=0;i<slidesEl.children.length;i++){
       const d = document.createElement('div'); d.className = 'dot' + (i===0 ? ' active' : '');
@@ -117,7 +123,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   function updateSlide(){
     if (!slidesEl.children.length) return;
     slidesEl.style.transform = `translateX(${-idx*100}%)`;
-    Array.from(dotsEl.children).forEach((d,i)=> d.classList.toggle('active', i===idx));
+    if (dotsEl) Array.from(dotsEl.children).forEach((d,i)=> d.classList.toggle('active', i===idx));
   }
   const prevBtn = document.getElementById('prevBtn');
   const nextBtn = document.getElementById('nextBtn');
@@ -156,18 +162,16 @@ document.addEventListener('DOMContentLoaded', async () => {
     lbIndex = i || 0;
     const src = slidesEl.children[lbIndex] && slidesEl.children[lbIndex].src;
     if (!src) return;
-    lbImg.src = src;
-    lb.style.display = 'flex';
-    lb.setAttribute('aria-hidden','false');
-    document.body.style.overflow = 'hidden';
+    if (lbImg) lbImg.src = src;
+    if (lb) { lb.style.display = 'flex'; lb.setAttribute('aria-hidden','false'); document.body.style.overflow = 'hidden'; }
     zoomed = false;
-    lbImg.style.transform = 'translate(0,0) scale(1)';
-    lbPrev.style.display = gallery.length > 1 ? 'block' : 'none';
-    lbNext.style.display = gallery.length > 1 ? 'block' : 'none';
+    if (lbImg) lbImg.style.transform = 'translate(0,0) scale(1)';
+    if (lbPrev) lbPrev.style.display = gallery.length > 1 ? 'block' : 'none';
+    if (lbNext) lbNext.style.display = gallery.length > 1 ? 'block' : 'none';
   }
-  function closeLightbox(){ lb.style.display = 'none'; lb.setAttribute('aria-hidden','true'); document.body.style.overflow = ''; }
-  function showPrev(){ if (slidesEl.children.length <= 1) return; lbIndex = (lbIndex-1 + slidesEl.children.length) % slidesEl.children.length; lbImg.src = slidesEl.children[lbIndex].src; zoomed=false; lbImg.style.transform='translate(0,0) scale(1)'; }
-  function showNext(){ if (slidesEl.children.length <= 1) return; lbIndex = (lbIndex+1) % slidesEl.children.length; lbImg.src = slidesEl.children[lbIndex].src; zoomed=false; lbImg.style.transform='translate(0,0) scale(1)'; }
+  function closeLightbox(){ if (lb) { lb.style.display = 'none'; lb.setAttribute('aria-hidden','true'); document.body.style.overflow = ''; } }
+  function showPrev(){ if (slidesEl.children.length <= 1) return; lbIndex = (lbIndex-1 + slidesEl.children.length) % slidesEl.children.length; if (lbImg) lbImg.src = slidesEl.children[lbIndex].src; zoomed=false; if (lbImg) lbImg.style.transform='translate(0,0) scale(1)'; }
+  function showNext(){ if (slidesEl.children.length <= 1) return; lbIndex = (lbIndex+1) % slidesEl.children.length; if (lbImg) lbImg.src = slidesEl.children[lbIndex].src; zoomed=false; if (lbImg) lbImg.style.transform='translate(0,0) scale(1)'; }
 
   if (lbClose) lbClose.addEventListener('click', closeLightbox);
   if (lbPrev) lbPrev.addEventListener('click', showPrev);
@@ -206,7 +210,6 @@ document.addEventListener('DOMContentLoaded', async () => {
         const ny = e.touches[0].clientY;
         const dx = nx - lastX;
         const dy = ny - lastY;
-        // parse current translate
         const cur = lbImg.style.transform || 'translate(0,0) scale(1)';
         const m = cur.match(/translate\((-?\d+(?:\.\d+)?)px,(-?\d+(?:\.\d+)?)px\)/);
         let tx = 0, ty = 0;
@@ -221,8 +224,8 @@ document.addEventListener('DOMContentLoaded', async () => {
     lbImg.addEventListener('dblclick', ()=> toggleZoom());
   }
   function toggleZoom(){
-    if (!zoomed){ lbImg.style.transform='translate(0,0) scale(2)'; zoomed = true; }
-    else { lbImg.style.transform='translate(0,0) scale(1)'; zoomed = false; }
+    if (!zoomed){ if (lbImg) lbImg.style.transform='translate(0,0) scale(2)'; zoomed = true; }
+    else { if (lbImg) lbImg.style.transform='translate(0,0) scale(1)'; zoomed = false; }
   }
 
   /* ---------- CHAT assistant / PROMPTS ---------- */
@@ -249,7 +252,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     { q:/(\bfeature|features|spec|specs|વિશેષતા|લક્ષણ|ફીચર)/i,
       en: product.features ? `Features: ${product.features}` : 'Key features: 4K UHD/HDR, Google TV (smart), AiPQ upscaling, Dolby Audio, HDMI ports.',
-      gu: product.features ? `લક્ષણો: ${product.features}` : 'મુಖ್ಯ લક્ષણો: 4K UHD/HDR, Google TV, AiPQ અપસ્કેલિંગ, Dolby Audio, HDMI પોર્ટ્સ.' },
+      gu: product.features ? `લક્ષણો: ${product.features}` : 'મુખ્ય લક્ષણો: 4K UHD/HDR, Google TV, AiPQ અપસ્કેલિંગ, Dolby Audio, HDMI પોર્ટ્સ.' },
 
     { q:/(\bport|ports|hdmi|usb|ethernet|audio|પોર્ટ)/i,
       en: product.ports ? `Ports: ${product.ports}` : 'Includes multiple HDMI ports, USB, audio out and Ethernet (exact count varies by model).',
@@ -267,7 +270,7 @@ document.addEventListener('DOMContentLoaded', async () => {
       en: 'Typical power usage ~70–110W while operating; standby <0.5W. Exact numbers depend on settings.',
       gu: 'સામાન્ય વીજ-ઉપયોગ ~70–110W; સ્ટેન્ડબાય <0.5W. ચોક્કસ સંખ્યાઓ સેટિંગ્સ પર નિર્ભર છે.' },
 
-    { q:/(\breview|reviews|rating|customer feedback|પ્રતિસાદ|સમીક્ષા)/i,
+    { q:/(\breview|reviews|rating|customer feedback|પ્રતિસાદ|સમીक्षा)/i,
       en: 'Common feedback: strong picture quality for the price, reliable Google TV experience. Peak brightness moderate in very bright rooms.',
       gu: 'ગ્રાહકો કહે છે: કિંમત માટે સારી તસવીર ગુણવત્તા અને વિશ્વસનીય Google TV અનુભવ; ખૂબ તેજ રૂમમાં પીક બ્રાઇટનેસ સામાન્ય.' },
 
@@ -302,7 +305,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   const sendBtn = document.getElementById('sendBtn');
   const micBtn = document.getElementById('micBtn');
 
-  function openPanel(){ if (panel) { panel.style.display = 'flex'; panel.setAttribute('aria-hidden','false'); setTimeout(()=> { if (inputBox) { inputBox.focus(); messagesEl.scrollTop = messagesEl.scrollHeight; } }, 120); } }
+  function openPanel(){ if (panel) { panel.style.display = 'flex'; panel.setAttribute('aria-hidden','false'); setTimeout(()=> { if (inputBox) { inputBox.focus(); if (messagesEl) messagesEl.scrollTop = messagesEl.scrollHeight; } }, 120); } }
   function closePanel(){ if (panel) { panel.style.display = 'none'; panel.setAttribute('aria-hidden','true'); deactivateListeningUI(); } }
   const closePanelBtn = document.getElementById('closePanel');
   const askBtn = document.getElementById('askBtn');
@@ -353,40 +356,70 @@ document.addEventListener('DOMContentLoaded', async () => {
     recognition.onerror = function(){ listening = false; deactivateListeningUI(); if (micBtn) { micBtn.textContent='🎤'; micBtn.style.transform=''; micBtn.style.boxShadow=''; } };
   }
 
-  // mic click: speak welcome then start recognition
+  // mic click: speak welcome then start recognition (only once per session per product)
   if (micBtn) micBtn.addEventListener('click', async function(){
     if (!('speechSynthesis' in window) && !(window.SpeechRecognition || window.webkitSpeechRecognition)){
       alert(lang === 'en' ? 'Speech recognition and TTS not supported in this browser.' : 'આ બ્રાઉઝર માં સ્પીચ અને ટેક્સ્ટ-ટુ-સ્પીચ સપોર્ટ નથી.');
       return;
     }
 
+    const welcomeKey = 'ktpl_welcome_spoken_' + (productKey || 'default');
+    const alreadySpoken = sessionStorage.getItem(welcomeKey) === '1';
+
     const welcomeText = (lang === 'en')
       ? `Welcome to Kalindi Tradelinks Private Limited. How can I help you about the ${product.title}?`
       : `કાલિન્દી ટ્રેડલિંક્સ પ્રાયવેટ લિમિટેડમાં આપનું સ્વાગત છે. હું ${product.title} વિશે કેવી રીતે મદદ કરી શકું?`;
 
-    if ('speechSynthesis' in window){
+    function startRecognition() {
+      if (window.SpeechRecognition || window.webkitSpeechRecognition) {
+        try { recognition.lang = (lang === 'en' ? 'en-IN' : 'gu-IN'); recognition.start(); } catch(e){ /* ignore */ }
+      } else {
+        pushMessage(lang === 'en' ? 'Speech recognition not supported in this browser.' : 'આ બ્રાઉઝર માં સ્પીચ રેકોગ્નિશન સપોર્ટ નથી.', 'bot');
+      }
+    }
+
+    // if welcome already played earlier in this session — skip TTS and start recognition immediately
+    if (alreadySpoken) {
+      openPanel();
+      setTimeout(() => startRecognition(), 180);
+      return;
+    }
+
+    // speak welcome once then start recognition
+    if ('speechSynthesis' in window) {
       try { window.speechSynthesis.cancel(); } catch(e){}
       const utter = new SpeechSynthesisUtterance(welcomeText);
       utter.lang = (lang === 'en' ? 'en-IN' : 'gu-IN');
+
       try {
         const voices = window.speechSynthesis.getVoices();
-        if (voices && voices.length){
+        if (voices && voices.length) {
           const pref = voices.find(v => v.lang && v.lang.toLowerCase().startsWith(lang === 'en' ? 'en' : 'gu'));
           if (pref) utter.voice = pref;
         }
-      } catch(e){ }
-      utter.onstart = function(){ openPanel(); activateListeningUI(); };
-      utter.onend = function(){
-        if (window.SpeechRecognition || window.webkitSpeechRecognition){
-          try { recognition.lang = (lang === 'en' ? 'en-IN' : 'gu-IN'); recognition.start(); } catch(e) {}
-        } else {
-          pushMessage(lang === 'en' ? 'Speech recognition not supported in this browser.' : 'આ બ્રાઉઝર માં સ્પીચ રેકોગ્નિશન સપોર્ટ નથી.', 'bot');
-        }
+      } catch(e){ /* ignore */ }
+
+      utter.onstart = function(){
+        sessionStorage.setItem(welcomeKey, '1'); // mark as spoken
+        openPanel();
+        activateListeningUI();
       };
-      try { window.speechSynthesis.speak(utter); } catch(e){ if (window.SpeechRecognition || window.webkitSpeechRecognition) { recognition.start(); } }
+
+      utter.onend = function(){
+        startRecognition();
+      };
+
+      try {
+        window.speechSynthesis.speak(utter);
+      } catch(e){
+        // fallback if speak fails
+        startRecognition();
+        sessionStorage.setItem(welcomeKey, '1');
+      }
     } else {
-      if (!recognition){ alert(lang === 'en' ? 'Speech recognition not supported in this browser.' : 'આ બ્રાઉઝર માં સ્પીચ રેકોગ્નિશન સપોર્ટ નથી.'); return; }
-      try { recognition.lang = (lang === 'en' ? 'en-IN' : 'gu-IN'); recognition.start(); } catch(e){}
+      sessionStorage.setItem(welcomeKey, '1');
+      openPanel();
+      setTimeout(()=> startRecognition(), 120);
     }
   });
 
@@ -423,9 +456,20 @@ document.addEventListener('DOMContentLoaded', async () => {
       setTimeout(()=>{ if (messagesEl) messagesEl.scrollTop = messagesEl.scrollHeight; },200);
     });
     if (inputBox) inputBox.addEventListener('focus', ()=> setTimeout(()=> { panelEl.style.transform=''; if (messagesEl) messagesEl.scrollTop = messagesEl.scrollHeight; },200));
+  } else {
+    // fallback resize handling
+    let lastInner = window.innerHeight;
+    window.addEventListener('resize', ()=> {
+      const now = window.innerHeight;
+      if (now < lastInner - 80 && panelEl) panelEl.style.transform = 'translateY(-160px)';
+      else if (panelEl) panelEl.style.transform = '';
+      lastInner = now;
+    });
   }
 
   // show initial tip message
-  setTimeout(()=> pushMessage(lang==='en' ? `Hello — tap Product Assistant for voice or Ask Me to type a question about ${product.title}.` : `હેલો — અવાજ માટે Product Assistant દબાવો અથવા ${product.title} વિશે પૂછવા માટે લખો.`), 400);
+  setTimeout(()=> {
+    pushMessage(lang==='en' ? `Hello — tap Product Assistant for voice or Ask Me to type a question about ${product.title}.` : `હેલો — અવાજ માટે Product Assistant દબાવો અથવા ${product.title} વિશે પૂછવા માટે લખો.`);
+  }, 400);
 
-});
+}); // DOMContentLoaded end
