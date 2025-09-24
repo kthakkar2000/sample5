@@ -120,7 +120,7 @@
     ],
     "description": {
       "en": "The Haier 596L 3-Star Side by Side Refrigerator (HES-690) comes with 100% convertible fridge space, expert inverter technology, and a stylish shiny steel finish. It features Deo Fresh Technology for longer-lasting freshness, a digital display panel for easy control, and a twist ice tray for convenience. With stabilizer-free operation and energy-efficient performance, it’s an ideal choice for modern Indian homes.",
-      "gu": "Haier 596L 3-સ્ટાર સાઈડ બાય સાઈડ ફ્રિજ (HES-690) 100% કન્વર્ટિબલ ફ્રિજ સ્પેસ, એક્સપર્ટ ઇન્વર્ટર ટેકનોલોજી અને સ્ટાઇલિશ સ્ટીલ ફિનિશ સાથે આવે છે. તેમાં લાંબા સમય સુધી તાજગી માટે ડિયો ફ્રેશ ટેકનોલોજી, સરળ નિયંત્રણ માટે ડિજિટલ ડિસ્પ્લે પેનલ અને સુવિધાજનક ટ્વિસ્ટ આઈસ ટ્રે છે. સ્ટેબિલાઈઝર-ફ્રી ઓપરેશન અને એનર્જી-એફિશિયન્ટ પરફોર્મન્સ સાથે, આ આધુનિક ભારતીય ઘરો માટે આદર્શ પસંદગી છે."
+      "gu": "Haier 596L 3-સ્ટાર સાઈડ બાય સાઈડ ફ્રિજ (HES-690) 100% કન્વર્ટિબલ ફ્રિજ સ્પેસ, એક્સપર્ટ ઇન્વર્ટર ટેકનોલોજી અને સ્ટાઇલિશ સ્ટીલ ફિનિશ સાથે આવે છે. તેમાં લાંબા સમય સુધી તાજગી માટે ડિયો ફ્રેશ ટેકનોલોજી, સરળ નિયંત્રણ માટે ડિજિટલ ડિસ્પ્લે પેનલ અને સુવિધાજનક ટ્વિસ્ટ આઈસ ટ્રે છે. સ્ટેબિલાઈઝર-ફ્રી ઓપરેશન અને એનર્જી-એફિશિએન્ટ પરફોર્મન્સ સાથે, આ આધુનિક ભારતીય ઘરો માટે આદર્શ પસંદગી છે."
     }
   },
   "65P7K": {
@@ -141,7 +141,7 @@
     ],
     "description": {
       "en": "The TCL P7K QLED Smart TV delivers crystal-clear 4K visuals, rich color accuracy, and deep contrast with QLED technology. Featuring smart Google TV functionality, built-in streaming apps, and voice control, it turns any room into your home theater.",
-      "gu": "TCL P7K QLED Smart TV સ્પષ્ટ 4K દૃશ્યો, ઊંડા રુંગેનુ સુમેળ અને ગહન કોન્ટ્રાસ્ટ માટે QLED ટેક્નોલોજી આપે છે. Smart Google TV, બિલ્ટ-ઇન સ્ટ્રીમિંગ એપ્સ અને વોઇસ કંટ્રોલ સાથે, તે દરેક રૂમને તમારા گھرનો થિયેટર બની શકે છે."
+      "gu": "TCL P7K QLED Smart TV સ્પષ્ટ 4K દૃશ્યો, ઊંડા રુંગેનુ સુમેળ અને ગહન કોન્ટ્રાસ્ટ માટે QLED ટેક્નોલોજી આપે છે. Smart Google TV, બિલ્ટ-ઇન સ્ટ્રીમિંગ એપ્સ અને વોઇસ કંટ્રોલ સાથે, તે દરેક રૂમને вашего ઘરનો થિયેટર બનાવી શકે છે."
     }
   },
   "IFB_SERENA_MMW_7012C": {
@@ -335,8 +335,8 @@
       "reviews": 24
     },
     "price": {
-      "offer_price": ₹44,080,
-      "discount": "12% off",
+      "offer_price": 44080,
+      "discount": "12% off"
     },
     "warranty": {
       "motor": "10 Years",
@@ -353,7 +353,7 @@
     "description": {
       "short": "A premium 9 kg front load washing machine with AI-powered cleaning, Steam Refresh, Eco Inverter Motor and Time Saver function for efficient washing.",
       "en": "The IFB Executive MSN 9014K CMS is a 9 kg front load washing machine designed with DeepClean® technology and powered by AI for optimized wash cycles. It comes with Steam Refresh, Eco Inverter Motor, and Time Saver feature for efficient and hygienic cleaning.",
-      "gu": "IFB Executive MSN 9014K CMS એ 9 કિલો ક્ષમતા વાળું ફ્રન્ટ લોડ વોશિંગ મશીન છે જેમાં DeepClean® ટેક્નોલોજી, AI દ્વારા સંચાલિત, સ્ટીમ રિફ્રેશ, ઇકો ઇન્વर्टર મોટર અને સમય બચાવનારી સુવિધા છે."
+      "gu": "IFB Executive MSN 9014K CMS એ 9 કિલો ક્ષમતા વાળું ફ્રન્ટ લોડ વોશિંગ મશીન છે જેમાં DeepClean® ટેક્નોલોજી, AI દ્વારા સંચાલિત, સ્ટીમ રિફ્રેશ, ઇકો ઇન્વર્ટર મોટર અને સમય બચાવનારી સુવિધા છે."
     }
   },
   "CARRIER_XPERT_EDGE_FXI_IDU": {
@@ -411,9 +411,9 @@
     ],
     "rating": 4.75,
     "reviews_count": 4,
-    "offer_price": ₹44,990,
+    "offer_price": 44990,
     "discount": "25% off",
-    "mrp": "₹59,990 (Incl. of all taxes)",
+    "mrp": 59990,
     "currency": "INR",
     "delivery": "Estimated delivery within 5–7 business days",
     "warranty": "4 Years Comprehensive Warranty + 10 Years Motor Warranty + 10 Years Spare Part Support",
@@ -480,7 +480,7 @@
       "ActivMix Technology"
     ],
     "price": {
-      "offer_price": ₹21,490,
+      "offer_price": 21490,
       "currency": "INR"
     },
     "warranty": {
