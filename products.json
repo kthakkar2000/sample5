@@ -12,7 +12,6 @@
       "gu": "TCL 43\" P6K 4K HDR TV માં તેજ અને સમૃદ્ધ કન્ટ્રાસ્ટ સાથે ઉચ્ચ ગુણવત્તાવાળી ચિત્ર પ્રદર્શન મળે છે."
     }
   },
-  {
   "HRT-683KGU1": {
     "title": "Haier 598L 3 Door Black Glass Convertible SBS Refrigerator",
     "model": "HRT-683KGU1",
@@ -27,7 +26,7 @@
     "description": {
       "en": "Haier 598L 3 Door Convertible SBS Refrigerator with 83% fridge space, premium glass finish, inverter compressor, Wi-Fi enabled smart control, and Deo Fresh Technology for lasting freshness.",
       "gu": "હાયર 598 લીટર 3 ડોર કન્વર્ટિબલ SBS ફ્રિજ 83% ફ્રિજ જગ્યા, પ્રીમિયમ ગ્લાસ ફિનિશ, ઇન્વર્ટર કોમ્પ્રેસર, Wi-Fi સ્માર્ટ કન્ટ્રોલ અને ડિઓ ફ્રેશ ટેકનોલોજી સાથે લાંબા સમય સુધી તાજગી જાળવે છે."
-    },
+    }
     "dimensions": "1775 mm (H) × 905 mm (W) × 697 mm (D)",
     "installation": "Stabilizer-free operation, easy setup at delivery",
     "delivery": "Typically delivered in 3–7 business days",
@@ -55,7 +54,6 @@
       "gu": "TCL P755 4K QLED Google TV તમને ઉજ્જવળ રંગો, 4K રિઝોલ્યુશન અને HDR સપોર્ટ સાથે ઉત્તમ પિક્ચર ગુણવત્તા આપે છે. Google TV સાથે, તમને અનંત મનોરંજન, એપ્સ અને બિલ્ટ-ઇન વોઇસ કંટ્રોલ મળે છે — મોટી સ્ક્રીન અનુભવ માટે શ્રેષ્ઠ પસંદગી."
     }
   },
-  {
   "HAIER_HES_690": {
     "brand": "Haier",
     "title": "Haier 596L 3-Star 2 Door Side by Side Frost Free Refrigerator (HES-690)",
@@ -75,7 +73,7 @@
       "Twist Ice Tray",
       "Stabilizer Free Operation",
       "Toughened Glass Shelves"
-    ],
+    ]
     "technical_details": {
       "annual_energy_consumption": "518 kWh/year",
       "refrigerator_capacity": "392 Litres",
@@ -89,14 +87,14 @@
       "door_material": "Stainless Steel",
       "country_of_origin": "India",
       "manufacturer": "Haier Appliances India Pvt Ltd."
-    },
+    }
     "installation_type": "Freestanding",
     "warranty": "2 Years on Product, 10 Years on Compressor",
     "included_components": [
       "1 Refrigerator Unit",
       "User Manual",
       "Warranty Card"
-    ],
+    ]
     "images": [
       "hes690.jpg",
       "hes6901.jpg",
@@ -105,7 +103,7 @@
       "hes6904.jpg",
       "hes6905.jpg",
       "hes6907.jpg"
-    ],
+    ]
     "description": {
       "en": "The Haier 596L 3-Star Side by Side Refrigerator (HES-690) comes with 100% convertible fridge space, expert inverter technology, and a stylish shiny steel finish. It features Deo Fresh Technology for longer-lasting freshness, a digital display panel for easy control, and a twist ice tray for convenience. With stabilizer-free operation and energy-efficient performance, it’s an ideal choice for modern Indian homes.",
       "gu": "Haier 596L 3-સ્ટાર સાઈડ બાય સાઈડ ફ્રિજ (HES-690) 100% કન્વર્ટિબલ ફ્રિજ સ્પેસ, એક્સપર્ટ ઇન્વર્ટર ટેકનોલોજી અને સ્ટાઇલિશ સ્ટીલ ફિનિશ સાથે આવે છે. તેમાં લાંબા સમય સુધી તાજગી માટે ડિયો ફ્રેશ ટેકનોલોજી, સરળ નિયંત્રણ માટે ડિજિટલ ડિસ્પ્લે પેનલ અને સુવિધાજનક ટ્વિસ્ટ આઈસ ટ્રે છે. સ્ટેબિલાઈઝર-ફ્રી ઓપરેશન અને એનર્જી-એફિશિયન્ટ પરફોર્મન્સ સાથે, આ આધુનિક ભારતીય ઘરો માટે આદર્શ પસંદગી છે."
@@ -123,7 +121,7 @@
       "gu": "TCL P7K QLED Smart TV સ્પષ્ટ 4K દૃશ્યો, ઊંડા રુંગેનુ સુમેળ અને ગહન કોન્ટ્રાસ્ટ માટે QLED ટેક્નોલોજી આપે છે. Smart Google TV, બિલ્ટ-ઇન સ્ટ્રીમિંગ એપ્સ અને વોઇસ કંટ્રોલ સાથે, તે દરેક રૂમને તમારા گھرનો થિયેટર બની શકે છે."
     }
   },
-  {
+  
   "IFB_SERENA_MMW_7012C": {
     "brand": "IFB",
     "title": "IFB 7Kg Front Load Washing Machine - Serena MMW 7012C",
@@ -137,7 +135,7 @@
       "depth_mm": 518,
       "height_mm": 875,
       "door_diameter_mm": 320
-    },
+    }
     "weight": "66 Kg",
     "color": "Mocha Brown",
     "warranty": "4 Years Super Warranty + 10 Years Motor Warranty + 10 Years Spare Parts Support",
@@ -149,7 +147,7 @@
       "Clip Ring",
       "Screw Fitting",
       "Protective Rat Mesh Cover"
-    ],
+    ]
     "delivery": "Estimated delivery within 5–7 business days",
     "installation": "Installation within 24–48 hours of delivery",
     "images": [
@@ -161,7 +159,7 @@
       "7012c6.png",
       "7012c7.png",
       "7012c9.webp"
-    ],
+    ]
     "description": {
       "en": "The IFB Serena MMW 7012C is a premium 7kg front load washing machine with 1200 RPM spin speed, AI-powered wash optimization, Eco Inverter technology, and multiple wash programs for different fabrics. It features Express 30-minute quick wash, CradleWash for delicate clothes, and advanced hygiene with steam wash. Comes with a stylish Mocha Brown finish, digital display, and 4 years machine warranty with 10 years motor and spare parts support.",
       "gu": "IFB Serena MMW 7012C એક પ્રીમિયમ 7kg ફ્રન્ટ લોડ વોશિંગ મશીન છે, જેમાં 1200 RPM સ્પિન સ્પીડ, AI પાવર્ડ વોશ ઓપ્ટિમાઇઝેશન, ઇકો ઇન્વર્ટર ટેક્નોલોજી અને વિવિધ ફેબ્રિક માટે મલ્ટિપલ વોશ પ્રોગ્રામ્સ છે. તેમાં 30 મિનિટની ક્વિક વોશ, નાજુક કપડાં માટે CradleWash અને સ્ટીમ વોશ દ્વારા હાઇજીન સુવિધા છે. આકર્ષક મોચા બ્રાઉન ફિનિશ, ડિજિટલ ડિસ્પ્લે સાથે આવે છે અને 4 વર્ષની મશીન વોરંટી તથા 10 વર્ષની મોટર અને સ્પેર પાર્ટ્સ સપોર્ટ સાથે ઉપલબ્ધ છે."
@@ -181,6 +179,79 @@
       "gu": "TCL 75\" P6K 4K HDR TV વિશાળ 4K અલ્ટ્રા HD ડિસ્પ્લે અને HDR સપોર્ટ સાથે અદ્ભુત સિનેમેટિક અનુભવ આપે છે. Google TV દ્વારા સંચાલિત, તે એપ્સ અને બિલ્ટ-ઇન વોઇસ કંટ્રોલ પ્રદાન કરે છે."
     }
   },
+  "IFB_TLSIBS_10KG_AQUA": {
+    "brand": "IFB",
+    "title": "IFB DeepClean® 10 kg Top Load Washing Machine with Power Steam® and In-built Heater",
+    "model": "TL-SIBS 10.0KG AQUA",
+    "category": "Washing Machine - Top Load",
+    "capacity": "10 kg",
+    "rating": 4.8,
+    "reviews": 49,
+    "features": [
+      "Powered by Ai",
+      "Soft Close Door",
+      "ActivMix",
+      "Power Steam®",
+      "In-built Heater"
+    ]
+    "price_offer": 37453,
+    "discount": "12% off",
+    "mrp": 42560,
+    "currency": "INR",
+    "description": {
+      "en": "The IFB TL-SIBS 10.0KG AQUA is a powerful top load washing machine with a 10 kg capacity, designed with AI technology for efficient performance. It comes with Power Steam® for deep cleaning, an in-built heater for hygienic washes, ActivMix for even detergent distribution, and a soft close door for ease of use.",
+      "gu": "IFB TL-SIBS 10.0KG AQUA એક 10 કિલો ક્ષમતા ધરાવતી ટોપ લોડ વોશિંગ મશીન છે, જે AI ટેક્નોલોજી સાથે કાર્યક્ષમ ધોવાણ માટે ડિઝાઇન કરવામાં આવી છે. તેમાં Power Steam® ઊંડાણપૂર્વકની સફાઈ માટે, હાઇજીનિક ધોવાણ માટે ઇન-બિલ્ટ હીટર, ActivMix સમાન ડિટર્જન્ટ વિતરણ માટે અને સોફ્ટ ક્લોઝ ડોર સરળ વપરાશ માટે છે."
+    }
+    "warranty": {
+      "machine": "4 Years",
+      "motor": "10 Years",
+      "spares": "10 Years"
+    }
+    "images": [
+      "tl1.avif",
+      "tl2.avif",
+      "tl3.avif",
+      "tl4.avif",
+      "tl5.avif"
+    ]
+  },
+
+
+  "IFBWM8KG":{
+  "product": "IFB DeepClean® 8 kg Front Load Washing Machine",
+  "model": "Senator BXN 8012K CMS",
+  "brand": "IFB",
+  "capacity": "8 kg",
+  "motor_type": "Eco Inverter Motor",
+  "features": [
+    "Powered by AI",
+    "Steam Refresh",
+    "Warm Soak",
+    "DeepClean® Technology"
+  ]
+  "ratings": {
+    "average_rating": 4.95,
+    "total_reviews": 41
+  }
+  "warranty": {
+    "motor": "10 Years",
+    "machine": "4 Years",
+    "spares_support": "10 Years"
+  }
+  "images": [
+    "bxn1.avif",
+    "bxn2.avif",
+    "bxn3.avif",
+    "bxn4.avif",
+    "bxn5.avif",
+    "bxn6.webp",
+    "bxn7.webp",
+    "bxn8.webp",
+    "bxn9.webp"
+  ]
+  "net_quantity": "1 Unit"
+},
+
   "43P7K": {
     "brand": "TCL",
     "title": "TCL 43\" P7K QLED TV — 43P7K",
@@ -257,6 +328,48 @@
       "gu": "Carrier 1.5 ટન 3 સ્ટાર ઇન્વર્ટર સ્પ્લિટ એસી (CAL19IN3R35F1) ઇન્વર્ટર કાર્યક્ષમતા, અદ્યતન ફિલ્ટ્રેશન અને શાંત કામગીરી સાથે મજબૂત ઠંડક આપે છે. 3-સ્ટાર રેટિંગ રોજિંદા આરામ માટે ઊર્જા અને પ્રદર્શન વચ્ચે સંતુલન આપે છે."
     }
   },
+  "IFB_Executive_MSN_9014K_CMS": {
+    "brand": "IFB",
+    "title": "IFB DeepClean® 9 kg Front Load Washing Machine with Time Saver",
+    "model": "Executive MSN 9014K CMS",
+    "capacity": "9 kg",
+    "type": "Front Load Washing Machine",
+    "features": [
+      "Powered by AI",
+      "Steam Refresh",
+      "Eco Inverter Motor",
+      "Time Saver Technology",
+      "DeepClean® Technology"
+    ]
+    "rating": {
+      "average": 4.85,
+      "reviews": 24
+    }
+    "price": {
+      "offer_price": "₹44,080",
+      "discount": "12% off",
+      "mrp": "Incl. of all taxes"
+    }
+    "warranty": {
+      "motor": "10 Years",
+      "machine": "4 Years",
+      "spares_support": "10 Years"
+    }
+    "images": [
+      "msn1.avif",
+      "msn2.avif",
+      "msn3.avif",
+      "msn4.avif",
+      "msn5.avif"
+    ]
+    "description": {
+      "short": "A premium 9 kg front load washing machine with AI-powered cleaning, Steam Refresh, Eco Inverter Motor and Time Saver function for efficient washing.",
+      "en": "The IFB Executive MSN 9014K CMS is a 9 kg front load washing machine designed with DeepClean® technology and powered by AI for optimized wash cycles. It comes with Steam Refresh, Eco Inverter Motor, and Time Saver feature for efficient and hygienic cleaning.",
+      "gu": "IFB Executive MSN 9014K CMS એ 9 કિલો ક્ષમતા વાળું ફ્રન્ટ લોડ વોશિંગ મશીન છે જેમાં DeepClean® ટેક્નોલોજી, AI દ્વારા સંચાલિત, સ્ટીમ રિફ્રેશ, ઇકો ઇન્વર્ટર મોટર અને સમય બચાવનારી સુવિધા છે."
+    }
+  },
+
+
   "CARRIER_XPERT_EDGE_FXI_IDU": {
     "brand": "CARRIER",
     "title": "CARRIER 1.5TR 3 STAR INV XPERT EDGE FXI (IDU)",
@@ -289,6 +402,33 @@
     "description": {
       "en": "The TCL 1 Ton inverter AC AC-12CSD/EV3F provides efficient cooling with a compact design and inverter compressor for better energy savings.",
       "gu": "TCL 1 ટન ઇન્વર્ટર AC AC-12CSD/EV3F કાર્યક્ષમ ઠંડક અને કોમ્પેક્ટ ડિઝાઇન સાથે ઊર્જા બચત માટે અનુકૂળ ઇન્વર્ટર કમ્પ્રેસર ધરાવે છે."
+    }
+  },
+  "IFB_MSC_9014_SSLC": {
+    "brand": "IFB",
+    "title": "IFB DeepClean® 9 kg Front Load Washing Machine with Oxyjet®",
+    "model": "Executive MSC 9014 SSLC",
+    "category": "Washing Machine - Front Load",
+    "capacity": "9 kg",
+    "technology": ["Powered by AI", "Power Steam®", "Oxyjet®", "Eco Inverter Motor"],
+    "rating": 4.75,
+    "reviews_count": 4,
+    "offer_price": "₹44,990",
+    "discount": "25% off",
+    "mrp": "₹59,990 (Incl. of all taxes)",
+    "currency": "INR",
+    "delivery": "Estimated delivery within 5–7 business days",
+    "warranty": "4 Years Comprehensive Warranty + 10 Years Motor Warranty + 10 Years Spare Part Support",
+    "images": [
+      "msc1.avif",
+      "msc2.avif",
+      "msc3.avif",
+      "msc4.avif",
+      "msc5.avif"
+    ],
+    "description": {
+      "en": "The IFB DeepClean® Executive MSC 9014 SSLC is a 9 kg front load washing machine designed with Oxyjet® and Power Steam® technology for superior cleaning. Powered by AI with an Eco Inverter Motor, it ensures efficient washing, fabric care, and energy savings.",
+      "gu": "IFB DeepClean® Executive MSC 9014 SSLC 9 કિલો ફ્રન્ટ લોડ વોશિંગ મશીન Oxyjet® અને Power Steam® ટેક્નોલોજી સાથે ઉત્તમ ધોવાણ માટે ડિઝાઇન કરાયેલ છે. AI પાવર્ડ અને ઇકો ઇન્વર્ટર મોટર સાથે, તે અસરકારક ધોવાણ, ફેબ્રિક કાળજી અને એનર્જી સેવિંગ આપે છે."
     }
   },
   "TCL_18CSD_EV3F_IDU": {
