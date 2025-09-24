@@ -194,6 +194,66 @@
       "gu": "TCL 2 ટન ઇન્વર્ટર 22CSD/EV3GL મોટા રૂમમાં શક્તિશાળી ઠંડક અને ઊર્જા બચત માટે ઇન્વર્ટર કંટ્રોલ આપે છે."
     }
   },
+ "75C835": {
+  "brand": "TCL",
+  "title": "TCL 75\" C835 Mini LED 4K TV — 75C835",
+  "price": 165000,
+  "sizeText": "75 inch (190 cm)",
+  "installation": "Installation within 24–48 hours of delivery",
+  "warranty": "1 year manufacturer warranty",
+  "delivery": "Estimated delivery within 5–7 business days",
+  "images": [
+    "75c8.webp",
+    "75c8f2.webp",
+    "75c8f3.webp",
+    "75c8f4.webp",
+    "75c8f5.webp",
+    "75c8b1.webp",
+    "75c8b3.webp",
+    "75c8s1.webp",
+    "75c8t1.webp"
+  ],
+  "description": {
+    "en": "The TCL 75\" C835 Mini LED 4K TV combines advanced Mini LED backlighting with Quantum Dot technology to deliver stunning brightness, vivid colors, and precise contrast. With 144Hz VRR for smooth gaming, HDR10+ and Dolby Vision IQ for lifelike visuals, and Dolby Atmos with ONKYO sound for immersive audio, this IMAX Enhanced TV transforms your home into a true cinematic experience.",
+    "gu": "TCL 75\" C835 Mini LED 4K TV અદ્યતન મિની LED બેકલાઇટિંગ અને Quantum Dot ટેકનોલોજી સાથે તેજસ્વી બ્રાઇટનેસ, ઉજ્જવળ રંગો અને ચોક્કસ કોન્ટ્રાસ્ટ આપે છે. 144Hz VRR સાથે સ્મૂથ ગેમિંગ, HDR10+ અને Dolby Vision IQ સાથે જીવંત દૃશ્યો અને Dolby Atmos તથા ONKYO સાઉન્ડ સાથે અદ્ભુત ઓડિયો — આ IMAX Enhanced TV તમારા ઘરને સાચા સિનેમેટિક અનુભવમાં ફેરવે છે."
+  },
+  "features": [
+    "Mini LED backlighting",
+    "144Hz VRR for smooth gaming",
+    "Quantum Dot Technology",
+    "HDR10+ and Dolby Vision IQ",
+    "Dolby Atmos with ONKYO sound system",
+    "IMAX Enhanced certification",
+    "Google TV with streaming apps and voice control"
+  ]
+},
+  {
+  "65P735": {
+    "brand": "TCL",
+    "title": "TCL 65P735 4K HDR Google TV",
+    "category": "Television",
+    "sizeText": "65 inch (165 cm)",
+    "features": "4K HDR, Wide Color Gamut (WCG), Dolby Vision/Atmos, MEMC, HDMI 2.1, OK Google, Google Meet, Edgeless Design",
+    "price": 99000,
+    "currency": "INR",
+    "delivery": "Estimated delivery within 5–7 business days",
+    "installation": "Installation within 24–48 hours of delivery",
+    "warranty": "1 year manufacturer warranty",
+    "images": [
+      "65pb1.webp",
+      "65p735s2.webp",
+      "65p735s1.webp",
+      "65p735f2.webp",
+      "65p735f.webp",
+      "65p735b3.webp",
+      "65p735t1.webp"
+    ],
+    "description": {
+      "en": "The TCL 65P735 4K HDR Google TV offers a cinematic viewing experience with HDR, Dolby Vision & Atmos, Wide Color Gamut, and MEMC for smooth motion. With HDMI 2.1, voice-enabled Google TV, built-in Google Meet, and an edgeless design, it’s built for entertainment and elegance.",
+      "gu": "TCL 65P735 4K HDR Google TV HDR, Dolby Vision અને Atmos, Wide Color Gamut અને MEMC સાથે સિનેમેટિક અનુભવ આપે છે. HDMI 2.1, Google TV, બિલ્ટ-ઇન Google Meet અને એજલેસ ડિઝાઇન સાથે, આ ટીવી મનોરંજન અને સુંદરતા માટે શ્રેષ્ઠ છે."
+    }
+  },
+
   "MIDEA_SANTIS_NEO_DLX_IDU": {
     "brand": "MIDEA",
     "title": "MIDEA 1 TR 3 STAR INVERTER SANTIS NEO+ DLX (IDU)",
