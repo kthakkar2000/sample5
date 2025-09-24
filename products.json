@@ -6,7 +6,13 @@
     "sizeText": "43 inch (109 cm)",
     "installation": "Installation within 24-48 hours of delivery",
     "warranty": "1 year manufacturer warranty",
-    "images": ["front3.webp","front2.webp","fron.webp","back4.webp","side1.webp"],
+    "images": [
+      "front3.webp",
+      "front2.webp",
+      "fron.webp",
+      "back4.webp",
+      "side1.webp"
+    ],
     "description": {
       "en": "The TCL 43\" P6K 4K HDR TV delivers sharp Ultra HD visuals with HDR support for brighter highlights and richer contrast.",
       "gu": "TCL 43\" P6K 4K HDR TV માં તેજ અને સમૃદ્ધ કન્ટ્રાસ્ટ સાથે ઉચ્ચ ગુણવત્તાવાળી ચિત્ર પ્રદર્શન મળે છે."
@@ -26,7 +32,7 @@
     "description": {
       "en": "Haier 598L 3 Door Convertible SBS Refrigerator with 83% fridge space, premium glass finish, inverter compressor, Wi-Fi enabled smart control, and Deo Fresh Technology for lasting freshness.",
       "gu": "હાયર 598 લીટર 3 ડોર કન્વર્ટિબલ SBS ફ્રિજ 83% ફ્રિજ જગ્યા, પ્રીમિયમ ગ્લાસ ફિનિશ, ઇન્વર્ટર કોમ્પ્રેસર, Wi-Fi સ્માર્ટ કન્ટ્રોલ અને ડિઓ ફ્રેશ ટેકનોલોજી સાથે લાંબા સમય સુધી તાજગી જાળવે છે."
-    }
+    },
     "dimensions": "1775 mm (H) × 905 mm (W) × 697 mm (D)",
     "installation": "Stabilizer-free operation, easy setup at delivery",
     "delivery": "Typically delivered in 3–7 business days",
@@ -48,7 +54,15 @@
     "price": 42000,
     "sizeText": "55 inch (127 cm)",
     "installation": "Installation within 24–48 hours of delivery",
-    "images": ["f1.webp","f2.webp","f3.webp","b1.webp","s1.webp","s2.webp","t2.webp"],
+    "images": [
+      "f1.webp",
+      "f2.webp",
+      "f3.webp",
+      "b1.webp",
+      "s1.webp",
+      "s2.webp",
+      "t2.webp"
+    ],
     "description": {
       "en": "The TCL P755 4K QLED Google TV offers stunning picture quality with vibrant colors, 4K resolution, and HDR support. With Google TV, you get access to endless entertainment, apps, and built-in voice control — a premium big-screen experience at great value.",
       "gu": "TCL P755 4K QLED Google TV તમને ઉજ્જવળ રંગો, 4K રિઝોલ્યુશન અને HDR સપોર્ટ સાથે ઉત્તમ પિક્ચર ગુણવત્તા આપે છે. Google TV સાથે, તમને અનંત મનોરંજન, એપ્સ અને બિલ્ટ-ઇન વોઇસ કંટ્રોલ મળે છે — મોટી સ્ક્રીન અનુભવ માટે શ્રેષ્ઠ પસંદગી."
@@ -73,7 +87,7 @@
       "Twist Ice Tray",
       "Stabilizer Free Operation",
       "Toughened Glass Shelves"
-    ]
+    ],
     "technical_details": {
       "annual_energy_consumption": "518 kWh/year",
       "refrigerator_capacity": "392 Litres",
@@ -87,14 +101,14 @@
       "door_material": "Stainless Steel",
       "country_of_origin": "India",
       "manufacturer": "Haier Appliances India Pvt Ltd."
-    }
+    },
     "installation_type": "Freestanding",
     "warranty": "2 Years on Product, 10 Years on Compressor",
     "included_components": [
       "1 Refrigerator Unit",
       "User Manual",
       "Warranty Card"
-    ]
+    ],
     "images": [
       "hes690.jpg",
       "hes6901.jpg",
@@ -103,7 +117,7 @@
       "hes6904.jpg",
       "hes6905.jpg",
       "hes6907.jpg"
-    ]
+    ],
     "description": {
       "en": "The Haier 596L 3-Star Side by Side Refrigerator (HES-690) comes with 100% convertible fridge space, expert inverter technology, and a stylish shiny steel finish. It features Deo Fresh Technology for longer-lasting freshness, a digital display panel for easy control, and a twist ice tray for convenience. With stabilizer-free operation and energy-efficient performance, it’s an ideal choice for modern Indian homes.",
       "gu": "Haier 596L 3-સ્ટાર સાઈડ બાય સાઈડ ફ્રિજ (HES-690) 100% કન્વર્ટિબલ ફ્રિજ સ્પેસ, એક્સપર્ટ ઇન્વર્ટર ટેકનોલોજી અને સ્ટાઇલિશ સ્ટીલ ફિનિશ સાથે આવે છે. તેમાં લાંબા સમય સુધી તાજગી માટે ડિયો ફ્રેશ ટેકનોલોજી, સરળ નિયંત્રણ માટે ડિજિટલ ડિસ્પ્લે પેનલ અને સુવિધાજનક ટ્વિસ્ટ આઈસ ટ્રે છે. સ્ટેબિલાઈઝર-ફ્રી ઓપરેશન અને એનર્જી-એફિશિયન્ટ પરફોર્મન્સ સાથે, આ આધુનિક ભારતીય ઘરો માટે આદર્શ પસંદગી છે."
@@ -115,13 +129,21 @@
     "price": 50000,
     "sizeText": "65 inch (160.8 CM)",
     "installation": "Installation within 24–48 hours of delivery",
-    "images": ["f1.1.webp","f1.2.webp","f1.3.webp","b1.2.webp","b1.1.webp","s1.1.webp","s1.2webp","t1.1.webp"],
+    "images": [
+      "f1.1.webp",
+      "f1.2.webp",
+      "f1.3.webp",
+      "b1.2.webp",
+      "b1.1.webp",
+      "s1.1.webp",
+      "s1.2webp",
+      "t1.1.webp"
+    ],
     "description": {
       "en": "The TCL P7K QLED Smart TV delivers crystal-clear 4K visuals, rich color accuracy, and deep contrast with QLED technology. Featuring smart Google TV functionality, built-in streaming apps, and voice control, it turns any room into your home theater.",
       "gu": "TCL P7K QLED Smart TV સ્પષ્ટ 4K દૃશ્યો, ઊંડા રુંગેનુ સુમેળ અને ગહન કોન્ટ્રાસ્ટ માટે QLED ટેક્નોલોજી આપે છે. Smart Google TV, બિલ્ટ-ઇન સ્ટ્રીમિંગ એપ્સ અને વોઇસ કંટ્રોલ સાથે, તે દરેક રૂમને તમારા گھرનો થિયેટર બની શકે છે."
     }
   },
-  
   "IFB_SERENA_MMW_7012C": {
     "brand": "IFB",
     "title": "IFB 7Kg Front Load Washing Machine - Serena MMW 7012C",
@@ -135,7 +157,7 @@
       "depth_mm": 518,
       "height_mm": 875,
       "door_diameter_mm": 320
-    }
+    },
     "weight": "66 Kg",
     "color": "Mocha Brown",
     "warranty": "4 Years Super Warranty + 10 Years Motor Warranty + 10 Years Spare Parts Support",
@@ -147,7 +169,7 @@
       "Clip Ring",
       "Screw Fitting",
       "Protective Rat Mesh Cover"
-    ]
+    ],
     "delivery": "Estimated delivery within 5–7 business days",
     "installation": "Installation within 24–48 hours of delivery",
     "images": [
@@ -159,210 +181,140 @@
       "7012c6.png",
       "7012c7.png",
       "7012c9.webp"
-    ]
+    ],
     "description": {
       "en": "The IFB Serena MMW 7012C is a premium 7kg front load washing machine with 1200 RPM spin speed, AI-powered wash optimization, Eco Inverter technology, and multiple wash programs for different fabrics. It features Express 30-minute quick wash, CradleWash for delicate clothes, and advanced hygiene with steam wash. Comes with a stylish Mocha Brown finish, digital display, and 4 years machine warranty with 10 years motor and spare parts support.",
       "gu": "IFB Serena MMW 7012C એક પ્રીમિયમ 7kg ફ્રન્ટ લોડ વોશિંગ મશીન છે, જેમાં 1200 RPM સ્પિન સ્પીડ, AI પાવર્ડ વોશ ઓપ્ટિમાઇઝેશન, ઇકો ઇન્વર્ટર ટેક્નોલોજી અને વિવિધ ફેબ્રિક માટે મલ્ટિપલ વોશ પ્રોગ્રામ્સ છે. તેમાં 30 મિનિટની ક્વિક વોશ, નાજુક કપડાં માટે CradleWash અને સ્ટીમ વોશ દ્વારા હાઇજીન સુવિધા છે. આકર્ષક મોચા બ્રાઉન ફિનિશ, ડિજિટલ ડિસ્પ્લે સાથે આવે છે અને 4 વર્ષની મશીન વોરંટી તથા 10 વર્ષની મોટર અને સ્પેર પાર્ટ્સ સપોર્ટ સાથે ઉપલબ્ધ છે."
     }
   },
-  "75P6K": {
+  "75C835": {
     "brand": "TCL",
-    "title": "TCL 75\" P6K 4K HDR TV — 75P6K",
-    "price": 95000,
+    "title": "TCL 75\" C835 Mini LED 4K TV — 75C835",
+    "price": 165000,
     "sizeText": "75 inch (190 cm)",
     "installation": "Installation within 24–48 hours of delivery",
     "warranty": "1 year manufacturer warranty",
     "delivery": "Estimated delivery within 5–7 business days",
-    "images": ["75F.1.webp","75F.2.webp","75F.3.webp","75S.1.webp","75S.2.webp","75B.1.webp","75T.1.webp"],
-    "description": {
-      "en": "The TCL 75\" P6K 4K HDR TV delivers a breathtaking cinematic experience with its large 4K Ultra HD display, HDR support, and vivid color reproduction. Powered by Google TV, it offers access to apps, streaming services, and built-in voice control for convenience.",
-      "gu": "TCL 75\" P6K 4K HDR TV વિશાળ 4K અલ્ટ્રા HD ડિસ્પ્લે અને HDR સપોર્ટ સાથે અદ્ભુત સિનેમેટિક અનુભવ આપે છે. Google TV દ્વારા સંચાલિત, તે એપ્સ અને બિલ્ટ-ઇન વોઇસ કંટ્રોલ પ્રદાન કરે છે."
-    }
-  },
-  "IFB_TLSIBS_10KG_AQUA": {
-    "brand": "IFB",
-    "title": "IFB DeepClean® 10 kg Top Load Washing Machine with Power Steam® and In-built Heater",
-    "model": "TL-SIBS 10.0KG AQUA",
-    "category": "Washing Machine - Top Load",
-    "capacity": "10 kg",
-    "rating": 4.8,
-    "reviews": 49,
-    "features": [
-      "Powered by Ai",
-      "Soft Close Door",
-      "ActivMix",
-      "Power Steam®",
-      "In-built Heater"
-    ]
-    "price_offer": 37453,
-    "discount": "12% off",
-    "mrp": 42560,
-    "currency": "INR",
-    "description": {
-      "en": "The IFB TL-SIBS 10.0KG AQUA is a powerful top load washing machine with a 10 kg capacity, designed with AI technology for efficient performance. It comes with Power Steam® for deep cleaning, an in-built heater for hygienic washes, ActivMix for even detergent distribution, and a soft close door for ease of use.",
-      "gu": "IFB TL-SIBS 10.0KG AQUA એક 10 કિલો ક્ષમતા ધરાવતી ટોપ લોડ વોશિંગ મશીન છે, જે AI ટેક્નોલોજી સાથે કાર્યક્ષમ ધોવાણ માટે ડિઝાઇન કરવામાં આવી છે. તેમાં Power Steam® ઊંડાણપૂર્વકની સફાઈ માટે, હાઇજીનિક ધોવાણ માટે ઇન-બિલ્ટ હીટર, ActivMix સમાન ડિટર્જન્ટ વિતરણ માટે અને સોફ્ટ ક્લોઝ ડોર સરળ વપરાશ માટે છે."
-    }
-    "warranty": {
-      "machine": "4 Years",
-      "motor": "10 Years",
-      "spares": "10 Years"
-    }
     "images": [
-      "tl1.avif",
-      "tl2.avif",
-      "tl3.avif",
-      "tl4.avif",
-      "tl5.avif"
+      "75c8.webp",
+      "75c8f2.webp",
+      "75c8f3.webp",
+      "75c8f4.webp",
+      "75c8f5.webp",
+      "75c8b1.webp",
+      "75c8b3.webp",
+      "75c8s1.webp",
+      "75c8t1.webp"
+    ],
+    "description": {
+      "en": "The TCL 75\" C835 Mini LED 4K TV combines advanced Mini LED backlighting with Quantum Dot technology to deliver stunning brightness, vivid colors, and precise contrast. With 144Hz VRR for smooth gaming, HDR10+ and Dolby Vision IQ for lifelike visuals, and Dolby Atmos with ONKYO sound for immersive audio, this IMAX Enhanced TV transforms your home into a true cinematic experience.",
+      "gu": "TCL 75\" C835 Mini LED 4K TV અદ્યતન મિની LED બેકલાઇટિંગ અને Quantum Dot ટેકનોલોજી સાથે તેજસ્વી બ્રાઇટનેસ, ઉજ્જવળ રંગો અને ચોક્કસ કોન્ટ્રાસ્ટ આપે છે. 144Hz VRR સાથે સ્મૂથ ગેમિંગ, HDR10+ અને Dolby Vision IQ સાથે જીવંત દૃશ્યો અને Dolby Atmos તથા ONKYO સાઉન્ડ સાથે અદ્ભુત ઓડિયો — આ IMAX Enhanced TV તમારા ઘરને સાચા સિનેમેટિક અનુભવમાં ફેરવે છે."
+    },
+    "features": [
+      "Mini LED backlighting",
+      "144Hz VRR for smooth gaming",
+      "Quantum Dot Technology",
+      "HDR10+ and Dolby Vision IQ",
+      "Dolby Atmos with ONKYO sound system",
+      "IMAX Enhanced certification",
+      "Google TV with streaming apps and voice control"
     ]
   },
-
-
-  "IFBWM8KG":{
-  "product": "IFB DeepClean® 8 kg Front Load Washing Machine",
-  "model": "Senator BXN 8012K CMS",
-  "brand": "IFB",
-  "capacity": "8 kg",
-  "motor_type": "Eco Inverter Motor",
-  "features": [
-    "Powered by AI",
-    "Steam Refresh",
-    "Warm Soak",
-    "DeepClean® Technology"
-  ]
-  "ratings": {
-    "average_rating": 4.95,
-    "total_reviews": 41
-  }
-  "warranty": {
-    "motor": "10 Years",
-    "machine": "4 Years",
-    "spares_support": "10 Years"
-  }
-  "images": [
-    "bxn1.avif",
-    "bxn2.avif",
-    "bxn3.avif",
-    "bxn4.avif",
-    "bxn5.avif",
-    "bxn6.webp",
-    "bxn7.webp",
-    "bxn8.webp",
-    "bxn9.webp"
-  ]
-  "net_quantity": "1 Unit"
-},
-
-  "43P7K": {
+  "65P735": {
     "brand": "TCL",
-    "title": "TCL 43\" P7K QLED TV — 43P7K",
-    "price": 45000,
-    "sizeText": "43 inch (109 cm)",
+    "title": "TCL 65P735 4K HDR Google TV",
+    "category": "Television",
+    "sizeText": "65 inch (165 cm)",
+    "features": "4K HDR, Wide Color Gamut (WCG), Dolby Vision/Atmos, MEMC, HDMI 2.1, OK Google, Google Meet, Edgeless Design",
+    "price": 99000,
+    "currency": "INR",
+    "delivery": "Estimated delivery within 5–7 business days",
     "installation": "Installation within 24–48 hours of delivery",
     "warranty": "1 year manufacturer warranty",
-    "images": ["437k.webp","437kb1.webp","437kb2.webp","437kF2.webp","437kf3.webp","437ks1.webp","437ks2.webp","437kt1.webp"],
-    "description": {
-      "en": "The TCL 43\" P7K QLED TV delivers vivid 4K picture quality with QLED technology, vibrant colors, and deep contrast. With Smart Google TV features, streaming apps, and voice control, it provides an immersive home entertainment experience.",
-      "gu": "TCL 43\" P7K QLED TV તમને 4K ગુણવત્તાવાળી તસ્વીર, તેજસ્વી રંગો અને ઊંડા કોન્ટ્રાસ્ટ સાથે QLED ટેક્નોલોજી આપે છે. Smart Google TV સુવિધાઓ અને વોઇસ કંટ્રોલ સાથે, તે શ્રેષ્ઠ ઘરેલુ મનોરંજનનો અનુભવ આપે છે."
-    }
-  },
-  "32S4K": {
-    "brand": "TCL",
-    "title": "TCL 32\" S4K QLED TV — 32S4K",
-    "price": 22000,
-    "sizeText": "32 inch (81 cm)",
-    "installation": "Installation within 24–48 hours of delivery",
-    "warranty": "1 year manufacturer warranty",
-    "images": ["32skf1.webp","32skf2.webp","32skf3.webp","32sks1.webp","32sks2.webp","32skt1.webp","32skb1.webp","32skb2.webp"],
-    "description": {
-      "en": "The TCL 32\" S4K QLED TV brings brilliant picture quality in a compact size. With 4K HDR support, vibrant colors, and smart Google TV features, it’s perfect for smaller spaces without compromising entertainment.",
-      "gu": "TCL 32\" S4K QLED TV નાના કદમાં ઉત્તમ ચિત્ર ગુણવત્તા આપે છે. 4K HDR સપોર્ટ અને Smart Google TV ફીચર્સ સાથે, તે નાના રૂમ માટે શ્રેષ્ઠ પસંદગી છે."
-    }
-  },
-  "WYBOR_AC_1": {
-    "brand": "WYBOR",
-    "title": "WYBOR 1.5TR 3 STAR INV WSAC18310XES2VM (IDU)",
-    "category": "AC - Indoor Unit",
-    "size": "1.5 TR",
-    "energy_rating": "3 Star",
-    "price": 39000,
-    "delivery": "Estimated delivery within 5–7 business days",
-    "installation": "Installation within 24–48 hours of delivery",
-    "warranty": "1 year comprehensive warranty + 5 years on compressor",
-    "images": ["WYB1.JPG","WYB2.JPG","WYB3.JPG","WYB4.JPG","WYB5.JPG"],
-    "description": {
-      "en": "The WYBOR 1.5 Ton 3 Star Inverter Split AC (WSAC18310XES2VM) delivers effective cooling with inverter efficiency, quieter operation and energy savings. Designed for medium rooms, it includes multi-stage filtration for cleaner indoor air and a modern, compact design.",
-      "gu": "WYBOR 1.5 ટન 3 સ્ટાર ઇન્વર્ટર સ્પ્લિટ એસી (WSAC18310XES2VM) ઇન્વર્ટર કાર્યક્ષમતાથી અસરકારક ઠંડક, ઓછો અવાજ અને ઊર્જા બચત આપે છે. મધ્યમ કદના રૂમ માટે ડિઝાઇન, જેમાં સ્વચ્છ હવા માટે મલ્ટી-સ્ટેજ ફિલ્ટ્રેશન છે અને આધુનિક ડિઝાઇન છે."
-    }
-  },
-  
-  "HAIER_HRF_2902_240L": {
-    "brand": "Haier",
-    "title": "Haier HRF-2902 240 Litres 2 Star Frost Free Double Door Refrigerator with Stabilizer Free Operation (HRF-2902IEBS-P, Brushline Silver)",
-    "category": "Refrigerator - Double Door",
-    "capacity": "240 Litres",
-    "energy_rating": "2 Star",
-    "type": "Frost Free",
-    "doors": 2,
-    "ideal_for": "Family size of 3",
-    "features": [
-      "Flat Door with Chrome Strip",
-      "Cool Pad",
-      "Turbo Icing",
-      "Stabilizer Free Operation"
-    ]
-    "warranty": {
-      "product": "2 Years"
-    }
-    "price": null,
-    "currency": "INR",
-    "delivery": "Estimated delivery within 5–7 business days",
-    "installation": "Installation provided as per brand policy",
     "images": [
-      "hrf1.webp",
-      "hrf2.webp",
-      "hrf3.webp",
-      "hrf4.webp",
-      "hrf5.webp",
-      "hrf6.webp"
-    ]
+      "65pb1.webp",
+      "65p735s2.webp",
+      "65p735s1.webp",
+      "65p735f2.webp",
+      "65p735f.webp",
+      "65p735b3.webp",
+      "65p735t1.webp"
+    ],
     "description": {
-      "en": "The Haier HRF-2902 is a 240L, 2 Star frost-free double door refrigerator designed for small families. With Turbo Icing, a stabilizer-free operation, and a stylish Brushline Silver finish, it ensures efficient cooling and durability.",
-      "gu": "Haier HRF-2902 એ 240 લિટર, 2 સ્ટાર ફ્રોસ્ટ ફ્રી ડબલ ડોર રેફ્રિજરેટર છે, જે નાના પરિવાર માટે યોગ્ય છે. તેમાં ટર્બો આઇસિંગ, સ્ટેબિલાઇઝર-ફ્રી ઓપરેશન અને આકર્ષક બ્રશલાઇન સિલ્વર ડિઝાઇન છે, જે અસરકારક ઠંડક અને ટકાઉપણું સુનિશ્ચિત કરે છે."
+      "en": "The TCL 65P735 4K HDR Google TV offers a cinematic viewing experience with HDR, Dolby Vision & Atmos, Wide Color Gamut, and MEMC for smooth motion. With HDMI 2.1, voice-enabled Google TV, built-in Google Meet, and an edgeless design, it’s built for entertainment and elegance.",
+      "gu": "TCL 65P735 4K HDR Google TV HDR, Dolby Vision અને Atmos, Wide Color Gamut અને MEMC સાથે સિનેમેટિક અનુભવ આપે છે. HDMI 2.1, Google TV, બિલ્ટ-ઇન Google Meet અને એજલેસ ડિઝાઇન સાથે, આ ટીવી મનોરંજન અને સુંદરતા માટે શ્રેષ્ઠ છે."
     }
   },
-
-  "WYBOR_AC_2": {
-    "brand": "WYBOR",
-    "title": "WYBOR 1.5TR 3 STAR SPLIT WSAC20319RVFM (IDU)",
+  "MIDEA_SANTIS_NEO_DLX_IDU": {
+    "brand": "MIDEA",
+    "title": "MIDEA 1 TR 3 STAR INVERTER SANTIS NEO+ DLX (IDU)",
     "category": "AC - Indoor Unit",
-    "size": "1.5 TR",
+    "size": "1.0 TR",
     "energy_rating": "3 Star",
-    "price": 49400,
-    "currency": "INR",
-    "delivery": "Estimated delivery within 5–7 business days",
-    "installation": "Installation within 24–48 hours of delivery",
-    "warranty": "1 year comprehensive warranty + 5 years on compressor",
-    "images": ["WYBOR_AC_2.JPG","WYBOR_AC_OU_2.JPG","WYBOR_AC_OU_3.JPG"],
-    "description": {
-      "en": "The WYBOR 1.5 Ton 3 Star Split AC (WSAC20319RVFM) offers energy-efficient cooling with stable inverter performance and multi-stage filters to ensure cleaner air. Its 3-star rating balances performance and savings, making it suitable for larger rooms.",
-      "gu": "WYBOR 1.5 ટન 3 સ્ટાર સ્પ્લિટ એસી (WSAC20319RVFM) સથવાળું ઇન્વર્ટર પ્રદર્શન અને મલ્ટી-સ્ટેજ ફિલ્ટર્સ સાથે ઊર્જા-કાર્યક્ષમ ઠંડક આપે છે. 3-સ્ટાર રેટિંગ તેને મોટા રૂમ માટે યોગ્ય બનાવે છે."
-    }
-  },
-  "CARRIER_CAL19IN3R35F1_IDU": {
-    "brand": "CARRIER",
-    "title": "CARRIER 1.5TR 3 STAR INDU SFXI CAL19IN3R35F1 - IDU",
-    "category": "AC - Indoor Unit",
-    "size": "1.5 TR",
-    "energy_rating": "3 Star",
-    "price": 46500,
+    "price": 32500,
     "currency": "INR",
     "delivery": "Estimated delivery within 5–7 business days",
     "installation": "Installation within 24–48 hours of delivery",
     "warranty": "1 year comprehensive warranty + 10 years on compressor",
-    "images": ["CARRIER_AC_1.JPG","CARRIER_AC_1.1.WEBP","CARRIER_AC_1.2.WEBP","CARRIER_AC_1.3.WEBP","CARRIER_AC_1.4.WEBP","CARRIER_AC_1.5.WEBP","CARRIER_AC_OU_1.WEBP"],
+    "images": [
+      "neo+.JPG",
+      "neo+1.JPG",
+      "neo+2.JPG",
+      "neo+3.JPG",
+      "neo+4.JPG",
+      "neo+5.JPG",
+      "neo+6.JPG"
+    ],
     "description": {
-      "en": "The Carrier 1.5 Ton 3 Star Inverter Split AC (CAL19IN3R35F1) offers robust cooling with inverter efficiency, advanced filtration and quiet operation. The 3-star rating balances energy use and performance for everyday comfort.",
-      "gu": "Carrier 1.5 ટન 3 સ્ટાર ઇન્વર્ટર સ્પ્લિટ એસી (CAL19IN3R35F1) ઇન્વર્ટર કાર્યક્ષમતા, અદ્યતન ફિલ્ટ્રેશન અને શાંત કામગીરી સાથે મજબૂત ઠંડક આપે છે. 3-સ્ટાર રેટિંગ રોજિંદા આરામ માટે ઊર્જા અને પ્રદર્શન વચ્ચે સંતુલન આપે છે."
+      "en": "The Midea 1 Ton 3 Star Inverter Split AC (Santis Neo+ DLX) is designed for reliable cooling with inverter efficiency, turbo mode for rapid cooling, silent operation and advanced air filters for cleaner indoor air.",
+      "gu": "Midea 1 ટન 3 સ્ટાર ઇન્વર્ટર સ્પ્લિટ એસી (Santis Neo+ DLX) વિશ્વસનીય ઠંડક, ટર્બો મોડ, શાંત કાર્ય અને શુદ્ધ હવા માટે અદ્યતન ફિલ્ટર સાથે ડિઝાઇન કરાયું છે."
+    }
+  },
+  "MIDEA_SANTIS_NEO_DLX_1_5TR_IDU": {
+    "brand": "MIDEA",
+    "title": "MIDEA 1.5TR 3 STAR INVERTER SANTIS NEO+ DLX (IDU)",
+    "category": "AC - Indoor Unit",
+    "size": "1.5 TR",
+    "energy_rating": "3 Star",
+    "price": 41500,
+    "currency": "INR",
+    "delivery": "Estimated delivery within 5–7 business days",
+    "installation": "Installation within 24–48 hours of delivery",
+    "warranty": "1 year comprehensive warranty + 10 years on compressor",
+    "images": [
+      "MIDEA1.JPG",
+      "MIDEA2.JPG",
+      "MIDEA3.JPG",
+      "MIDEA4.JPG",
+      "MIDEA5.JPG",
+      "MIDEA6.JPG",
+      "MIDEA7.JPG"
+    ],
+    "description": {
+      "en": "The Midea 1.5 Ton 3 Star Inverter Split AC (Santis Neo+ DLX) delivers powerful cooling with energy-efficient inverter control, turbo mode and advanced filtration for healthier indoor air.",
+      "gu": "Midea 1.5 ટન 3 સ્ટાર ઇન્વર્ટર સ્પ્લિટ એસી (Santis Neo+ DLX) શક્તિશાળી ઠંડક, ટર્બો મોડ અને સ્વસ્થ હવા માટે અદ્યતન ફિલ્ટર સાથે ઊર્જા કાર્યક્ષમતા આપે છે."
+    }
+  },
+  "LLOYD_GLS18I3KOESR_IDU": {
+    "brand": "LLOYD",
+    "title": "LLOYD 1.5TR 3 STAR INV GLS18I3KOESR - IDU",
+    "category": "AC - Indoor Unit",
+    "size": "1.5 TR",
+    "energy_rating": "3 Star",
+    "price": 35940,
+    "currency": "INR",
+    "delivery": "Estimated delivery within 5–7 business days",
+    "installation": "Installation within 24–48 hours of delivery",
+    "warranty": "1 year comprehensive warranty + 10 years on compressor",
+    "images": [
+      "LLOYD1.WEBP",
+      "LLOYD2.WEBP",
+      "LLOYD3.WEBP",
+      "LLOYD4.WEBP"
+    ],
+    "description": {
+      "en": "The Lloyd 1.5 Ton 3 Star Inverter Split AC (GLS18I3KOESR) offers efficient cooling with inverter technology, low noise operation and eco-friendly refrigerant for medium-sized rooms.",
+      "gu": "Lloyd 1.5 ટન 3 સ્ટાર ઇન્વર્ટર સ્પ્લિટ એસી (GLS18I3KOESR) ઇન્વર્ટર ટેક્નોલોજી, ઓછો અવાજ અને પર્યાવરણમિત્ર રેફ્રિજરન્ટ સાથે મધ્યમ રૂમ માટે કાર્યક્ષમ ઠંડક આપે છે."
     }
   },
   "IFB_Executive_MSN_9014K_CMS": {
@@ -377,36 +329,33 @@
       "Eco Inverter Motor",
       "Time Saver Technology",
       "DeepClean® Technology"
-    ]
+    ],
     "rating": {
       "average": 4.85,
       "reviews": 24
-    }
+    },
     "price": {
-      "offer_price": "₹44,080",
+      "offer_price": ₹44,080,
       "discount": "12% off",
-      "mrp": "Incl. of all taxes"
-    }
+    },
     "warranty": {
       "motor": "10 Years",
       "machine": "4 Years",
       "spares_support": "10 Years"
-    }
+    },
     "images": [
       "msn1.avif",
       "msn2.avif",
       "msn3.avif",
       "msn4.avif",
       "msn5.avif"
-    ]
+    ],
     "description": {
       "short": "A premium 9 kg front load washing machine with AI-powered cleaning, Steam Refresh, Eco Inverter Motor and Time Saver function for efficient washing.",
       "en": "The IFB Executive MSN 9014K CMS is a 9 kg front load washing machine designed with DeepClean® technology and powered by AI for optimized wash cycles. It comes with Steam Refresh, Eco Inverter Motor, and Time Saver feature for efficient and hygienic cleaning.",
-      "gu": "IFB Executive MSN 9014K CMS એ 9 કિલો ક્ષમતા વાળું ફ્રન્ટ લોડ વોશિંગ મશીન છે જેમાં DeepClean® ટેક્નોલોજી, AI દ્વારા સંચાલિત, સ્ટીમ રિફ્રેશ, ઇકો ઇન્વર્ટર મોટર અને સમય બચાવનારી સુવિધા છે."
+      "gu": "IFB Executive MSN 9014K CMS એ 9 કિલો ક્ષમતા વાળું ફ્રન્ટ લોડ વોશિંગ મશીન છે જેમાં DeepClean® ટેક્નોલોજી, AI દ્વારા સંચાલિત, સ્ટીમ રિફ્રેશ, ઇકો ઇન્વर्टર મોટર અને સમય બચાવનારી સુવિધા છે."
     }
   },
-
-
   "CARRIER_XPERT_EDGE_FXI_IDU": {
     "brand": "CARRIER",
     "title": "CARRIER 1.5TR 3 STAR INV XPERT EDGE FXI (IDU)",
@@ -418,7 +367,14 @@
     "delivery": "Estimated delivery within 5–7 business days",
     "installation": "Installation within 24–48 hours of delivery",
     "warranty": "1 year comprehensive warranty + 10 years on compressor",
-    "images": ["CARRIER_AC_1.JPG","CARRIER_AC_2.1.WEBP","CARRIER_AC_2.2.WEBP","CARRIER_AC_2.3.WEBP","CARRIER_AC_2.4.WEBP","CARRIER_AC_2.5.WEBP"],
+    "images": [
+      "CARRIER_AC_1.JPG",
+      "CARRIER_AC_2.1.WEBP",
+      "CARRIER_AC_2.2.WEBP",
+      "CARRIER_AC_2.3.WEBP",
+      "CARRIER_AC_2.4.WEBP",
+      "CARRIER_AC_2.5.WEBP"
+    ],
     "description": {
       "en": "The Carrier Xpert Edge FXI 1.5 Ton 3 Star Inverter AC is designed for efficient, quiet cooling with smart inverter control and superior filtration. Ideal for modern homes where energy efficiency and comfort are required.",
       "gu": "Carrier Xpert Edge FXI 1.5 ટન 3 સ્ટાર ઇન્વર્ટર એસી કાર્યક્ષમ અને શાંત ઠંડક માટે ડિઝાઇન કર્યું છે. સમ્કક્ષ ઇન્વર્ટર કંટ્રોલ અને ઉત્તમ ફિલ્ટ્રેશન સાથે આ આધુનિક ઘરો માટે યોગ્ય છે."
@@ -447,10 +403,15 @@
     "model": "Executive MSC 9014 SSLC",
     "category": "Washing Machine - Front Load",
     "capacity": "9 kg",
-    "technology": ["Powered by AI", "Power Steam®", "Oxyjet®", "Eco Inverter Motor"],
+    "technology": [
+      "Powered by AI",
+      "Power Steam®",
+      "Oxyjet®",
+      "Eco Inverter Motor"
+    ],
     "rating": 4.75,
     "reviews_count": 4,
-    "offer_price": "₹44,990",
+    "offer_price": ₹44,990,
     "discount": "25% off",
     "mrp": "₹59,990 (Incl. of all taxes)",
     "currency": "INR",
@@ -502,118 +463,6 @@
       "gu": "TCL 2 ટન ઇન્વર્ટર 22CSD/EV3GL મોટા રૂમમાં શક્તિશાળી ઠંડક અને ઊર્જા બચત માટે ઇન્વર્ટર કંટ્રોલ આપે છે."
     }
   },
- "75C835": {
-  "brand": "TCL",
-  "title": "TCL 75\" C835 Mini LED 4K TV — 75C835",
-  "price": 165000,
-  "sizeText": "75 inch (190 cm)",
-  "installation": "Installation within 24–48 hours of delivery",
-  "warranty": "1 year manufacturer warranty",
-  "delivery": "Estimated delivery within 5–7 business days",
-  "images": [
-    "75c8.webp",
-    "75c8f2.webp",
-    "75c8f3.webp",
-    "75c8f4.webp",
-    "75c8f5.webp",
-    "75c8b1.webp",
-    "75c8b3.webp",
-    "75c8s1.webp",
-    "75c8t1.webp"
-  ],
-  "description": {
-    "en": "The TCL 75\" C835 Mini LED 4K TV combines advanced Mini LED backlighting with Quantum Dot technology to deliver stunning brightness, vivid colors, and precise contrast. With 144Hz VRR for smooth gaming, HDR10+ and Dolby Vision IQ for lifelike visuals, and Dolby Atmos with ONKYO sound for immersive audio, this IMAX Enhanced TV transforms your home into a true cinematic experience.",
-    "gu": "TCL 75\" C835 Mini LED 4K TV અદ્યતન મિની LED બેકલાઇટિંગ અને Quantum Dot ટેકનોલોજી સાથે તેજસ્વી બ્રાઇટનેસ, ઉજ્જવળ રંગો અને ચોક્કસ કોન્ટ્રાસ્ટ આપે છે. 144Hz VRR સાથે સ્મૂથ ગેમિંગ, HDR10+ અને Dolby Vision IQ સાથે જીવંત દૃશ્યો અને Dolby Atmos તથા ONKYO સાઉન્ડ સાથે અદ્ભુત ઓડિયો — આ IMAX Enhanced TV તમારા ઘરને સાચા સિનેમેટિક અનુભવમાં ફેરવે છે."
-  },
-  "features": [
-    "Mini LED backlighting",
-    "144Hz VRR for smooth gaming",
-    "Quantum Dot Technology",
-    "HDR10+ and Dolby Vision IQ",
-    "Dolby Atmos with ONKYO sound system",
-    "IMAX Enhanced certification",
-    "Google TV with streaming apps and voice control"
-  ]
-},
-  {
-  "65P735": {
-    "brand": "TCL",
-    "title": "TCL 65P735 4K HDR Google TV",
-    "category": "Television",
-    "sizeText": "65 inch (165 cm)",
-    "features": "4K HDR, Wide Color Gamut (WCG), Dolby Vision/Atmos, MEMC, HDMI 2.1, OK Google, Google Meet, Edgeless Design",
-    "price": 99000,
-    "currency": "INR",
-    "delivery": "Estimated delivery within 5–7 business days",
-    "installation": "Installation within 24–48 hours of delivery",
-    "warranty": "1 year manufacturer warranty",
-    "images": [
-      "65pb1.webp",
-      "65p735s2.webp",
-      "65p735s1.webp",
-      "65p735f2.webp",
-      "65p735f.webp",
-      "65p735b3.webp",
-      "65p735t1.webp"
-    ],
-    "description": {
-      "en": "The TCL 65P735 4K HDR Google TV offers a cinematic viewing experience with HDR, Dolby Vision & Atmos, Wide Color Gamut, and MEMC for smooth motion. With HDMI 2.1, voice-enabled Google TV, built-in Google Meet, and an edgeless design, it’s built for entertainment and elegance.",
-      "gu": "TCL 65P735 4K HDR Google TV HDR, Dolby Vision અને Atmos, Wide Color Gamut અને MEMC સાથે સિનેમેટિક અનુભવ આપે છે. HDMI 2.1, Google TV, બિલ્ટ-ઇન Google Meet અને એજલેસ ડિઝાઇન સાથે, આ ટીવી મનોરંજન અને સુંદરતા માટે શ્રેષ્ઠ છે."
-    }
-  },
-
-  "MIDEA_SANTIS_NEO_DLX_IDU": {
-    "brand": "MIDEA",
-    "title": "MIDEA 1 TR 3 STAR INVERTER SANTIS NEO+ DLX (IDU)",
-    "category": "AC - Indoor Unit",
-    "size": "1.0 TR",
-    "energy_rating": "3 Star",
-    "price": 32500,
-    "currency": "INR",
-    "delivery": "Estimated delivery within 5–7 business days",
-    "installation": "Installation within 24–48 hours of delivery",
-    "warranty": "1 year comprehensive warranty + 10 years on compressor",
-    "images": ["neo+.JPG","neo+1.JPG","neo+2.JPG","neo+3.JPG","neo+4.JPG","neo+5.JPG","neo+6.JPG"],
-    "description": {
-      "en": "The Midea 1 Ton 3 Star Inverter Split AC (Santis Neo+ DLX) is designed for reliable cooling with inverter efficiency, turbo mode for rapid cooling, silent operation and advanced air filters for cleaner indoor air.",
-      "gu": "Midea 1 ટન 3 સ્ટાર ઇન્વર્ટર સ્પ્લિટ એસી (Santis Neo+ DLX) વિશ્વસનીય ઠંડક, ટર્બો મોડ, શાંત કાર્ય અને શુદ્ધ હવા માટે અદ્યતન ફિલ્ટર સાથે ડિઝાઇન કરાયું છે."
-    }
-  },
-  "MIDEA_SANTIS_NEO_DLX_1_5TR_IDU": {
-    "brand": "MIDEA",
-    "title": "MIDEA 1.5TR 3 STAR INVERTER SANTIS NEO+ DLX (IDU)",
-    "category": "AC - Indoor Unit",
-    "size": "1.5 TR",
-    "energy_rating": "3 Star",
-    "price": 41500,
-    "currency": "INR",
-    "delivery": "Estimated delivery within 5–7 business days",
-    "installation": "Installation within 24–48 hours of delivery",
-    "warranty": "1 year comprehensive warranty + 10 years on compressor",
-    "images": ["MIDEA1.JPG","MIDEA2.JPG","MIDEA3.JPG","MIDEA4.JPG","MIDEA5.JPG","MIDEA6.JPG","MIDEA7.JPG"],
-    "description": {
-      "en": "The Midea 1.5 Ton 3 Star Inverter Split AC (Santis Neo+ DLX) delivers powerful cooling with energy-efficient inverter control, turbo mode and advanced filtration for healthier indoor air.",
-      "gu": "Midea 1.5 ટન 3 સ્ટાર ઇન્વર્ટર સ્પ્લિટ એસી (Santis Neo+ DLX) શક્તિશાળી ઠંડક, ટર્બો મોડ અને સ્વસ્થ હવા માટે અદ્યતન ફિલ્ટર સાથે ઊર્જા કાર્યક્ષમતા આપે છે."
-    }
-  },
-  "LLOYD_GLS18I3KOESR_IDU": {
-    "brand": "LLOYD",
-    "title": "LLOYD 1.5TR 3 STAR INV GLS18I3KOESR - IDU",
-    "category": "AC - Indoor Unit",
-    "size": "1.5 TR",
-    "energy_rating": "3 Star",
-    "price": 35940,
-    "currency": "INR",
-    "delivery": "Estimated delivery within 5–7 business days",
-    "installation": "Installation within 24–48 hours of delivery",
-    "warranty": "1 year comprehensive warranty + 10 years on compressor",
-    "images": ["LLOYD1.WEBP","LLOYD2.WEBP","LLOYD3.WEBP","LLOYD4.WEBP"],
-    "description": {
-      "en": "The Lloyd 1.5 Ton 3 Star Inverter Split AC (GLS18I3KOESR) offers efficient cooling with inverter technology, low noise operation and eco-friendly refrigerant for medium-sized rooms.",
-      "gu": "Lloyd 1.5 ટન 3 સ્ટાર ઇન્વર્ટર સ્પ્લિટ એસી (GLS18I3KOESR) ઇન્વર્ટર ટેક્નોલોજી, ઓછો અવાજ અને પર્યાવરણમિત્ર રેફ્રિજરન્ટ સાથે મધ્યમ રૂમ માટે કાર્યક્ષમ ઠંડક આપે છે."
-    }
-  },
-  {
   "IFB_TL701MG1": {
     "brand": "IFB",
     "title": "IFB DeepClean® 7 kg Top Load Washing Machine with ActivMix",
@@ -631,7 +480,7 @@
       "ActivMix Technology"
     ],
     "price": {
-      "offer_price": "₹21,490",
+      "offer_price": ₹21,490,
       "currency": "INR"
     },
     "warranty": {
@@ -651,7 +500,6 @@
       "gu": "IFB DeepClean® 7 kg ટોપ લોડ વોશિંગ મશીન ActivMix સાથે કાર્યક્ષમ ધોવાણ આપે છે. તેમાં 360° બાય-એક્સિયલ રોટેશન, સલામતી માટે સોફ્ટ ક્લોઝ ડોર અને સ્માર્ટ ફેબ્રિક કેર માટે AI-સંચાલિત વોશ પ્રોગ્રામ્સ છે. નાની અને મધ્યમ કુટુંબો માટે ઉત્તમ પસંદગી."
     }
   },
-
   "LLOYD_GLS1913KOASF_SET": {
     "brand": "LLOYD",
     "title": "LLOYD 1.5TR 3 STAR INV GLS1913KOASF - SET",
@@ -663,10 +511,49 @@
     "delivery": "Estimated delivery within 5–7 business days",
     "installation": "Installation within 24–48 hours of delivery",
     "warranty": "1 year comprehensive warranty + 10 years on compressor",
-    "images": ["LLOYD1.WEBP","LLOYD2.WEBP","LLOYD3.WEBP"],
+    "images": [
+      "LLOYD1.WEBP",
+      "LLOYD2.WEBP",
+      "LLOYD3.WEBP"
+    ],
     "description": {
       "en": "The Lloyd 1.5 Ton (1.6 TR) 3 Star Inverter Split AC (GLS1913KOASF) delivers efficient cooling with reduced power consumption. Its inverter compressor adjusts cooling performance as per room temperature, ensuring comfort and energy savings.",
       "gu": "Lloyd 1.5 ટન (1.6 TR) 3 સ્ટાર ઇન્વર્ટર સ્પ્લિટ એસી (GLS1913KOASF) ઓછી વીજળી વપરાશ સાથે કાર્યક્ષમ ઠંડક આપે છે. ઇન્વર્ટર કમ્પ્રેસર રૂમના તાપમાન મુજબ ઠંડકનું સમાયોજન કરે છે."
+    }
+  },
+  "HAIER_HRF_2902_240L": {
+    "brand": "Haier",
+    "title": "Haier HRF-2902 240 Litres 2 Star Frost Free Double Door Refrigerator with Stabilizer Free Operation (HRF-2902IEBS-P, Brushline Silver)",
+    "category": "Refrigerator - Double Door",
+    "capacity": "240 Litres",
+    "energy_rating": "2 Star",
+    "type": "Frost Free",
+    "doors": 2,
+    "ideal_for": "Family size of 3",
+    "features": [
+      "Flat Door with Chrome Strip",
+      "Cool Pad",
+      "Turbo Icing",
+      "Stabilizer Free Operation"
+    ],
+    "warranty": {
+      "product": "2 Years"
+    },
+    "price": 23950,
+    "currency": "INR",
+    "delivery": "Estimated delivery within 5–7 business days",
+    "installation": "Installation provided as per brand policy",
+    "images": [
+      "hrf1.webp",
+      "hrf2.webp",
+      "hrf3.webp",
+      "hrf4.webp",
+      "hrf5.webp",
+      "hrf6.webp"
+    ],
+    "description": {
+      "en": "The Haier HRF-2902 is a 240L, 2 Star frost-free double door refrigerator designed for small families. With Turbo Icing, a stabilizer-free operation, and a stylish Brushline Silver finish, it ensures efficient cooling and durability.",
+      "gu": "Haier HRF-2902 એ 240 લિટર, 2 સ્ટાર ફ્રોસ્ટ ફ્રી ડબલ ડોર રેફ્રિજરેટર છે, જે નાના પરિવાર માટે યોગ્ય છે. તેમાં ટર્બો આઇસિંગ, સ્ટેબિલાઇઝર-ફ્રી ઓપરેશન અને આકર્ષક બ્રશલાઇન સિલ્વર ડિઝાઇન છે, જે અસરકારક ઠંડક અને ટકાઉપણું સુનિશ્ચિત કરે છે."
     }
   }
 }
