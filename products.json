@@ -123,6 +123,50 @@
       "gu": "TCL P7K QLED Smart TV સ્પષ્ટ 4K દૃશ્યો, ઊંડા રુંગેનુ સુમેળ અને ગહન કોન્ટ્રાસ્ટ માટે QLED ટેક્નોલોજી આપે છે. Smart Google TV, બિલ્ટ-ઇન સ્ટ્રીમિંગ એપ્સ અને વોઇસ કંટ્રોલ સાથે, તે દરેક રૂમને તમારા گھرનો થિયેટર બની શકે છે."
     }
   },
+  {
+  "IFB_SERENA_MMW_7012C": {
+    "brand": "IFB",
+    "title": "IFB 7Kg Front Load Washing Machine - Serena MMW 7012C",
+    "category": "Washing Machine",
+    "capacity": "7 Kg",
+    "rpm": "1200",
+    "type": "Front Load",
+    "energy_rating": "5 Star",
+    "dimensions": {
+      "width_mm": 598,
+      "depth_mm": 518,
+      "height_mm": 875,
+      "door_diameter_mm": 320
+    },
+    "weight": "66 Kg",
+    "color": "Mocha Brown",
+    "warranty": "4 Years Super Warranty + 10 Years Motor Warranty + 10 Years Spare Parts Support",
+    "included_components": [
+      "Washing Machine",
+      "Drain Hose",
+      "Inlet Pipe",
+      "User Guide + Warranty Card",
+      "Clip Ring",
+      "Screw Fitting",
+      "Protective Rat Mesh Cover"
+    ],
+    "delivery": "Estimated delivery within 5–7 business days",
+    "installation": "Installation within 24–48 hours of delivery",
+    "images": [
+      "7012c1.avif",
+      "7012c2.png",
+      "7012c3.png",
+      "7012c4.png",
+      "7012c5.png",
+      "7012c6.png",
+      "7012c7.png",
+      "7012c9.webp"
+    ],
+    "description": {
+      "en": "The IFB Serena MMW 7012C is a premium 7kg front load washing machine with 1200 RPM spin speed, AI-powered wash optimization, Eco Inverter technology, and multiple wash programs for different fabrics. It features Express 30-minute quick wash, CradleWash for delicate clothes, and advanced hygiene with steam wash. Comes with a stylish Mocha Brown finish, digital display, and 4 years machine warranty with 10 years motor and spare parts support.",
+      "gu": "IFB Serena MMW 7012C એક પ્રીમિયમ 7kg ફ્રન્ટ લોડ વોશિંગ મશીન છે, જેમાં 1200 RPM સ્પિન સ્પીડ, AI પાવર્ડ વોશ ઓપ્ટિમાઇઝેશન, ઇકો ઇન્વર્ટર ટેક્નોલોજી અને વિવિધ ફેબ્રિક માટે મલ્ટિપલ વોશ પ્રોગ્રામ્સ છે. તેમાં 30 મિનિટની ક્વિક વોશ, નાજુક કપડાં માટે CradleWash અને સ્ટીમ વોશ દ્વારા હાઇજીન સુવિધા છે. આકર્ષક મોચા બ્રાઉન ફિનિશ, ડિજિટલ ડિસ્પ્લે સાથે આવે છે અને 4 વર્ષની મશીન વોરંટી તથા 10 વર્ષની મોટર અને સ્પેર પાર્ટ્સ સપોર્ટ સાથે ઉપલબ્ધ છે."
+    }
+  },
   "75P6K": {
     "brand": "TCL",
     "title": "TCL 75\" P6K 4K HDR TV — 75P6K",
