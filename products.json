@@ -55,6 +55,62 @@
       "gu": "TCL P755 4K QLED Google TV તમને ઉજ્જવળ રંગો, 4K રિઝોલ્યુશન અને HDR સપોર્ટ સાથે ઉત્તમ પિક્ચર ગુણવત્તા આપે છે. Google TV સાથે, તમને અનંત મનોરંજન, એપ્સ અને બિલ્ટ-ઇન વોઇસ કંટ્રોલ મળે છે — મોટી સ્ક્રીન અનુભવ માટે શ્રેષ્ઠ પસંદગી."
     }
   },
+  {
+  "HAIER_HES_690": {
+    "brand": "Haier",
+    "title": "Haier 596L 3-Star 2 Door Side by Side Frost Free Refrigerator (HES-690)",
+    "model": "HES-690SS-P",
+    "category": "Refrigerator",
+    "capacity": "596 Litres",
+    "energy_rating": "3 Star",
+    "type": "Side by Side Refrigerator",
+    "form_factor": "Freestanding",
+    "color": "Shiny Steel",
+    "features": [
+      "100% Convertible Fridge Space",
+      "Expert Inverter Technology",
+      "External Digital Display Panel",
+      "Magic Convertible Zone",
+      "Magic Cooling with Deo Fresh Technology",
+      "Twist Ice Tray",
+      "Stabilizer Free Operation",
+      "Toughened Glass Shelves"
+    ],
+    "technical_details": {
+      "annual_energy_consumption": "518 kWh/year",
+      "refrigerator_capacity": "392 Litres",
+      "freezer_capacity": "204 Litres",
+      "voltage": "230 Volts",
+      "shelf_type": "Toughened Glass",
+      "no_of_shelves": 3,
+      "no_of_drawers": 4,
+      "defrost_system": "Automatic",
+      "door_orientation": "Right",
+      "door_material": "Stainless Steel",
+      "country_of_origin": "India",
+      "manufacturer": "Haier Appliances India Pvt Ltd."
+    },
+    "installation_type": "Freestanding",
+    "warranty": "2 Years on Product, 10 Years on Compressor",
+    "included_components": [
+      "1 Refrigerator Unit",
+      "User Manual",
+      "Warranty Card"
+    ],
+    "images": [
+      "hes690.jpg",
+      "hes6901.jpg",
+      "hes6902.jpg",
+      "hes6903.jpg",
+      "hes6904.jpg",
+      "hes6905.jpg",
+      "hes6907.jpg"
+    ],
+    "description": {
+      "en": "The Haier 596L 3-Star Side by Side Refrigerator (HES-690) comes with 100% convertible fridge space, expert inverter technology, and a stylish shiny steel finish. It features Deo Fresh Technology for longer-lasting freshness, a digital display panel for easy control, and a twist ice tray for convenience. With stabilizer-free operation and energy-efficient performance, it’s an ideal choice for modern Indian homes.",
+      "gu": "Haier 596L 3-સ્ટાર સાઈડ બાય સાઈડ ફ્રિજ (HES-690) 100% કન્વર્ટિબલ ફ્રિજ સ્પેસ, એક્સપર્ટ ઇન્વર્ટર ટેકનોલોજી અને સ્ટાઇલિશ સ્ટીલ ફિનિશ સાથે આવે છે. તેમાં લાંબા સમય સુધી તાજગી માટે ડિયો ફ્રેશ ટેકનોલોજી, સરળ નિયંત્રણ માટે ડિજિટલ ડિસ્પ્લે પેનલ અને સુવિધાજનક ટ્વિસ્ટ આઈસ ટ્રે છે. સ્ટેબિલાઈઝર-ફ્રી ઓપરેશન અને એનર્જી-એફિશિયન્ટ પરફોર્મન્સ સાથે, આ આધુનિક ભારતીય ઘરો માટે આદર્શ પસંદગી છે."
+    }
+  },
   "65P7K": {
     "brand": "TCL",
     "title": "TCL P7K QLED TV",
