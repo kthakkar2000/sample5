@@ -609,6 +609,40 @@
     "description": {
       "en": "The Haier HRF-2902 is a 240L, 2 Star frost-free double door refrigerator designed for small families. With Turbo Icing, a stabilizer-free operation, and a stylish Brushline Silver finish, it ensures efficient cooling and durability.",
       "gu": "Haier HRF-2902 એ 240 લિટર, 2 સ્ટાર ફ્રોસ્ટ ફ્રી ડબલ ડોર રેફ્રિજરેટર છે, જે નાના પરિવાર માટે યોગ્ય છે. તેમાં ટર્બો આઇસિંગ, સ્ટેબિલાઇઝર-ફ્રી ઓપરેશન અને આકર્ષક બ્રશલાઇન સિલ્વર ડિઝાઇન છે, જે અસરકારક ઠંડક અને ટકાઉપણું સુનિશ્ચિત કરે છે."
-    }
+    },
+    "IFB_TL_SIBS_10KG_AQUA": {
+  "brand": "IFB",
+  "title": "IFB DeepClean® 10 kg Top Load Washing Machine with Power Steam® and In-built Heater",
+  "model": "TL-SIBS 10.0KG AQUA",
+  "category": "Washing Machine - Top Load",
+  "capacity": "10 kg",
+  "type": "Top Load",
+  "features": [
+    "Powered by Ai",
+    "Soft Close Door",
+    "ActivMix Technology",
+    "Power Steam®",
+    "In-built Heater"
+  ],
+  "rating": {
+    "average": 4.8,
+    "reviews": 49
+  },
+  "price": 32990,
+  "currency": "INR",
+  "delivery": "Estimated delivery within 5–7 business days",
+  "installation": "Installation within 24–48 hours of delivery",
+  "warranty": "4 Years Super Warranty + 10 Years Motor Warranty + 10 Years Spare Parts Support",
+  "images": [
+    "ifb10kg.png",
+    "ifb10kg1.avif",
+    "ifb10kg2.png",
+    "ifb10kg4.avif",
+    "ifb10kg5.avif"
+  ],
+  "description": {
+    "en": "The IFB DeepClean® TL-SIBS 10.0KG AQUA is a premium 10kg top load washing machine with AI-powered wash optimization, Power Steam® technology, ActivMix for effective detergent use, and an in-built heater for hygienic cleaning. Designed with a soft close door and stylish modern finish, it ensures durability, performance, and convenience for large families.",
+    "gu": "IFB DeepClean® TL-SIBS 10.0KG AQUA એક પ્રીમિયમ 10kg ટોપ લોડ વોશિંગ મશીન છે, જેમાં AI પાવર્ડ વોશ ઓપ્ટિમાઇઝેશન, Power Steam® ટેક્નોલોજી, ActivMix અસરકારક ડિટર્જન્ટ ઉપયોગ માટે અને ઇન-બિલ્ટ હીટર છે હાઇજિનિક ધોવાણ માટે. Soft Close Door અને આધુનિક ડિઝાઇન સાથે, તે મોટી કુટુંબો માટે ટકાઉપણું, કાર્યક્ષમતા અને સુવિધા આપે છે."
   }
+}
 }
