@@ -395,23 +395,36 @@
       "gu": "Carrier Xpert Edge FXI 1.5 ટન 3 સ્ટાર ઇન્વર્ટર એસી કાર્યક્ષમ અને શાંત ઠંડક માટે ડિઝાઇન કર્યું છે. સમ્કક્ષ ઇન્વર્ટર કંટ્રોલ અને ઉત્તમ ફિલ્ટ્રેશન સાથે આ આધુનિક ઘરો માટે યોગ્ય છે."
     }
   },
-  "TCL_AC_12CSD_EV3F_IDU": {
-    "brand": "TCL",
-    "title": "TCL 1TR INV 3 STAR AC-12CSD/EV3F - IDU",
-    "category": "AC - Indoor Unit",
-    "size": "1.0 TR",
-    "energy_rating": "3 Star",
-    "price": 45000,
-    "currency": "INR",
-    "delivery": "Estimated delivery within 5–7 business days",
-    "installation": "Installation within 24–48 hours of delivery",
-    "warranty": null,
-    "images": [],
-    "description": {
-      "en": "The TCL 1 Ton inverter AC AC-12CSD/EV3F provides efficient cooling with a compact design and inverter compressor for better energy savings.",
-      "gu": "TCL 1 ટન ઇન્વર્ટર AC AC-12CSD/EV3F કાર્યક્ષમ ઠંડક અને કોમ્પેક્ટ ડિઝાઇન સાથે ઊર્જા બચત માટે અનુકૂળ ઇન્વર્ટર કમ્પ્રેસર ધરાવે છે."
-    }
-  },
+ "12CSD-EV3F1": {
+  "brand": "TCL",
+  "title": "TCL Elite Series-Smart Air Conditioner",
+  "model": "TAC-12CSD/EV3F1",
+  "category": "Air Conditioner",
+  "type": "Split AC",
+  "capacity": "1 Ton",
+  "features": [
+    "Turbo Cooling",
+    "Energy Saving",
+    "Sleep Mode",
+    "Silent Operation"
+  ],
+  "price": 31990,
+  "currency": "INR",
+  "delivery": "Estimated delivery within 5–7 business days",
+  "installation": "Free standard installation within 24–48 hours of delivery",
+  "warranty": "1 year comprehensive warranty on product, 10 years on compressor",
+  "images": [
+    "12csd.webp",
+    "12csd2.webp",
+    "12csd3.webp",
+    "12csd4.png",
+    "12csd5.webp"
+  ],
+  "description": {
+    "en": "The TCL TAC-12CSD/EV3F1 Elite Series Smart Air Conditioner is designed to provide superior cooling with Turbo Cooling mode, energy efficiency, and whisper-quiet operation. With Sleep Mode and modern aesthetics, it ensures comfort and convenience for your home.",
+    "gu": "TCL TAC-12CSD/EV3F1 એલાઇટ સિરિઝ સ્માર્ટ એર કન્ડીશનર ટર્બો કૂલિંગ મોડ, ઊર્જા બચત અને શાંતિપૂર્ણ કામગીરી સાથે ઉત્તમ ઠંડક આપે છે. સ્લીપ મોડ અને આધુનિક ડિઝાઇન સાથે, તે તમારા ઘરમાં આરામ અને સુવિધા સુનિશ્ચિત કરે છે."
+  }
+},
   "IFB_MSC_9014_SSLC": {
     "brand": "IFB",
     "title": "IFB DeepClean® 9 kg Front Load Washing Machine with Oxyjet®",
@@ -444,40 +457,67 @@
       "gu": "IFB DeepClean® Executive MSC 9014 SSLC 9 કિલો ફ્રન્ટ લોડ વોશિંગ મશીન Oxyjet® અને Power Steam® ટેક્નોલોજી સાથે ઉત્તમ ધોવાણ માટે ડિઝાઇન કરાયેલ છે. AI પાવર્ડ અને ઇકો ઇન્વર્ટર મોટર સાથે, તે અસરકારક ધોવાણ, ફેબ્રિક કાળજી અને એનર્જી સેવિંગ આપે છે."
     }
   },
-  "TCL_18CSD_EV3F_IDU": {
-    "brand": "TCL",
-    "title": "TCL 1.5 TR 3 STAR INV 18CSD/EV3F - IDU",
-    "category": "AC - Indoor Unit",
-    "size": "1.5 TR",
-    "energy_rating": "3 Star",
-    "price": 39000,
-    "currency": "INR",
-    "delivery": "Estimated delivery within 5–7 business days",
-    "installation": "Installation within 24–48 hours of delivery",
-    "warranty": null,
-    "images": [],
-    "description": {
-      "en": "The TCL 1.5 Ton inverter model 18CSD/EV3F is optimized for steady cooling and energy efficiency in residential spaces.",
-      "gu": "TCL 1.5 ટન ઇન્વર્ટર મોડેલ 18CSD/EV3F ગૃહપૂર્ણ જગ્યાઓમાં સ્થિર ઠંડક અને ઊર્જા કાર્યક્ષમતા માટે અનુકૂળ છે."
-    }
-  },
-  "TCL_22CSD_EV3GL_IDU": {
-    "brand": "TCL",
-    "title": "TCL 2 TR 3 STAR INV 22CSD/EV3GL - IDU",
-    "category": "AC - Indoor Unit",
-    "size": "2.0 TR",
-    "energy_rating": "3 Star",
-    "price": 35000,
-    "currency": "INR",
-    "delivery": "Estimated delivery within 5–7 business days",
-    "installation": "Installation within 24–48 hours of delivery",
-    "warranty": null,
-    "images": [],
-    "description": {
-      "en": "The TCL 2 Ton inverter 22CSD/EV3GL is built for powerful cooling in larger rooms and offers energy-saving inverter control.",
-      "gu": "TCL 2 ટન ઇન્વર્ટર 22CSD/EV3GL મોટા રૂમમાં શક્તિશાળી ઠંડક અને ઊર્જા બચત માટે ઇન્વર્ટર કંટ્રોલ આપે છે."
-    }
-  },
+ "TAC18CSD/EV3F1": {
+  "brand": "TCL",
+  "title": "TCL Elite Series-Smart Air Conditioner",
+  "model": "TAC18CSD/EV3F1",
+  "category": "Air Conditioner",
+  "capacity": "1.5 Ton",
+  "features": [
+    "Turbo Cooling",
+    "Energy Saving",
+    "Sleep Mode",
+    "Silent Operation"
+  ],
+  "price": 39990,
+  "currency": "INR",
+  "delivery": "Estimated delivery within 5–7 business days",
+  "installation": "Free installation within 48 hours of delivery",
+  "warranty": "1 year comprehensive + 5 years compressor warranty",
+  "images": [
+    "18csd.webp",
+    "18csd1.webp",
+    "18csd2.webp",
+    "18csd3.png",
+    "18csd4.webp"
+  ],
+  "description": {
+    "en": "The TCL TAC18CSD/EV3F1 Elite Series-Smart Air Conditioner is designed for powerful cooling and comfort. With Turbo Cooling, Energy Saving, Sleep Mode, and Silent Operation, it ensures efficient performance while keeping your room cool and quiet.",
+    "gu": "TCL TAC18CSD/EV3F1 Elite Series-Smart AC તીવ્ર ઠંડક અને આરામ માટે બનાવાયેલ છે. Turbo Cooling, Energy Saving, Sleep Mode અને Silent Operation સાથે, તે અસરકારક કામગીરી આપે છે અને તમારા રૂમને ઠંડું અને શાંત રાખે છે."
+  }
+},
+ "TAC-22CSD-EV3GL": {
+  "brand": "TCL",
+  "title": "TCL Rapid Cooling Natural Unbonded-Smart Air Conditioner",
+  "model": "TAC-22CSD/EV3GL",
+  "category": "Air Conditioner",
+  "type": "Split AC",
+  "capacity": "2 Ton",
+  "features": [
+    "Turbo Cooling",
+    "Energy Saving",
+    "Sleep Mode",
+    "Silent Operation"
+  ],
+  "price": 42990,
+  "currency": "INR",
+  "delivery": "Estimated delivery within 5–7 business days",
+  "installation": "Free installation within 24–48 hours of delivery",
+  "warranty": "1 year comprehensive warranty on product, 5 years on compressor",
+  "images": [
+    "22csd.webp",
+    "22csd1.webp",
+    "22csd2.webp",
+    "22csd3.webp",
+    "22csd4.webp",
+    "22csd5.webp"
+  ],
+  "description": {
+    "en": "The TCL TAC-22CSD/EV3GL Split AC is designed for rapid and efficient cooling with Turbo Cooling technology. It combines Energy Saving operation, Sleep Mode for night comfort, and Silent Operation for a peaceful environment, making it ideal for homes and offices.",
+    "gu": "TCL TAC-22CSD/EV3GL સ્પ્લિટ એસી ઝડપી અને અસરકારક કૂલિંગ માટે Turbo Cooling ટેકનોલોજી સાથે ડિઝાઇન કરાયેલ છે. તેમાં Energy Saving ઓપરેશન, રાત્રે આરામ માટે Sleep Mode અને શાંતિપૂર્ણ વાતાવરણ માટે Silent Operation છે, જે તેને ઘર અને ઓફિસ માટે આદર્શ બનાવે છે."
+  }
+},
+
   "IFB_TL701MG1": {
     "brand": "IFB",
     "title": "IFB DeepClean® 7 kg Top Load Washing Machine with ActivMix",
