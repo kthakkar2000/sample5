@@ -19,7 +19,7 @@
     }
   },
   "HRT-683KGU1": {
-    "title": "Haier 598L 3 Door Black Glass Convertible SBS Refrigerator",
+    "title": "Haier 598L 3 Door Black Glass Convertible SBS Refrigerator HRT-683KGU1",
     "model": "HRT-683KGU1",
     "category": "Refrigerator",
     "brand": "Haier",
@@ -50,7 +50,7 @@
   },
   "50P755": {
     "brand": "TCL",
-    "title": "TCL P755 4K QLED Google TV",
+    "title": "TCL P755 4K QLED Google TV 50P755",
     "price": 42000,
     "sizeText": "55 inch (127 cm)",
     "installation": "Installation within 24–48 hours of delivery",
@@ -70,7 +70,7 @@
   },
   "HAIER_HES_690": {
     "brand": "Haier",
-    "title": "Haier 596L 3-Star 2 Door Side by Side Frost Free Refrigerator (HES-690)",
+    "title": "Haier 596L 3-Star 2 Door Side by Side Frost Free Refrigerator HAIER_HES_690)",
     "model": "HES-690SS-P",
     "category": "Refrigerator",
     "capacity": "596 Litres",
@@ -125,7 +125,7 @@
   },
   "65P7K": {
     "brand": "TCL",
-    "title": "TCL P7K QLED TV",
+    "title": "TCL P7K QLED TV 65P7K 65 inch",
     "price": 50000,
     "sizeText": "65 inch (160.8 CM)",
     "installation": "Installation within 24–48 hours of delivery",
@@ -189,7 +189,7 @@
   },
   "75C835": {
   "brand": "TCL",
-  "title": "TCL C835 MiniLED 4K TV",
+  "title": "TCL C835 MiniLED 4K TV 75C835",
   "model": "75C835",
   "category": "Television",
   "sizeText": "75 inch (190 cm)",
@@ -227,7 +227,7 @@
 
   "65P735": {
     "brand": "TCL",
-    "title": "TCL P735 4K HDR TV",
+    "title": "TCL P735 4K HDR TV 65P735",
     "model": "65P735",
     "category": "Television",
     "sizeText": "65 inch (165 cm)",
@@ -262,7 +262,7 @@
   },
   "MIDEA_SANTIS_NEO_DLX_IDU": {
     "brand": "MIDEA",
-    "title": "MIDEA 1 TR 3 STAR INVERTER SANTIS NEO+ DLX (IDU)",
+    "title": "MIDEA 1 TR 3 STAR INVERTER SANTIS NEO+ DLX ",
     "category": "AC - Indoor Unit",
     "size": "1.0 TR",
     "energy_rating": "3 Star",
@@ -287,7 +287,7 @@
   },
   "MIDEA_SANTIS_NEO_DLX_1_5TR_IDU": {
     "brand": "MIDEA",
-    "title": "MIDEA 1.5TR 3 STAR INVERTER SANTIS NEO+ DLX (IDU)",
+    "title": "MIDEA 1.5TR 3 STAR INVERTER SANTIS NEO+ DLX ",
     "category": "AC - Indoor Unit",
     "size": "1.5 TR",
     "energy_rating": "3 Star",
@@ -312,7 +312,7 @@
   },
   "LLOYD_GLS18I3KOESR_IDU": {
     "brand": "LLOYD",
-    "title": "LLOYD 1.5TR 3 STAR INV GLS18I3KOESR - IDU",
+    "title": "LLOYD 1.5TR 3 STAR INV GLS18I3KOESR",
     "category": "AC - Indoor Unit",
     "size": "1.5 TR",
     "energy_rating": "3 Star",
@@ -373,7 +373,7 @@
   },
   "CARRIER_XPERT_EDGE_FXI_IDU": {
     "brand": "CARRIER",
-    "title": "CARRIER 1.5TR 3 STAR INV XPERT EDGE FXI (IDU)",
+    "title": "CARRIER 1.5TR 3 STAR INV XPERT EDGE FXI ",
     "category": "AC - Indoor Unit",
     "size": "1.5 TR",
     "energy_rating": "3 Star",
@@ -397,7 +397,7 @@
   },
  "12CSD-EV3F1": {
   "brand": "TCL",
-  "title": "TCL Elite Series-Smart Air Conditioner",
+  "title": "TCL Elite Series-Smart Air Conditioner 12CSD-EV3F1",
   "model": "TAC-12CSD/EV3F1",
   "category": "Air Conditioner",
   "type": "Split AC",
@@ -427,7 +427,7 @@
 },
   "IFB_MSC_9014_SSLC": {
     "brand": "IFB",
-    "title": "IFB DeepClean® 9 kg Front Load Washing Machine with Oxyjet®",
+    "title": "IFB DeepClean® 9 kg Front Load Washing Machine with Oxyjet® IFB_MSC_9014_SSLC",
     "model": "Executive MSC 9014 SSLC",
     "category": "Washing Machine - Front Load",
     "capacity": "9 kg",
@@ -459,7 +459,7 @@
   },
  "TAC18CSD/EV3F1": {
   "brand": "TCL",
-  "title": "TCL Elite Series-Smart Air Conditioner",
+  "title": "TCL Elite Series-Smart Air Conditioner TAC18CSD/EV3F1",
   "model": "TAC18CSD/EV3F1",
   "category": "Air Conditioner",
   "capacity": "1.5 Ton",
@@ -488,7 +488,7 @@
 },
  "TAC-22CSD-EV3GL": {
   "brand": "TCL",
-  "title": "TCL Rapid Cooling Natural Unbonded-Smart Air Conditioner",
+  "title": "TCL Rapid Cooling Natural Unbonded-Smart Air Conditioner TAC-22CSD-EV3GL",
   "model": "TAC-22CSD/EV3GL",
   "category": "Air Conditioner",
   "type": "Split AC",
@@ -520,7 +520,7 @@
 
   "IFB_TL701MG1": {
     "brand": "IFB",
-    "title": "IFB DeepClean® 7 kg Top Load Washing Machine with ActivMix",
+    "title": "IFB DeepClean® 7 kg Top Load Washing Machine with ActivMix IFB_TL701MG1",
     "model": "TL701MG1",
     "category": "Washing Machine - Top Load",
     "capacity": "7 kg",
@@ -557,7 +557,7 @@
   },
   "LLOYD_GLS1913KOASF_SET": {
     "brand": "LLOYD",
-    "title": "LLOYD 1.5TR 3 STAR INV GLS1913KOASF - SET",
+    "title": "LLOYD 1.5TR 3 STAR INV GLS1913KOASF",
     "category": "AC - Split AC Set",
     "size": "1.6 TR",
     "energy_rating": "3 Star",
