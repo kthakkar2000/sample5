@@ -697,6 +697,39 @@
       "gu": "Godrej 1.5 TR 3 સ્ટાર ઇન્વર્ટર સ્પ્લિટ એસી શક્તિશાળી અને ઊર્જા બચત ભરી ઠંડક આપે છે જેમા અદ્યતન ઇન્વર્ટર ટેક્નોલોજી અને ફલેક્ષિ 5-ઇન-1 કૂલિંગ વિકલ્પો છે. 100% કાપર કન્ડેન્સર અને એવાપોરેટર-કન્ડેન્સર પર એન્ટી-કોરોઝિવ કોટિંગ સાથે બનાવાયેલ, આ AC વધુ ગરમી આપસ વહનક્ષમતા અને દીર્ઘકાલીક ટકાઉપણું આપે છે. ભારે ફરજ માટે ડિઝાઇન કરેલો, આ AC 52°C સુધીની પર્યાવરણીય તાપમાનોમાં વિશ્વસનીય રીતે કાર્ય કરી શકે છે અને R32 રેફ્રિજરન્ટનો ઉપયોગ કરે છે. i-Sense ટેક્નોલોજી સંવેદક આધારિત ઠંડક નિયંત્રણ આપે છે જેથી સબથી આરામદાયક તાપમાન મળે."
     },
     "notes": "Technical specifications such as exact power consumption (W), EER/COP, pipe lengths, and weight vary by SKU and should be verified from the official spec sheet before publishing."
+  },
+  "32S4K": {
+    "brand": "TCL",
+    "title": "TCL 32\" S4K QLED TV",
+    "model": "32S4K",
+    "category": "Television",
+    "sizeText": "32 inch (80 cm)",
+    "features": [
+      "QLED",
+      "HDR10",
+      "Dolby Audio",
+      "Google Cast",
+      "Slim Design",
+      "Multiple Viewing Modes"
+    ],
+    "currency": "INR",
+    "price": null,
+    "installation": "Installation within 24–48 hours of delivery",
+    "warranty": "1 year manufacturer warranty",
+    "images": [
+      "321.webp",
+      "322.webp",
+      "323.webp",
+      "324.webp",
+      "325.webp",
+      "326.webp",
+      "327.webp",
+      "328.webp"
+    ],
+    "description": {
+      "en": "The TCL 32\" S4K QLED TV delivers vivid color and improved contrast with QLED technology and HDR10 support. Dolby Audio provides a richer soundstage while Google Cast enables easy streaming from your devices. Its slim design and multiple viewing modes make it an excellent fit for bedrooms and compact living spaces.",
+      "gu": "TCL 32\" S4K QLED TV QLED ટેક્નોલોજી અને HDR10 સપોર્ટ સાથે જીવંત રંગો અને સુધારાયેલ કોન્ટ્રાસ્ટ આપે છે. Dolby Audio વધુ સમૃદ્ધ ઍકસ્ટેજ માટે છે અને Google Castથી ડિવાઇસમાંથી સરળ સ્ટ્રીમિંગ શક્ય છે. તેની પટલી ડિઝાઇન અને વિવિધ વિયૂઇંગ મોડ્સારે બેડરૂમ અને નાના લિવિંગ વિસ્તારમાં માટે યોગ્ય બનાવે છે."
+    }
   }
 }
 
