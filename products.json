@@ -643,6 +643,60 @@
       "en": "The IFB DeepClean® TL-SIBS 10.0KG AQUA is a premium 10kg top load washing machine with AI-powered wash optimization, Power Steam® technology, ActivMix for effective detergent use, and an in-built heater for hygienic cleaning. Designed with a soft close door and stylish modern finish, it ensures durability, performance, and convenience for large families.",
       "gu": "IFB DeepClean® TL-SIBS 10.0KG AQUA એક પ્રીમિયમ 10kg ટોપ લોડ વોશિંગ મશીન છે, જેમાં AI પાવર્ડ વોશ ઓપ્ટિમાઇઝેશન, Power Steam® ટેક્નોલોજી, ActivMix અસરકારક ડિટર્જન્ટ ઉપયોગ માટે અને ઇન-બિલ્ટ હીટર છે હાઇજિનિક ધોવાણ માટે. Soft Close Door અને આધુનિક ડિઝાઇન સાથે, તે મોટી કુટુંબો માટે ટકાઉપણું, કાર્યક્ષમતા અને સુવિધા આપે છે."
     }
+  },
+  
+  "GODREJ_1_5TR_3STAR_INV": {
+    "brand": "GODREJ",
+    "title": "Godrej 1.5 TR 3 Star Inverter Split AC (i-Sense, Heavy-Duty Cooling)",
+    "model": "GODREJ-1.5TR-3INV",
+    "category": "Air Conditioner",
+    "type": "Split AC",
+    "capacity": "1.5 TR",
+    "tonnage": "1.5TR",
+    "energy_rating": "3 Star",
+    "refrigerant": "R32",
+    "power_rating_w": 5000,
+    "features": [
+      "Inverter Compressor (Power Saving)",
+      "5-in-1 / Flexi Convertible Cooling",
+      "100% Copper Condenser & Connecting Pipe",
+      "Anti-corrosive Coating on Evaporator and Condenser",
+      "Heavy-Duty Cooling (works up to 52°C ambient)",
+      "i-Sense Technology (remote sensor based precise cooling)",
+      "Silent Operation",
+      "High Efficiency Heat Exchange"
+    ],
+    "technical_details": {
+      "compressor_type": "Rotary Inverter",
+      "ambient_temperature_rating": "Up to 52°C",
+      "refrigerant_type": "R32",
+      "condenser_pipe": "100% Copper",
+      "anti_corrosion": true
+    },
+    "warranty": {
+      "product": "1 Year Comprehensive Warranty",
+      "compressor": "5 Years Warranty (as per brand policy)"
+    },
+    "price": null,
+    "currency": "INR",
+    "delivery": "Estimated delivery within 5–7 business days",
+    "installation": "Free standard installation within 24–48 hours of delivery (brand policy may apply)",
+    "images": [
+      "GODREJ1.webp",
+      "GODREJ2.webp",
+      "GODREJ3.webp",
+      "GODREJ4.webp",
+      "GODREJ5.webp",
+      "GODREJ6.webp",
+      "GODREJ7.webp",
+      "GODREJ8.webp",
+      "GODREJ9.webp"
+    ],
+    "description": {
+      "en": "The Godrej 1.5 TR 3 Star Inverter Split AC delivers powerful, energy-efficient cooling with advanced inverter technology and Flexi 5-in-1 cooling options. Built with a 100% copper condenser and anti-corrosive coating on both evaporator and condenser, it offers greater heat-exchange efficiency and long-term durability. Designed for heavy-duty performance, this AC can operate reliably in ambient temperatures up to 52°C and uses R32 refrigerant for improved efficiency and lower environmental impact. i-Sense technology provides precise, sensor-based temperature control for optimal comfort.",
+      "gu": "Godrej 1.5 TR 3 સ્ટાર ઇન્વર્ટર સ્પ્લિટ એસી શક્તિશાળી અને ઊર્જા બચત ભરી ઠંડક આપે છે જેમા અદ્યતન ઇન્વર્ટર ટેક્નોલોજી અને ફલેક્ષિ 5-ઇન-1 કૂલિંગ વિકલ્પો છે. 100% કાપર કન્ડેન્સર અને એવાપોરેટર-કન્ડેન્સર પર એન્ટી-કોરોઝિવ કોટિંગ સાથે બનાવાયેલ, આ AC વધુ ગરમી આપસ વહનક્ષમતા અને દીર્ઘકાલીક ટકાઉપણું આપે છે. ભારે ફરજ માટે ડિઝાઇન કરેલો, આ AC 52°C સુધીની પર્યાવરણીય તાપમાનોમાં વિશ્વસનીય રીતે કાર્ય કરી શકે છે અને R32 રેફ્રિજરન્ટનો ઉપયોગ કરે છે. i-Sense ટેક્નોલોજી સંવેદક આધારિત ઠંડક નિયંત્રણ આપે છે જેથી સબથી આરામદાયક તાપમાન મળે."
+    },
+    "notes": "Technical specifications such as exact power consumption (W), EER/COP, pipe lengths, and weight vary by SKU and should be verified from the official spec sheet before publishing."
   }
 }
 
