@@ -222,23 +222,33 @@
   },
   "65P735": {
     "brand": "TCL",
-    "title": "TCL 65P735 4K HDR Google TV",
+    "title": "TCL P735 4K HDR TV",
+    "model": "65P735",
     "category": "Television",
     "sizeText": "65 inch (165 cm)",
-    "features": "4K HDR, Wide Color Gamut (WCG), Dolby Vision/Atmos, MEMC, HDMI 2.1, OK Google, Google Meet, Edgeless Design",
+    "features": [
+      "4K HDR",
+      "Wide Color Gamut (WCG)",
+      "Dolby Vision/Atmos",
+      "MEMC",
+      "HDMI 2.1",
+      "OK Google",
+      "Google Meet",
+      "Edgeless Design"
+    ],
     "price": 99000,
     "currency": "INR",
     "delivery": "Estimated delivery within 5–7 business days",
     "installation": "Installation within 24–48 hours of delivery",
     "warranty": "1 year manufacturer warranty",
     "images": [
-      "65pb1.webp",
-      "65p735s2.webp",
-      "65p735s1.webp",
-      "65p735f2.webp",
-      "65p735f.webp",
-      "65p735b3.webp",
-      "65p735t1.webp"
+      "65P735.webp",
+      "65P7351.webp",
+      "65P7352.webp",
+      "65P7353.webp",
+      "65P7354.webp",
+      "65P7355.webp",
+      "65P7357.webp"
     ],
     "description": {
       "en": "The TCL 65P735 4K HDR Google TV offers a cinematic viewing experience with HDR, Dolby Vision & Atmos, Wide Color Gamut, and MEMC for smooth motion. With HDMI 2.1, voice-enabled Google TV, built-in Google Meet, and an edgeless design, it’s built for entertainment and elegance.",
