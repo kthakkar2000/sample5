@@ -188,38 +188,43 @@
     }
   },
   "75C835": {
-    "brand": "TCL",
-    "title": "TCL 75\" C835 Mini LED 4K TV — 75C835",
-    "price": 165000,
-    "sizeText": "75 inch (190 cm)",
-    "installation": "Installation within 24–48 hours of delivery",
-    "warranty": "1 year manufacturer warranty",
-    "delivery": "Estimated delivery within 5–7 business days",
-    "images": [
-      "75c8.webp",
-      "75c8f2.webp",
-      "75c8f3.webp",
-      "75c8f4.webp",
-      "75c8f5.webp",
-      "75c8b1.webp",
-      "75c8b3.webp",
-      "75c8s1.webp",
-      "75c8t1.webp"
-    ],
-    "description": {
-      "en": "The TCL 75\" C835 Mini LED 4K TV combines advanced Mini LED backlighting with Quantum Dot technology to deliver stunning brightness, vivid colors, and precise contrast. With 144Hz VRR for smooth gaming, HDR10+ and Dolby Vision IQ for lifelike visuals, and Dolby Atmos with ONKYO sound for immersive audio, this IMAX Enhanced TV transforms your home into a true cinematic experience.",
-      "gu": "TCL 75\" C835 Mini LED 4K TV અદ્યતન મિની LED બેકલાઇટિંગ અને Quantum Dot ટેકનોલોજી સાથે તેજસ્વી બ્રાઇટનેસ, ઉજ્જવળ રંગો અને ચોક્કસ કોન્ટ્રાસ્ટ આપે છે. 144Hz VRR સાથે સ્મૂથ ગેમિંગ, HDR10+ અને Dolby Vision IQ સાથે જીવંત દૃશ્યો અને Dolby Atmos તથા ONKYO સાઉન્ડ સાથે અદ્ભુત ઓડિયો — આ IMAX Enhanced TV તમારા ઘરને સાચા સિનેમેટિક અનુભવમાં ફેરવે છે."
-    },
-    "features": [
-      "Mini LED backlighting",
-      "144Hz VRR for smooth gaming",
-      "Quantum Dot Technology",
-      "HDR10+ and Dolby Vision IQ",
-      "Dolby Atmos with ONKYO sound system",
-      "IMAX Enhanced certification",
-      "Google TV with streaming apps and voice control"
-    ]
-  },
+  "brand": "TCL",
+  "title": "TCL C835 MiniLED 4K TV",
+  "model": "75C835",
+  "category": "Television",
+  "sizeText": "75 inch (190 cm)",
+  "features": [
+    "Mini LED",
+    "144Hz VRR",
+    "Quantum Dot",
+    "HDR10+",
+    "Dolby Vision IQ",
+    "Dolby Atmos",
+    "ONKYO Sound",
+    "IMAX Enhanced"
+  ],
+  "price": 189990,
+  "currency": "INR",
+  "delivery": "Estimated delivery within 5–7 business days",
+  "installation": "Installation within 24–48 hours of delivery",
+  "warranty": "1 year manufacturer warranty",
+  "images": [
+    "75C835.webp",
+    "75C8351.webp",
+    "75C8352.webp",
+    "75C8353.webp",
+    "75C8355.webp",
+    "75C8356.webp",
+    "75C8357.webp",
+    "75C8358.webp",
+    "75C8359.webp"
+  ],
+  "description": {
+    "en": "The TCL 75C835 MiniLED 4K TV brings stunning visuals with Quantum Dot technology, Mini LED backlighting, HDR10+, and Dolby Vision IQ. Enjoy immersive Dolby Atmos sound powered by ONKYO speakers and cinematic IMAX Enhanced quality. With 144Hz VRR, this TV ensures ultra-smooth motion for sports and gaming.",
+    "gu": "TCL 75C835 MiniLED 4K TV Quantum Dot ટેકનોલોજી, Mini LED બેકલાઇટિંગ, HDR10+ અને Dolby Vision IQ સાથે અદ્ભુત દૃશ્ય અનુભવ આપે છે. Dolby Atmos અને ONKYO સ્પીકર્સ સાથે મનોરંજક અવાજ અને IMAX Enhanced સિનેમેટિક ગુણવત્તા માણો. 144Hz VRR સાથે, આ ટીવી સ્પોર્ટ્સ અને ગેમિંગ માટે અલ્ટ્રા-સ્મૂથ મોશન આપે છે."
+  }
+},
+
   "65P735": {
     "brand": "TCL",
     "title": "TCL P735 4K HDR TV",
