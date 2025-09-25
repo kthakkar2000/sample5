@@ -232,13 +232,11 @@ document.addEventListener('DOMContentLoaded', async () => {
   function formatFeatures(prod) {
     const f = prod.features;
     if (!f) return (lang === 'en') ? 'No specific features listed.' : 'કોઈ વિશિષ્ટ લક્ષણો સૂચવાયેલા નથી.';
-    // handle string or array
     const list = Array.isArray(f) ? f : String(f).split(/\s*[,;·]\s*/).filter(Boolean);
     if (!list.length) return (lang === 'en') ? 'No specific features listed.' : 'કોઈ વિશિષ્ટ લક્ષણો સૂચવાયેલા નથી.';
     if (lang === 'en') {
       return 'Key features:\n• ' + list.join('\n• ');
     } else {
-      // Gujarati short labels (keeps original items but add gu header)
       return 'મુખ્ય લક્ષણો:\n• ' + list.join('\n• ');
     }
   }
@@ -249,7 +247,6 @@ document.addEventListener('DOMContentLoaded', async () => {
     const gu = descObj.gu || prod.title || 'વર્ણન ઉપલબ્ધ નથી.';
     if (useShort) {
       if (lang === 'en') {
-        // short one-line summary + image count
         const imgCount = (prod.images && prod.images.length) || 0;
         return `${en.split('.').slice(0,1).join('.')}${en.endsWith('.') ? '' : '.'} (${imgCount} image${imgCount===1 ? '' : 's'} available)`;
       } else {
@@ -260,71 +257,58 @@ document.addEventListener('DOMContentLoaded', async () => {
     return (lang === 'en') ? en : gu;
   }
 
-  /* ---------- updated PROMPTS (replace original PROMPTS block with this) ---------- */
+  /* ---------- PROMPTS (features and description are distinct) ---------- */
   const PROMPTS = [
-    { q:/(\bprice\b|\bcost\b|₹|rupee|દામ|કિંમત|કિંમतो)/i,
-      en: () => `Price (approx): ₹${Number(product.price || 0).toLocaleString('en-IN')}. Ask in-store for EMI & exchange options.`,
-      gu: () => `ભાવ (અંદ poisson): ₹${Number(product.price || 0).toLocaleString('en-IN')}. EMI અને એક્સચેન્જ વિકલ્પો સ્ટોર પર તપાસો.` },
+    { q:/(\bprice\b|\bcost\b|₹|rupee|દામ|કિંમત|કિંમતો)/i,
+      en: `The ${product.title} is priced at ₹${Number(product.price || 0).toLocaleString('en-IN')} in our showroom (approx). EMI & exchange options available in store.`,
+      gu: `આ ${product.title} નો અંદાજપાત્ર ભાવ ₹${Number(product.price || 0).toLocaleString('en-IN')} છે. EMI અને એક્સચેન્જ વિકલ્પો સ્ટોર પર ઉપલબ્ધ છે.` },
 
     { q:/(\bdimension|dimensions|size|height|width|depth|માપ|ઊંચાઈ|પહોળાઈ|ઊંડાઈ)/i,
-      en: () => product.dimensions ? `Dimensions: ${product.dimensions}` : 'Typical dimensions (with stand): W 83.8 cm × H 60.4 cm × D 18.45 cm (estimate).',
-      gu: () => product.dimensions ? `માપ: ${product.dimensions}` : 'સ્ટૅંડ સાથે માપ આશરે: પહોળાઈ 83.8 સેમી × ઊંચાઈ 60.4 સેમી × ઊંડાઈ 18.45 સેમી.' },
+      en: product.dimensions ? `Dimensions: ${product.dimensions}` : 'Typical dimensions (with stand): W 83.8 cm × H 60.4 cm × D 18.45 cm.',
+      gu: product.dimensions ? `માપ: ${product.dimensions}` : 'સ્ટૅન્ડ સાથે માપ આશરે: પહોળાઈ 83.8 સેમી × ઊંચાઈ 60.4 સેમી × ઊંડાઈ 18.45 સેમી.' },
 
     { q:/(\bwarranty|guarantee|service|વોરંટી|ગેરંટી)/i,
-      en: () => product.warranty ? `Warranty: ${product.warranty}` : 'Warranty details are not available. Please check with the store.',
-      gu: () => product.warranty ? `વોરંટી: ${product.warranty}` : 'વોરંટીની માહિતી ઉપલબ્ધ નથી. કૃપા કરીને સ્ટોરમાં તપાસો.' },
+      en: product.warranty ? `Warranty: ${product.warranty}` : 'Warranty details are not available.',
+      gu: product.warranty ? `વોરંટી: ${product.warranty}` : 'વોરંટીની માહિતી ઉપલબ્ધ નથી.' },
 
     { q:/(\binstall|installation|setup|fit|ઇન્સ્ટોલ|સ્થાપન)/i,
-      en: () => product.installation ? `Installation: ${product.installation}` : 'Installation information is not available. Contact store for assistance.',
-      gu: () => product.installation ? `ઇન્સ્ટોલેશન: ${product.installation}` : 'ઇન્સ્ટોલેશનની માહિતી ઉપલબ્ધ નથી. સહાય માટે સ્ટોરનો સંપર્ક કરો.' },
+      en: product.installation ? `Installation time: ${product.installation}` : 'Installation information is not available.',
+      gu: product.installation ? `ઇન્સ્ટોલેશન સમય: ${product.installation}` : 'ઇન્સ્ટોલેશનની માહિતી ઉપલબ્ધ નથી.' },
 
     { q:/(\bdelivery|deliver|ship|shipping|dispatch|ડિલિવરી|ડિલિવર|મોકલવું|શિપમેન્ટ)/i,
-      en: () => product.delivery ? `Delivery: ${product.delivery}` : 'Delivery information is not available. Check with store.',
-      gu: () => product.delivery ? `ડિલિવરી: ${product.delivery}` : 'ડિલિવરીની માહિતી ઉપલબ્ધ નથી. કૃપા કરીને સ્ટોરમાં તપાસો.' },
+      en: product.delivery ? `Delivery time: ${product.delivery}` : 'Delivery information is not available.',
+      gu: product.delivery ? `ડિલિવરી સમય: ${product.delivery}` : 'ડિલિવરીની માહિતી ઉપલબ્ધ નથી.' },
 
-    // improved features reply (uses formatFeatures)
+    // FEATURES prompt (distinct)
     { q:/(\bfeature|features|spec|specs|વિશેષતા|લક્ષણ|ફીચર)/i,
       en: () => formatFeatures(product),
       gu: () => formatFeatures(product) },
 
     { q:/(\bport|ports|hdmi|usb|ethernet|audio|પોર્ટ)/i,
-      en: () => product.ports ? `Ports: ${product.ports}` : 'Includes HDMI, USB and audio ports — exact count varies by model. Check product label for details.',
-      gu: () => product.ports ? `પોર્ટ્સ: ${product.ports}` : 'મોડેલ પર આધારિત HDMI, USB અને ઓડિયો પોર્ટ્સ ઉપલબ્ધ છે. વધુ વિગતો માટે પ્રોડક્ટ લેબલ જુઓ.' },
+      en: product.ports ? `Ports: ${product.ports}` : 'Includes multiple HDMI ports, USB, audio out and Ethernet (exact count varies by model).',
+      gu: product.ports ? `પોર્ટ્સ: ${product.ports}` : 'ઘણા HDMI પોર્ટ, USB, ઓડિયો અને Ethernet — ચોક્કસ સંખ્યા મોડેલ માટે બદલાય છે.' },
 
-    // richer description reply (full and short options)
+    // DESCRIPTION prompt (distinct)
     { q:/(\bdescription|detail|describe|વિગત|વર્ણન|description)/i,
-      en: (text) => {
-        // if user asked "short" or "quick" return short summary, otherwise full
-        const wantShort = /short|quick|summary|સંક્ષિપ્ત|સારાંશ/i.test(text);
-        return formatDescription(product, wantShort);
-      },
-      gu: (text) => {
-        const wantShort = /short|quick|summary|સંક્ષિપ્ત|ગારાંશ/i.test(text);
-        return formatDescription(product, wantShort);
-      } },
+      en: () => (product.description && product.description.en) ? product.description.en : 'Description not available.',
+      gu: () => (product.description && product.description.gu) ? product.description.gu : 'વર્ણન ઉપલબ્ધ નથી.' },
 
     { q:/(\badvantage|why buy|compare|benefit|ફાયદો|પ્રોડક્ટના ફાયદા)/i,
-      en: () => {
-        const fe = Array.isArray(product.features) ? product.features.slice(0,4).join(', ') : (product.features || 'Great value and reliable performance');
-        return `Why buy: ${fe}. Strong picture/audio performance for the price and good after-sales support (model-dependent).`;
-      },
-      gu: () => {
-        const fe = Array.isArray(product.features) ? product.features.slice(0,4).join(', ') : (product.features || 'શ્રેષ્ઠ કિંમત અને વિશ્વસનીય પ્રદર્શન');
-        return `ક neden ખરીદશો: ${fe}. કિંમતના પ્રમાણમાં ઉત્તમ પ્રદર્શન અને મોડેલ-આધારિત સર્વિસ સપોર્ટ.`;
-      } },
+      en: 'Advantages: great value, vivid 4K HDR colors, AiPQ upscaling and Google TV for apps & casting.',
+      gu: 'લાભ: કિંમતના ભાગે ઉત્તમ, ઝવાળતા 4K HDR રંગો, AiPQ અપસ્કેલ અને Google TV માટે એપ્સ અને કાસ્ટિંગ.' },
 
     { q:/(\bpower|watt|consumption|energy|વોટ|વીજ)/i,
-      en: () => 'Typical operating power: ~70–200W depending on model & usage; standby <1W. Exact figures are on the spec label or manual.',
-      gu: () => 'સામાન્ય ચલાવવાની વીજ વપરાશ ~70–200W મોડેલ અને ઉપયોગ પર આધાર રાખે છે; સ્ટેન્ડબાય <1W. ચોક્કસ આંકડા સ્પેક લેબલ અથવા મેન્યુઅલમાં જુઓ.' },
+      en: 'Typical power usage ~70–110W while operating; standby <0.5W. Exact numbers depend on settings.',
+      gu: 'સામાન્ય વીજ-ઉપયોગ ~70–110W; સ્ટેન્ડબાય <0.5W. ચોક્કસ સંખ્યાઓ સેટિંગ્સ પર નિર્ભર છે.' },
 
     { q:/(\breview|reviews|rating|customer feedback|પ્રતિસાદ|સમીક્ષા)/i,
-      en: () => 'Common feedback: very good value for money, colors and sound praised; confirm peak brightness for very bright rooms before purchase.',
-      gu: () => 'ગ્રાહક પ્રતિસાદ: કિંમત માટે સારું મૂલ્ય, રંગો અને અવાજની પ્રશંસા; ખૂબ તેજ રૂમ માટે પીક બ્રાઇટનેસ પુષ્ટિ કરો.' },
+      en: 'Common feedback: strong picture quality for the price, reliable Google TV experience. Peak brightness moderate in very bright rooms.',
+      gu: 'ગ્રાહકો કહે છે: કિંમત માટે સારી ছবি ગુણવત્તા અને વિશ્વસનીય Google TV અનુભવ; ખૂબ તેજ રૂમમાં પીક બ્રાઇટનેસ સામાન્ય.' },
 
-    // default fallback (more helpful guidance)
+    // default fallback
     { q:/.*/i,
-      en: () => 'Sorry — please ask about price, features, description (or say "short description"), dimensions, warranty, installation, ports or delivery.',
-      gu: () => 'માફ કરશો — કૃપા કરીને કિંમત, લક્ષણો, વર્ણન (અથવા "સંક્ષિપ્ત વર્ણન"), માપ, વોરંટી, ઇન્સ્ટોલેશન, પોર્ટ્સ અથવા ડિલિવરી વિષે પૂછો.' }
+      en: 'Sorry — please ask about price, dimensions, warranty, description, installation, ports or features.',
+      gu: 'માફ કરો — કૃપા કરીને કિંમત, માપ, વોરંટી, વર્ણન, ઇન્સ્ટોલેશન, પોર્ટ્સ અથવા લક્ષણો વિશે પૂછો.' }
   ];
 
   function findAnswer(text, lang='en'){
@@ -338,7 +322,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         return (lang === 'en') ? 'Sorry, I could not get that information.' : 'માફ કરશો, હું તે માહિતી મેળવવામાં અસમર્થ હતો.';
       }
     }
-    return (lang === 'en' ? PROMPTS[PROMPTS.length-1].en() : PROMPTS[PROMPTS.length-1].gu());
+    return (lang === 'en' ? PROMPTS[PROMPTS.length-1].en : PROMPTS[PROMPTS.length-1].gu);
   }
 
   /* ---------- language selection ---------- */
@@ -424,7 +408,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     const welcomeText = (lang === 'en')
       ? `Welcome to Kalindi Tradelinks Private Limited. How can I help you about the ${product.title}?`
-      : `કાલિન્દી ટ્રેડલિંક્સ પ્રાયવેટ لિમિટેડમાં આપનું સ્વાગત છે. હું ${product.title} વિશે કેવી રીતે મદદ કરી શકું?`;
+      : `કાલિન્દી ટ્રેડલિંક્સ પ્રાયવેટ લિમિટેડમાં આપનું સ્વાગત છે. હું ${product.title} વિશે કેવી રીતે મદદ કરી શકું?`;
 
     function startRecognition() {
       if (window.SpeechRecognition || window.webkitSpeechRecognition) {
